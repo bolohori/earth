@@ -9,8 +9,11 @@
   <div class="container">
     <div class="row">
       <!-- News of the Day Image -->
-      <div class="col-lg-8">
-        <img src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" />
+      <div class="col-lg-8 news-of-the-day-image">
+        <div class="highlight-ribbon">
+          News of the Day
+        </div>
+        <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" />
         <div class="row article-category-date">
           <div class="col-lg-2">
             ENVIRONMENT
@@ -38,10 +41,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -62,10 +65,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -86,10 +89,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -101,7 +104,6 @@
             </div>
           </div>
         </article>
-
         <!-- Top Story Article -->
         <article class="top-story">
           <div class="row">
@@ -110,10 +112,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -125,7 +127,6 @@
             </div>
           </div>
         </article>
-
         <!-- Top Story Article -->
         <article class="top-story">
           <div class="row">
@@ -134,10 +135,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -154,56 +155,58 @@
 </div>
 
   <!-- Video and image of the day -->
-  <div class="container">
-    <div class="row">
-      <!-- Video of the day -->
-      <div class="col-lg-8 video-day">
-        <div class="row">
-          <div class="col-sm-4 left-col">
-            <div class="video-image-title">
-              <h2>VIDEO OF THE DAY</h2>
-              <img src="assets/images/slide-icons.png" alt="Slide Icons" />
+  <div class="container-fluid video-image-outer">
+    <div class="container video-image-inner">
+      <div class="row">
+        <!-- Video of the day -->
+        <div class="col-lg-7 video-day">
+          <div class="row">
+            <div class="col-sm-4 left-col">
+              <div class="video-image-title">
+                <h2>VIDEO OF THE DAY</h2>
+                <img src="assets/images/slide-icons.png" alt="Slide Icons" />
+              </div>
+              <div class="video-day-details">
+                <h2 class="date">11-20-2018</h2>
+                <h3 class="title">How Earth's oceans and atmosphere impact each other</h3>
+              </div>
             </div>
-            <div class="video-day-details">
-              <h2 class="date">11-20-2018</h2>
-              <h3 class="title">How Earth's oceans and atmosphere impact each other</h3>
+            <div class="col-sm-8 right-col">
+              <video width="480" controls>
+                <source src="assets/videos/sample.mp4" type=video/mp4 />
+            </video>
             </div>
-          </div>
-          <div class="col-sm-8 right-col">
-            <video width="480" controls>
-              <source src="assets/videos/sample.mp4" type=video/mp4 />
-          </video>
           </div>
         </div>
-      </div>
 
-      <!-- Image of the Day -->
-      <div class="col-lg-4 col-lg-offset-1 image-day">
-        <div class="image-day-container">
-          <div class="video-image-title">
-              <h2>IMAGE OF THE DAY</h2>
-              <img src="assets/images/slide-icons.png" alt="Slide Icons" />
+        <!-- Image of the Day -->
+        <div class="col-lg-4 image-day">
+          <div class="image-day-container">
+            <div class="video-image-title">
+                <h2>IMAGE OF THE DAY</h2>
+                <img src="assets/images/slide-icons.png" alt="Slide Icons" />
+            </div>
+            <div class="image-day-details">
+                <h2 class="date">11-20-2018</h2>
+                <h3 class="title">How Earth's oceans and atmosphere impact each other</h3>
+            </div>
+            </div>
+            <img src="assets/images/image-of-the-day.jpg" alt="Image of the Day" />
           </div>
-          <div class="image-day-details">
-              <h2 class="date">11-20-2018</h2>
-              <h3 class="title">How Earth's oceans and atmosphere impact each other</h3>
-          </div>
-          </div>
-          <img src="assets/images/image-of-the-day.jpg" alt="Image of the Day" />
         </div>
       </div>
     </div>
 
     <!-- Environment Top Stories -->
-    <div class="container">
+    <div class="container-fluid environment-stories">
       <h2 class="main-section-title environment-stories-title">Environment Top Stories</h2>
-      <div class="row">
+      <div class="row environment-stories-inner">
         <div class="col-lg-8">
           <div class="row">
             <div class="col-sm-7">
                <img src="assets/images/environment-story.jpg" alt="Environment Story">
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-5 top-story-text">
               <div class="row article-category-date">
                 <div class="col-sm-12">
                   11-22-2018
@@ -217,7 +220,7 @@
             </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 top-stories">
         <!-- Top Story Article -->
         <article class="top-story">
           <div class="row">
@@ -226,10 +229,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -249,10 +252,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -272,10 +275,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -295,10 +298,10 @@
             </div>
             <div class="col-lg-8">
               <div class="row article-category-date">
-                <div class="col-xs-6">
+                <div class="col-md-6 category">
                   ENVIRONMENT
                 </div>
-                <div class="col-xs-6">
+                <div class="col-md-6 date">
                   11-22-2018
                 </div>
               </div>
@@ -315,7 +318,7 @@
   </div>
 
   <!-- Lifestyle Top Stories -->
-  <div class="container">
+  <div class="container lifestyle-stories">
     <h2 class="main-section-title lifestyle-stories-title">Lifestyle Top Stories</h2>
     <div class="row">
       <div class="col-lg-8">
@@ -405,8 +408,15 @@
   <div class="container-fluid">
     <div class="row explore-plants-animals">
       <div class="col-lg-6 explore-plants">
-        <h2 class="title">EXPLORE PLANTS</h2>
-        <button type="button" class="btn btn-outline-primary btn-view-archive">VIEW OUR ARCHIVE</button>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="title">EXPLORE PLANTS</h2>
+            <button type="button" class="btn btn-outline-primary btn-view-archive">VIEW OUR ARCHIVE</button>
+          </div>
+          <div class="col-md-6 plants-image">
+            <img src="assets/images/explore-plants.png" alt="">
+          </div>
+        </div>
       </div>
       <div class="col-lg-6 explore-animals">
         <h2 class="title">EXPLORE ANIMALS</h2>
@@ -489,7 +499,7 @@
 </div>
 
 <!-- Lifestyle Top Stories -->
-<div class="container newsletter-container">
+<div class="container-fluid newsletter-container">
   <div class="row">
     <div class="col-md-5">
       <h2 class="newsletter-title">News Coming Your Way</h2>
@@ -504,8 +514,6 @@
     </div>
   </div>
 </div>
-
-</div> <!-- main container -->
 
 <?php
   include "includes/footer.php";
