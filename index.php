@@ -198,7 +198,7 @@
     </div>
 
     <!-- Environment Top Stories -->
-    <div class="container-fluid environment-stories">
+    <div class="container environment-stories">
       <h2 class="main-section-title environment-stories-title">Environment Top Stories</h2>
       <div class="row environment-stories-inner">
         <div class="col-lg-8">
