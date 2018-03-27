@@ -3,7 +3,9 @@
 // This file will be compiled into app.js and will not be minified.
 // Feel free with using ES6 here.
 
-import DE from './modules/dots';
+import DE from '../src/js/modules/dots';
+import includeHTML from '../src/js/modules/includeHtml'
+import 'bootstrap'
 
 ( ($) => {
   'use strict';
@@ -11,6 +13,7 @@ import DE from './modules/dots';
   // When DOM is ready
   $(() => {
     DE.dotsEffect();
+    includeHTML();
   });
 
 })(jQuery);

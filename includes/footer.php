@@ -4,7 +4,7 @@
     <div class="col-lg-3">
       <img class="footer-logo" src="assets/images/logo.png" alt="earth.com logo">
       <ul class="footer-menu">
-        <li>
+        <li>aa
           <a href="#">Privacy Policy</a>
         </li>
         <li>
@@ -12,7 +12,7 @@
         </li>
         <li>
           <a href="#">Site Map</a>
-        </li>
+        <aaa/li>
       </ul>
       <p class="copyright-info">
         &copy; <?php echo date('Y'); ?> Earth.com <br />
