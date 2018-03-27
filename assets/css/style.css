@@ -271,7 +271,7 @@ h2.section-title {
 	padding-top: 60px;
 }
 .lifestyle-stories .article-title {
-	font-size: 18px;
+	font-size: 14px;
 }
 .lifestyle-stories .article-excerpt a {
 	margin-top: 15px;
@@ -323,7 +323,8 @@ h2.section-title {
 }
 /* Week's Top Stories */
 .weeks-top-stories {
-	padding-top: 30px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 .week-top-stories-title {
   color: #a67dd5;
@@ -353,9 +354,72 @@ h2.section-title {
 .newsletter-container .pigeon {
 	position: relative;
 }
-
 .newsletter-container .pigeon img {
 	height: 312px;
 	position: absolute;
 	top: -35px;
+}
+.newsletter-container h2.newsletter-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.newsletter-container .col-left {
+	padding-left: 200px;
+	padding-top: 40px;
+}
+.newsletter-container .col-right {
+	padding-right: 200px;
+	padding-top: 40px;
+}
+.newsletter-container h3.newsletter-text {
+	font-size: 18px;
+}
+.newsletter-container .col-right input[type="email"],
+ .newsletter-container .col-right button {
+	padding: 15px;
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+.newsletter-container .col-right button {
+	color: #fff;
+	border-color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*************************************/
+/************ FOOTER *****************/
+/*************************************/
+.footer {
+	padding-top: 70px;
+}
+.footer .footer-logo,
+.footer .footer-menu-col-title {
+	padding-bottom: 30px;
+}
+.footer .footer-menu-col-title {
+	color: #e3e3e3;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.footer .footer-menu {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 14px;
+}
+.footer .footer-menu a {
+	color: #a3a3a3;
+}
+.footer .copyright-info {
+	color: #a3a3a3;
+	font-size: 14px;
+}
+.footer .social-icons img {
+	width: 40px;
+	margin-right: 10px;
+}
+.footer .social-icons {
+	margin-bottom: 30px;
 }

@@ -1,8 +1,8 @@
 <!-- Footer -->
-<div class="container">
+<div class="container footer">
   <div class="row">
     <div class="col-lg-3">
-      <img src="assets/images/logo.png" alt="earth.com logo">
+      <img class="footer-logo" src="assets/images/logo.png" alt="earth.com logo">
       <ul class="footer-menu">
         <li>
           <a href="#">Privacy Policy</a>
@@ -14,7 +14,7 @@
           <a href="#">Site Map</a>
         </li>
       </ul>
-      <p>
+      <p class="copyright-info">
         &copy; <?php echo date('Y'); ?> Earth.com <br />
         All rights reserved
       </p>
