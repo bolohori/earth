@@ -12,6 +12,7 @@
 
 .navbar-main {
 	background-color: #08163b;
+	margin-bottom: 125px;
 }
 
 .navbar-main ul.navbar-nav a.nav-link {
@@ -25,6 +26,12 @@
 	color: #FFF;
 	border-color: #FFF;
 	display: flex;
+}
+
+.container-big {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 /*************************************/
@@ -120,13 +127,50 @@
 }
 
 /*************************************/
+/************ FOOTER *****************/
+/*************************************/
+.footer {
+	padding-top: 70px;
+}
+.footer .footer-logo,
+.footer .footer-menu-col-title {
+	padding-bottom: 30px;
+}
+.footer .footer-menu-col-title {
+	color: #e3e3e3;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.footer .footer-menu {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 14px;
+}
+.footer .footer-menu a {
+	color: #a3a3a3;
+}
+.footer .copyright-info {
+	color: #a3a3a3;
+	font-size: 14px;
+}
+.footer .social-icons img {
+	width: 40px;
+	margin-right: 10px;
+}
+.footer .social-icons {
+	margin-bottom: 30px;
+}
+
+/*************************************/
 /********** HOME PAGE ****************/
 /*************************************/
 
 /* Top Part */
 
 .main-content {
-	margin-top: 30px;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 h2.section-title {
@@ -252,8 +296,12 @@ h2.section-title {
 /* Environment Top Stories */
 .environment-stories {
 	padding: 15px;
-	background-color: #f6f7f9;
-	margin-top: 15px;
+}
+.environment-stories-container {
+		background-color: #f6f7f9;
+		padding: 65px;
+		margin-top: 15px;
+
 }
 .environment-stories-inner {
 	background-color: #fff;
@@ -269,6 +317,7 @@ h2.section-title {
 /* Lifetime Top Stories */
 .lifestyle-stories {
 	padding-top: 60px;
+	margin-bottom: 100px;
 }
 .lifestyle-stories .article-title {
 	font-size: 14px;
@@ -349,7 +398,6 @@ h2.section-title {
 .newsletter-container {
 	height: 245px;
 	background-color: #a0e7d3;
-	margin-top: 100px;
 }
 .newsletter-container .pigeon {
 	position: relative;
@@ -362,14 +410,14 @@ h2.section-title {
 .newsletter-container h2.newsletter-title {
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 48px;
+	font-size: 45px;
 }
 .newsletter-container .col-left {
-	padding-left: 200px;
+	padding-left: 120px;
 	padding-top: 40px;
 }
 .newsletter-container .col-right {
-	padding-right: 200px;
+	padding-right: 120px;
 	padding-top: 40px;
 }
 .newsletter-container h3.newsletter-text {
@@ -390,36 +438,27 @@ h2.section-title {
 }
 
 /*************************************/
-/************ FOOTER *****************/
+/********** CONTACT PAGE ****************/
 /*************************************/
-.footer {
-	padding-top: 70px;
-}
-.footer .footer-logo,
-.footer .footer-menu-col-title {
-	padding-bottom: 30px;
-}
-.footer .footer-menu-col-title {
-	color: #e3e3e3;
-	font-size: 14px;
+.contact-page-title {
 	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 50px;
+	color: #e4e6ed;
 }
-.footer .footer-menu {
-	list-style-type: none;
-	padding-left: 0;
-	font-size: 14px;
+.contact-us-container {
+	background-color: #e4e6ed;
+	padding: 70px 50px;
 }
-.footer .footer-menu a {
-	color: #a3a3a3;
+.contact-us-container .contact-btn {
+	background-color: #4f91f0;
+	font-weight: bold;
 }
-.footer .copyright-info {
-	color: #a3a3a3;
-	font-size: 14px;
+.contact-us-container .contact-subtitle {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
 }
-.footer .social-icons img {
-	width: 40px;
-	margin-right: 10px;
-}
-.footer .social-icons {
-	margin-bottom: 30px;
+.contact-us-container .address-column {
+	padding-left: 100px;
 }

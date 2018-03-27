@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <div class="main-content">
 	<nav class="navbar navbar-expand-sm navbar-main">
 		<!-- Toggler/collapsibe Button -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

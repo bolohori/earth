@@ -2,9 +2,6 @@
   $title = "Earth.com - Home Page";
   include "includes/header.php";
 ?>
-
-<div class="main-content">
-
   <!-- News of the Day and Top Stories Row -->
   <div class="container">
     <div class="row">
@@ -155,7 +152,7 @@
 </div>
 
   <!-- Video and image of the day -->
-  <div class="container-fluid video-image-outer">
+  <div class="container-big video-image-outer">
     <div class="container video-image-inner">
       <div class="row">
         <!-- Video of the day -->
@@ -198,6 +195,7 @@
     </div>
 
     <!-- Environment Top Stories -->
+    <div class="container-big environment-stories-container">
     <div class="container environment-stories">
       <h2 class="main-section-title environment-stories-title">Environment Top Stories</h2>
       <div class="row environment-stories-inner">
@@ -316,6 +314,7 @@
       </div>
     </div>
   </div>
+</div>
 
   <!-- Lifestyle Top Stories -->
   <div class="container lifestyle-stories">
@@ -405,7 +404,7 @@
   </div> <!-- end container -->
 
   <!-- Explore Plants and Animals -->
-  <div class="container-fluid">
+  <div class="container-big">
     <div class="row explore-plants-animals">
       <div class="col-lg-6 explore-plants">
         <div class="row">
@@ -454,7 +453,7 @@
 </div>
 
   <!-- Explore Plants and Animals -->
-  <div class="container-fluid friends-of-animals">
+  <div class="container-big friends-of-animals">
   </div>
 
   <!-- Lifestyle Top Stories -->
@@ -498,23 +497,8 @@
   </div>
 </div>
 
-<!-- Lifestyle Top Stories -->
-<div class="container-fluid newsletter-container">
-  <div class="row">
-    <div class="col-md-5 col-left">
-      <h2 class="newsletter-title">News Coming Your Way</h2>
-      <h3 class="newsletter-text">The biggest news about our planet delivered to you once a week.</h3>
-    </div>
-    <div class="col-md-2 pigeon col-image">
-      <img src="assets/images/pigeon.png" alt="Pigeon">
-    </div>
-    <div class="col-md-5 col-right">
-      <input type="email" name="email" value="" placeholder="Your Email ...">
-      <button type="button" class="btn btn-outline-primary btn-subscribe-send">SUBSCRIBE</button>
-    </div>
-  </div>
-</div>
+<!-- News Coming Your Way -->
+<?php include "includes/newsletter.php" ?>
 
-<?php
-  include "includes/footer.php";
-?>
+<!-- Footer -->
+<?php include "includes/footer.php"; ?>
