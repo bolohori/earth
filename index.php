@@ -171,7 +171,7 @@
             <div class="col-sm-8 right-col">
               <video width="480" controls>
                 <source src="assets/videos/sample.mp4" type=video/mp4 />
-            </video>
+              </video>
             </div>
           </div>
         </div>

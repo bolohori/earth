@@ -14,7 +14,12 @@
 .text-orange {
 	color: #f47a21;
 }
-
+.background-yellow {
+	background-color: #FBC100;
+}
+.news-img {
+	max-width: 100%;
+}
 /*************************************/
 /************ HEADER *****************/
 /*************************************/
@@ -176,6 +181,9 @@
 }
 .footer .social-icons {
 	margin-bottom: 30px;
+}
+.social-icons a {
+	text-decoration: none;
 }
 
 /*************************************/
@@ -485,4 +493,130 @@ h2.section-title {
 .article-subtitle {
 	font-size: 12px;
 	margin-top: 10px;
+}
+.right-column a {
+	text-decoration: none;
+	color: #109af1;
+}
+.date {
+	padding: 0;
+}
+.searchbar-container {
+	float: right;
+}
+.searchbar-container input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+		line-height: 3px;
+}
+.fa-search {
+	color: #109af1;
+	font-size: 20px;
+}
+.pagination-container > div {
+	padding-left: 0;
+	padding-right: 0;
+}
+.pagination {
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+}
+.take-action-newsletter .col-left,
+.take-action-newsletter .col-right {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 25px;
+}
+.take-action-newsletter h2.newsletter-title {
+	font-size: 25px;
+}
+.take-action-newsletter.newsletter-container {
+	height: auto;
+}
+.take-action-newsletter .pigeon {
+	width: 100%;
+	right: 30px;
+	bottom: -30px;
+}
+.take-action-newsletter .pigeon img {
+	height: 160px;
+	z-index: 99;
+	top: 0;
+	right: 0;
+}
+.save-the-earth div:nth-child(1) div {
+	text-align: center;
+}
+.earth-organization {
+	background-image: url(../images/save-earth-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.earth-organization h2 {
+	color: #ffffff;
+	margin-top: 80px;
+}
+.earth-organization input[type=text] {
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+}
+.earth-organization p {
+	color: #ffffff;
+}
+.earth-organization span {
+	color: #f47a21;
+}
+
+.partner-container {
+	background-color: #f47a21;
+}
+.partner-with-us {
+	background-image: url(../images/partnership.png);
+	background-size: 80%;
+	background-position: right 10px;
+	background-repeat: no-repeat;
+	height: 450px;
+}
+.partner-container button {
+	background-color: transparent;
+	border-color: #ffffff;
+	width: 100%;
+}
+.partner-container button:hover {
+	background-color: transparent;
+	border-color: #ffffff;
+}
+
+/*************************************/
+/************ IMAGES PAGE ************/
+/*************************************/
+
+/*************************************/
+/************ Slides PAGE ************/
+/*************************************/
+.arrow-left,
+.arrow-right {
+	background-color: #f3f3f3;
+	text-align: center;
+	padding: 0;
+	display: inline-block;
+}
+.slides-border-bottom {
+	border-bottom: 1px solid #DBDBDB;
 }
