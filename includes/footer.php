@@ -23,22 +23,22 @@
       <h2 class="footer-menu-col-title">Earth.com</h2>
       <ul class="footer-menu">
         <li>
-          <a href="#">News</a>
+          <a href="news.php">News</a>
         </li>
         <li>
-          <a href="#">Videos</a>
+          <a href="videos.php">Videos</a>
         </li>
         <li>
-          <a href="#">Images</a>
+          <a href="images.php">Images</a>
         </li>
         <li>
-          <a href="#">Plants</a>
+          <a href="plants.php">Plants</a>
         </li>
         <li>
-          <a href="#">Animals</a>
+          <a href="animals.php">Animals</a>
         </li>
         <li>
-          <a href="#">Take action</a>
+          <a href="take-action.php">Take action</a>
         </li>
       </ul>
     </div>
@@ -100,7 +100,7 @@
       </div>
       <ul class="footer-menu">
         <li>
-          <a href="#">Contact Us</a>
+          <a href="contact.php">Contact Us</a>
         </li>
       </ul>
     </div>

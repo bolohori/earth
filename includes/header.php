@@ -21,32 +21,32 @@
 		</button>
 
 		<!-- Brand/logo -->
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="/">
 		<img src="assets/images/logo.png" alt="Earth.com" />
 		</a>
 
 		<!-- Links -->
 		<ul class="navbar-nav">
 		<li class="nav-item">
-		  <a class="nav-link" href="#">News</a>
+		  <a class="nav-link" href="news.php">News</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Videos</a>
+		  <a class="nav-link" href="videos.php">Videos</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Images</a>
+		  <a class="nav-link" href="images.php">Images</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Store</a>
+		  <a class="nav-link" href="store.php">Store</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Earthpedia</a>
+		  <a class="nav-link" href="earthpedia.php">Earthpedia</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Plantsnap</a>
+		  <a class="nav-link" href="plantsnap.php">Plantsnap</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Take Action</a>
+		  <a class="nav-link" href="take-action.php">Take Action</a>
 		</li>
 		</ul>
 

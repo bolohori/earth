@@ -7,7 +7,7 @@
     <div class="row">
       <!-- News of the Day Image -->
       <div class="col-lg-8 news-of-the-day-image">
-        <div class="highlight-ribbon">
+        <div class="highlight-ribbon background-red">
           News of the Day
         </div>
         <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" />

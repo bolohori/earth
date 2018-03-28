@@ -1,4 +1,21 @@
 /*************************************/
+/************ GENERAL ****************/
+/*************************************/
+
+.background-red {
+	background-color: #d33b1b;
+}
+.background-orange {
+	background-color: #f47a21;
+}
+.text-red {
+	color: #d33b1b;
+}
+.text-orange {
+	color: #f47a21;
+}
+
+/*************************************/
 /************ HEADER *****************/
 /*************************************/
 
@@ -211,8 +228,7 @@ h2.section-title {
 	margin-bottom: 10px;
 }
 .highlight-ribbon {
-	text-transform: uppercase;
-	background-color: #d33b1b;
+	text-transform: uppercase;;
 	color: #fff;
 	font-weight: bold;
 	font-size: 18px;
@@ -461,4 +477,12 @@ h2.section-title {
 }
 .contact-us-container .address-column {
 	padding-left: 100px;
+}
+
+/*************************************/
+/************ TAKE ACTION ************/
+/*************************************/
+.article-subtitle {
+	font-size: 12px;
+	margin-top: 10px;
 }
