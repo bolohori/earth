@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 const gulp = require('gulp');
 const webpack = require('webpack');
 const config = require('../webpack.config.js');

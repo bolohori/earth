@@ -7,36 +7,24 @@ const { reload, stream } = browserSync;
 gulp.task('watch', ['build:dev'], () => {
   console.log('watching dev');
   browserSync.init({
-    notify: false,
-    server: {
-      baseDir: './build',
-    },
+    proxy: 'http://localhost/earth.com/build/',
   });
 });
-// watch('./src/pages/**/*.html', () => {
-//   gulp.start('htmlRefresh');
-// });
-//
-watch('./src/scripts/**/*.js', () => {
-  console.log('watching Scripts');
-  gulp.start('scriptsRefresh');
+watch(['./src/*.php', './src/**/*.php'], () => {
+  gulp.start('copy:php');
+  browserSync.reload();
 });
 
-watch('./src/styles/**/*.scss', () => {
-  console.log('watching Styles');
-  gulp.start('cssInject');
+watch('./src/scripts/**/*.js', onchange = () => {
+  gulp.run('scripts');
+  browserSync.reload();
 });
 
-gulp.task('cssInject', ['styles'], () =>
-  gulp.src('./build/styles/style.css').pipe(stream()));
-
-// gulp.task('htmlRefresh', () => {
-//   reload();
-// });
-gulp.task('scriptsRefresh', ['scripts'], () => {
-  reload();
+watch('./src/styles/**/*.scss', onchange = () => {
+  gulp.run('styles');
+  browserSync.reload();
 });
-// gulp.task('watch:nunjucks', ['nunjucks'], () => {
-//   watch('./src/pages/**/*.+(html|njk)  ', () => gulp.task('nunjucks'));
-// });
 
+gulp.task('templateRefresh', ['copy:php'], () => {
+  browserSync.reload();
+});

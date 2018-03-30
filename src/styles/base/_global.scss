@@ -9,12 +9,13 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: red;
 }
 
 button,
@@ -31,29 +32,34 @@ textarea {
   min-height: 50px;
 }
 
-  select {
-    width: 100%;
-  }
+select {
+  width: 100%;
+}
 
-  [role='button'] {
-    cursor: pointer;
-  }
+[role='button'] {
+  cursor: pointer;
+}
 
-  a {
-    text-decoration: none;
+a {
+  text-decoration: none;
 
-    &:hover {
-      color: (blues, 10%);
-    }
+  &:hover {
+    color: (blues, 10%);
   }
-  img {
-    -ms-interpolation-mode: bicubic;
-    height: auto;
-    vertical-align: middle;
-    width: 100%;
-  }
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
 
-  p {
-    margin: 0 0 1rem;
-  }
+p {
+  margin: 0 0 1rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 

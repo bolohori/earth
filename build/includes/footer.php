@@ -107,5 +107,7 @@
   </div>
 </div>
 </div> <!-- main container -->
+<script src="./scripts/vendor.js"></script>
+<script src="./scripts/main.js"></script>
 </body>
 </html>

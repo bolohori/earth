@@ -16,10 +16,11 @@
   "author": "Horia Bologan & Miha",
   "license": "MIT",
   "dependencies": {
-    "postcss-normalize": "^4.0.0",
     "bootstrap": "^4.0.0",
+    "include-media": "^1.4.9",
     "jquery": "^3.2.1",
-    "popper.js": "^1.12.6"
+    "popper.js": "^1.12.6",
+    "postcss-normalize": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",

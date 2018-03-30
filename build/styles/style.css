@@ -1,89 +1,89 @@
-html {
+html{
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-h1 {
+h1{
   font-size: 2em;
   margin: 0.67em 0;
 }
-hr {
+hr{
   box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
-main {
+main{
   display: block;
 }
-pre {
+pre{
   font-family: monospace, monospace;
   font-size: 1em;
 }
-a {
+a{
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-abbr[title] {
+abbr[title]{
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
 }
 b,
-strong {
+strong{
   font-weight: bolder;
 }
 code,
 kbd,
-samp {
+samp{
   font-family: monospace, monospace;
   font-size: 1em;
 }
-small {
+small{
   font-size: 80%;
 }
-img {
+img{
   border-style: none;
 }
-svg:not(:root) {
+svg:not(:root){
   overflow: hidden;
 }
 button,
 input,
 optgroup,
 select,
-textarea {
+textarea{
   margin: 0;
 }
-button {
+button{
   overflow: visible;
   text-transform: none;
 }
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
+[type="submit"]{
   -webkit-appearance: button;
 }
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type="submit"]::-moz-focus-inner{
   border-style: none;
   padding: 0;
 }
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type="submit"]:-moz-focusring{
   outline: 1px dotted ButtonText;
 }
-fieldset {
+fieldset{
   padding: 0.35em 0.75em 0.625em;
 }
-input {
+input{
   overflow: visible;
 }
-legend {
+legend{
   box-sizing: border-box;
   color: inherit;
   display: table;
@@ -91,47 +91,47 @@ legend {
   padding: 0;
   white-space: normal;
 }
-progress {
+progress{
   display: inline-block;
   vertical-align: baseline;
 }
-select {
+select{
   text-transform: none;
 }
-textarea {
+textarea{
   overflow: auto;
 }
 [type="checkbox"],
-[type="radio"] {
+[type="radio"]{
   box-sizing: border-box;
   padding: 0;
 }
 [type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-outer-spin-button{
   height: auto;
 }
-[type="search"] {
+[type="search"]{
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 [type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration{
   -webkit-appearance: none;
 }
-::-webkit-file-upload-button {
+::-webkit-file-upload-button{
   -webkit-appearance: button;
   font: inherit;
 }
-details {
+details{
   display: block;
 }
-summary {
+summary{
   display: list-item;
 }
-template {
+template{
   display: none;
 }
-[hidden] {
+[hidden]{
   display: none;
 }
 /*!
@@ -140,6 +140,7 @@ template {
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8317,6 +8318,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: red;
 }
 
 button,
@@ -8358,6 +8360,57 @@ img {
 
 p {
   margin: 0 0 1rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-size: 2.625rem;
+}
+
+h4 {
+  font-size: 1.0625rem;
+}
+
+@media (max-width: 991.98px) {
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h4 {
+    font-size: 0.875rem;
+  }
+}
+
+p, span, a {
+  font-size: 1.0625rem;
+  font-size: 1rem;
+}
+
+.category, .date {
+  font-size: 0.75rem;
+  color: #c9c9c9;
+}
+
+@media (min-width: 576px) {
+  .category, .date {
+    font-size: 0.6875rem;
+  }
+}
+
+.category {
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 .navbar-main {
@@ -8710,10 +8763,6 @@ h2.section-title {
   margin-bottom: 100px;
 }
 
-.lifestyle-stories .article-title {
-  font-size: 14px;
-}
-
 .lifestyle-stories .article-excerpt a {
   margin-top: 15px;
 }
@@ -8838,7 +8887,6 @@ h2.section-title {
 .newsletter-container h2.newsletter-title {
   color: #fff;
   text-transform: uppercase;
-  font-size: 45px;
 }
 
 .newsletter-container .col-left {

@@ -33,6 +33,7 @@
       }
     ],
     "max-len": ["error", { "code": 80 }],
-    "no-param-reassign": ["error", { "props": false }]
+    "no-param-reassign": ["error", { "props": false }],
+    "no-console": "off"
   }
 }
