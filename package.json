@@ -13,7 +13,7 @@
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Horia Bologan",
+  "author": "Horia Bologan & Miha",
   "license": "MIT",
   "dependencies": {
     "postcss-normalize": "^4.0.0",
