@@ -1,0 +1,23 @@
+.contact-page-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  color: #e4e6ed;
+}
+
+.contact-us-container {
+  background-color: #e4e6ed;
+  padding: 70px 50px;
+  .contact-btn {
+    background-color: #4f91f0;
+    font-weight: bold;
+  }
+  .contact-subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .address-column {
+    padding-left: 100px;
+  }
+}

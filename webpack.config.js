@@ -9,7 +9,7 @@ const config = {
     vendor: './src/scripts/vendor.js',
   },
   output: {
-    path: path.join(__dirname, './src/temp/js'),
+    path: path.join(__dirname, './build/scripts'),
     filename: '[name].js',
   },
   module: {

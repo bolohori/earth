@@ -1,25 +1,29 @@
 const gulp = require('gulp');
 
-gulp.task('copy:images', () =>
+gulp.task('copy:assets', () =>
   gulp
-    .src('./src/images/**/*.{gif,jpg,jpeg,png,svg}')
-    .pipe(gulp.dest('./src/temp/images/')));
-
+    .src('./src/assets/**/*')
+    .pipe(gulp.dest('./build//assets/')));
+gulp.task('copy:php', () =>
+  gulp
+    .src(['./src/*.php', './src/**/*.php'])
+    .pipe(gulp.dest('./build/')));
 gulp.task('copy:general', ['clean:dist'], () =>
   gulp
     .src([
       './src/**/*',
+	  './src/**/*',
       '!./src/data',
       '!./src/data/**',
       '!./src/images',
       '!./src/images/**',
-      '!./src/pug',
-      '!./src/pug/**',
+      '!./src/includes',
+      '!./src/includes/**',
       '!./src/scripts',
       '!./src/scripts/**',
       '!./src/styles',
       '!./src/styles/**',
-      '!./src/temp',
-      '!./src/temp/**',
+      '!./build/*',
+      '!./build/**',
     ])
-    .pipe(gulp.dest('./dist')));
+    .pipe(gulp.dest('./build/')));

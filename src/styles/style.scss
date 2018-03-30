@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import 'utils/palettes';
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/placeholders';
+
+@import 'base/global';
+@import 'base/typography';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/forms';
+@import 'components/buttons';
+
+@import 'pages/home';
+
+@import 'themes/default';
+
+@import 'shame';
+
+/*************************************/
+/************ GENERAL ****************/
+/*************************************/
+
+.background-red {
+  background-color: #d33b1b;
+}
+
+.background-orange {
+  background-color: #f47a21;
+}
+
+.text-red {
+  color: #d33b1b;
+}
+
+.text-orange {
+  color: #f47a21;
+}
+
+.background-yellow {
+  background-color: #FBC100;
+}
+
+.news-img {
+  max-width: 100%;
+}
+
+
+/* Newsletter */
+
+.newsletter-container {
+  height: 245px;
+  background-color: #a0e7d3;
+  .pigeon {
+    position: relative;
+    img {
+      height: 312px;
+      position: absolute;
+      top: -35px;
+    }
+  }
+  h2.newsletter-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 45px;
+  }
+  .col-left {
+    padding-left: 120px;
+    padding-top: 40px;
+  }
+  .col-right {
+    padding-right: 120px;
+    padding-top: 40px;
+  }
+  h3.newsletter-text {
+    font-size: 18px;
+  }
+  .col-right {
+    input[type="email"] {
+      padding: 15px;
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+    }
+    button {
+      padding: 15px;
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      color: #fff;
+      border-color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}

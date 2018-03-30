@@ -1,6 +1,6 @@
 dist/
 temp/
-
+.idea/
 # Created by https://www.gitignore.io/api/sass,node,linux,macos,windows,visualstudiocode
 
 ### Linux ###

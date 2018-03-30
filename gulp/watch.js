@@ -5,35 +5,38 @@ const browserSync = require('browser-sync').create();
 const { reload, stream } = browserSync;
 
 gulp.task('watch', ['build:dev'], () => {
+  console.log('watching dev');
   browserSync.init({
     notify: false,
     server: {
-      baseDir: 'src/temp',
+      baseDir: './build',
     },
   });
+});
+// watch('./src/pages/**/*.html', () => {
+//   gulp.start('htmlRefresh');
+// });
+//
+watch('./src/scripts/**/*.js', () => {
+  console.log('watching Scripts');
+  gulp.start('scriptsRefresh');
+});
 
-  watch('./src/pug/**/*.pug', () => {
-    gulp.start('htmlRefresh');
-  });
-
-  watch('./src/scripts/**/*.js', () => {
-    gulp.start('scriptsRefresh');
-  });
-
-  watch('./src/styles/**/*.sass', () => {
-    gulp.start('cssInject');
-  });
+watch('./src/styles/**/*.scss', () => {
+  console.log('watching Styles');
+  gulp.start('cssInject');
 });
 
 gulp.task('cssInject', ['styles'], () =>
-  gulp.src('./src/temp/css/style.css').pipe(stream()));
+  gulp.src('./build/styles/style.css').pipe(stream()));
 
-gulp.task('htmlRefresh', ['pugToHTML'], () => {
-  reload();
-});
+// gulp.task('htmlRefresh', () => {
+//   reload();
+// });
 gulp.task('scriptsRefresh', ['scripts'], () => {
   reload();
 });
+// gulp.task('watch:nunjucks', ['nunjucks'], () => {
+//   watch('./src/pages/**/*.+(html|njk)  ', () => gulp.task('nunjucks'));
+// });
 
-gulp.task('watch:pug', ['pugToHTML'], () =>
-  watch('./src/pug/**/*.pug', () => gulp.start('pugToHTML')));

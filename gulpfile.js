@@ -5,7 +5,7 @@ require('./gulp/copy');
 require('./gulp/default');
 require('./gulp/env');
 require('./gulp/preview');
-require('./gulp/pug2html');
+// require('./gulp/nunjucks');
 require('./gulp/scripts');
 require('./gulp/styles');
 require('./gulp/watch');

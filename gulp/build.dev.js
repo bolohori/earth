@@ -1,9 +1,9 @@
 const gulp = require('gulp');
 
 gulp.task('build:dev', [
-  'clean:temp',
+  'clean:build',
   'scripts',
   'styles',
-  'pugToHTML',
-  'copy:images',
+  'copy:assets',
+  'copy:php',
 ]);

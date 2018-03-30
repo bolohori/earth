@@ -1,12 +1,12 @@
 const gulp = require('gulp');
 const postCSS = require('gulp-postcss');
 const sourcemaps = require('gulp-sourcemaps');
-const sass = require('gulp-sass');
+const styles = require('gulp-sass');
 const autoprefixer = require('autoprefixer');
 const normalize = require('postcss-normalize');
 
 const sassOptions = {
-  outputStyle: 'expanded',
+  outputStyle: 'expanded'
 };
 
 const postCSSPlugins = [
@@ -18,9 +18,9 @@ const postCSSPlugins = [
 
 gulp.task('styles', () =>
   gulp
-    .src('./src/styles/style.sass')
+    .src('./src/styles/style.scss')
     .pipe(sourcemaps.init())
-    .pipe(sass(sassOptions).on('error', sass.logError))
+    .pipe(styles(sassOptions).on('error', styles.logError))
     .pipe(postCSS(postCSSPlugins))
     .on('error', (err) => {
       // eslint-disable-next-line no-console
@@ -28,4 +28,4 @@ gulp.task('styles', () =>
       this.emit('end');
     })
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./src/temp/css')));
+    .pipe(gulp.dest('./build/styles')));
