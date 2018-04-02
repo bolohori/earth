@@ -1,5 +1,6 @@
 <?php
   $title = "Earth.com - Home Page";
+  include "includes/head.php";
   include "includes/header.php";
 ?>
 <!-- News of the Day and Top Stories Row -->
@@ -28,7 +29,6 @@
 
     <!-- Right sidebar with Top Stories -->
     <div class="col-lg-4">
-        <h2>heyas</h2>
       <h2 id="hi" class="secton-title">Top Stories</h2>
       <!-- Top Story Article -->
       <article class="top-story">

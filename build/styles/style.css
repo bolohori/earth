@@ -8318,7 +8318,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: red;
 }
 
 button,
@@ -8411,6 +8410,10 @@ p, span, a {
 .category {
   text-transform: uppercase;
   font-weight: 900;
+}
+
+#main-navigation {
+  background-color: #08163B;
 }
 
 .navbar-main {

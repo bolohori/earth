@@ -8,7 +8,7 @@ gulp.task('watch', ['build:dev'], () => {
   console.log('watching dev');
   browserSync.init({
     proxy: 'http://localhost/earth.com/build/',
-  });
+  });``
 });
 watch(['./src/*.php', './src/**/*.php'], () => {
   gulp.start('copy:php');
