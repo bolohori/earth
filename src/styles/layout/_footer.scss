@@ -1,0 +1,35 @@
+.footer {
+  padding-top: 70px;
+  .footer-logo {
+    padding-bottom: 30px;
+  }
+  .footer-menu-col-title {
+    padding-bottom: 30px;
+    color: #e3e3e3;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .footer-menu {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 14px;
+    a {
+      color: #a3a3a3;
+    }
+  }
+  .copyright-info {
+    color: #a3a3a3;
+    font-size: 14px;
+  }
+  .social-icons {
+    img {
+      width: 40px;
+      margin-right: 10px;
+    }
+    margin-bottom: 30px;
+  }
+}
+
+.social-icons a {
+  text-decoration: none;
+}
