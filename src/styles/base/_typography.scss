@@ -28,8 +28,7 @@ p, span, a {
     font-size: rem(16px);
   }
 }
-
-.category, .date {
+.tag, .date {
     font-size: rem(12px);
     color: $meta-grey;
 
@@ -37,7 +36,7 @@ p, span, a {
       font-size: rem(11px);
     }
   }
-.category {
+.tag {
   text-transform: uppercase;
   font-weight: 900;
 }

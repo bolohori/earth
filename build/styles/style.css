@@ -8318,6 +8318,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  line-height: 1 !important;
 }
 
 button,
@@ -8366,6 +8367,10 @@ p {
   margin: 0 auto;
 }
 
+.card {
+  border: none;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -8396,18 +8401,18 @@ p, span, a {
   font-size: 1rem;
 }
 
-.category, .date {
+.tag, .date {
   font-size: 0.75rem;
   color: #c9c9c9;
 }
 
 @media (min-width: 576px) {
-  .category, .date {
+  .tag, .date {
     font-size: 0.6875rem;
   }
 }
 
-.category {
+.tag {
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -8592,6 +8597,45 @@ p, span, a {
   text-decoration: none;
 }
 
+.social .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.social .fa:hover {
+  opacity: 0.7;
+}
+
+.social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.social .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.social .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.social .fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
 /*************************************/
 /********** HOME PAGE ****************/
 /*************************************/
@@ -8623,16 +8667,10 @@ h2.section-title {
 .article-category-date {
   color: #ccc;
   font-weight: bold;
-  font-size: 12px;
-}
-
-.article-category-date .category {
-  padding-left: 0;
 }
 
 .article-title {
   font-weight: bold;
-  font-size: 13px;
 }
 
 .news-of-the-day-image {
