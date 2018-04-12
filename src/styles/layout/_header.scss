@@ -1,9 +1,13 @@
 #main-navigation {
   background-color: $d-blue;
 }
-.navbar-main {
+.navbar {
   .navbar-brand {
     width: 20%;
+    margin-left: 15px;
+    @include media-breakpoint-down(xs) {
+        width: 30%;
+    }
     img {
       vertical-align: inherit;
     }
@@ -39,6 +43,9 @@
   height: 3rem;
   margin: 25px auto;
   margin-right: 15px;
+  @include media-breakpoint-down(xs) {
+      margin-right: 0;
+  }
 }
 
 .search-box {
