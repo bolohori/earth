@@ -41,7 +41,7 @@
             <div class="row">
               <div class="col">
                 <div class="row">
-                  <p class="meta d-flex justify-content-between w-100">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
@@ -71,7 +71,7 @@
           <div class="col-lg-8">
             <div class="row">
               <div class="col-xs-12">
-                <p class="meta d-flex justify-content-between w-100">
+                <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
@@ -100,7 +100,7 @@
           <div class="col-lg-8">
             <div class="row">
               <div class="col-xs-12">
-                <p class="meta d-flex justify-content-between w-100">
+                <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
@@ -129,7 +129,7 @@
           <div class="col-lg-8">
             <div class="row">
               <div class="col-xs-12">
-                <p class="meta d-flex justify-content-between w-100">
+                <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
@@ -158,7 +158,7 @@
           <div class="col-lg-8">
             <div class="row">
               <div class="col-xs-12">
-                <p class="meta d-flex justify-content-between w-100">
+                <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
