@@ -12,16 +12,11 @@ h1,h3,h4,h5,h6 {
 h2.title,
 h5.title,
 h6.title {
-    color: $d-blue !important;
+  color: $d-blue !important;
 
   a {
     color: inherit;
   }
-}
-
-h3.category {
-  font-size: rem(28px);
-  color: $red;
 }
 
 h4 {
@@ -41,9 +36,13 @@ p, span, a {
     font-size: rem(16px);
   }
 }
+p {
+  line-height: rem(23px);
+}
 .meta {
   .tag, .date {
     font-size: rem(12px);
+    line-height: rem(16px);
     color: $meta-grey;
   }
   .tag {
@@ -52,26 +51,28 @@ p, span, a {
   }
 }
 //Category headings
-h4.category {
-  font-size: rem(20px);
-  font-weight: normal;
-  text-transform: uppercase;
-  color: $red;
+h3, h4 {
+  &.category {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: $red;
+    margin-bottom: rem(20px) !important;
+  }
 
   &.badge {
     background-color: $red;
     color: $white;
   }
 }
+h3.category {
+  font-size: rem(28px);
+}
+h4.category {
+  font-size: rem(20px);
+}
 //Featured article title
 
 .featured {
-  .card-img-overlay {
-    h4 {
-      color: $white;
-      background-color: $red;
-    }
-  }
   .title {
     a {
       font-family: $anton;

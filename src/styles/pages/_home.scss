@@ -17,7 +17,6 @@
 
     .category {
       color: $white;
-      font-weight: 400;
     }
     .date {
       font-family: $mont !important;
@@ -48,6 +47,20 @@
 }
 #environment {
   padding-bottom: rem(25px);
+
+  .category {
+    margin-bottom: rem(20px);
+  }
+
+  .featured {
+    @include  media-breakpoint-up(sm) {
+      margin-bottom: rem(30px);
+
+      >.row .card-body {
+        padding-top: 0 !important;
+      }
+    }
+  }
 }
 #explore {
 
@@ -78,15 +91,20 @@
 
 #top-videos {
 
-  padding-bottom: rem(70px);
+  padding-bottom: rem(35px);
 
   .category {
     color: $purple;
+    margin-bottom: rem(20px);
   }
-  .title {
-    font-size: rem(17px);
-    font-weight: 800;
-    letter-spacing: rem(-0.1px);
+  .video {
+
+    margin-bottom: rem(45px);
+    .title {
+      font-size: rem(17px);
+      font-weight: 800;
+      letter-spacing: rem(-0.1px);
+    }
   }
 }
 /* Friends of Animals */

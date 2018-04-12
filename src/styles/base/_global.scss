@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: $line-height-base;
+  overflow-x: hidden;
 }
 
 button,
@@ -62,6 +63,10 @@ p {
   max-width: rem(1440px);
   margin: 0 auto;
   padding: 0 rem(10px);
+
+  @include  media-breakpoint-up(sm) {
+    padding: 0 rem(35px);
+  }
 }
 .container-fluid {
   padding: 0 rem(10px);
