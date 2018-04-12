@@ -4,12 +4,12 @@
 @import "../../node_modules/include-media/dist/include-media";
 
 @import 'utils/palettes';
+@import 'base/colors';
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/placeholders';
 
 @import 'base/global';
-@import 'base/colors';
 @import 'base/typography';
 
 @import 'layout/header';
@@ -27,7 +27,6 @@
 /*************************************/
 /************ GENERAL ****************/
 /*************************************/
-
 .background-red {
   background-color: #d33b1b;
 }

@@ -140,7 +140,7 @@ template{
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Anton|Montserrat:300,400,700,800,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8318,6 +8318,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  line-height: 1 !important;
 }
 
 button,
@@ -8343,7 +8344,7 @@ select {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -8362,24 +8363,49 @@ p {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
+  padding: 0 0.625rem;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+.container-fluid {
+  padding: 0 0.625rem;
 }
 
-h2 {
-  font-size: 2.25rem;
-  font-size: 2.625rem;
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
+
+h1, h3, h4, h5, h6 {
+  font-family: "Anton script=all rev=2", sans-serif !important;
+}
+
+h2.title,
+h5.title,
+h6.title {
+  color: #08163B !important;
+}
+
+h2.title a,
+h5.title a,
+h6.title a {
+  color: inherit;
+}
+
+h3.category {
+  font-size: 1.75rem;
+  color: #DE3400;
 }
 
 h4 {
   font-size: 1.0625rem;
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 576px) and (max-width: 991.98px) {
   h4 {
     font-size: 1rem;
   }
@@ -8396,19 +8422,60 @@ p, span, a {
   font-size: 1rem;
 }
 
-.category, .date {
+.meta .tag, .meta .date {
   font-size: 0.75rem;
   color: #c9c9c9;
 }
 
-@media (min-width: 576px) {
-  .category, .date {
-    font-size: 0.6875rem;
+.meta .tag {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h4.category {
+  font-size: 1.25rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #DE3400;
+}
+
+h4.category.badge {
+  background-color: #DE3400;
+  color: #ffffff;
+}
+
+.featured .card-img-overlay h4 {
+  color: #ffffff;
+  background-color: #DE3400;
+}
+
+.featured .title a {
+  font-family: "Anton script=all rev=2", sans-serif;
+  font-size: 2.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .featured .title a {
+    font-size: 2.625rem;
   }
 }
 
-.category {
-  text-transform: uppercase;
+.featured .text {
+  font-weight: 300;
+  font-size: 1.0625rem;
+  font-size: 1rem;
+}
+
+.featured .read-more {
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.top-stories .title a {
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
 
@@ -8416,20 +8483,27 @@ p, span, a {
   background-color: #08163B;
 }
 
-.navbar-main {
+.navbar {
   background-color: #08163b;
   margin-bottom: 125px;
 }
 
-.navbar-main .navbar-brand {
+.navbar .navbar-brand {
   width: 20%;
+  margin-left: 15px;
 }
 
-.navbar-main .navbar-brand img {
+@media (max-width: 575.98px) {
+  .navbar .navbar-brand {
+    width: 30%;
+  }
+}
+
+.navbar .navbar-brand img {
   vertical-align: inherit;
 }
 
-.navbar-main ul.navbar-nav a.nav-link {
+.navbar ul.navbar-nav a.nav-link {
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
@@ -8456,6 +8530,12 @@ p, span, a {
   height: 3rem;
   margin: 25px auto;
   margin-right: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .search {
+    margin-right: 0;
+  }
 }
 
 .search-box {
@@ -8553,6 +8633,20 @@ p, span, a {
   padding-top: 70px;
 }
 
+@media (max-width: 767.98px) {
+  .footer {
+    padding-top: 330px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .footer {
+    padding-top: 200px;
+    text-align: center;
+  }
+}
+
 .footer .footer-logo {
   padding-bottom: 30px;
 }
@@ -8592,195 +8686,92 @@ p, span, a {
   text-decoration: none;
 }
 
+.social .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.social .fa:hover {
+  opacity: 0.7;
+}
+
+.social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.social .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.social .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.social .fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.btn-explore {
+  color: #FFF;
+  border-color: #FFF;
+  display: flex;
+  font-size: 12px;
+  padding: 10px;
+}
+
 /*************************************/
 /********** HOME PAGE ****************/
 /*************************************/
-/* Top Part */
-.main-content {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
+#notd {
+  padding-top: 4.0625rem;
+  padding-bottom: 4.6875rem;
 }
 
-h2.section-title {
-  color: #de3400;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold;
+#best-of-day {
+  color: #ffffff !important;
+  padding-bottom: 3.75rem;
 }
 
-.main-section-title {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 34px;
-  color: #d33b1b;
+#best-of-day .header {
+  padding: 1.25rem 0.625rem 0.3125rem 1.25rem;
 }
 
-.top-story {
-  margin-bottom: 15px;
+#best-of-day .header .category {
+  color: #ffffff;
+  font-weight: 400;
 }
 
-.article-category-date {
-  color: #ccc;
-  font-weight: bold;
-  font-size: 12px;
+#best-of-day .header .date {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 300 !important;
 }
 
-.article-category-date .category {
-  padding-left: 0;
+#best-of-day .title {
+  font-weight: 800;
+  padding-left: 1.25rem;
 }
 
-.article-title {
-  font-weight: bold;
-  font-size: 13px;
+#best-of-day .video {
+  background-color: #A485D6;
 }
 
-.news-of-the-day-image {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.news-of-the-day-image .news-img {
-  margin-bottom: 10px;
-}
-
-.highlight-ribbon {
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 8px;
-  position: absolute;
-  left: 0;
-  top: 15px;
-}
-
-.news-title {
-  margin-top: 20px;
-  color: #18193d;
-  font-weight: bold;
-}
-
-/* Video and Image of the Day */
-.video-image-outer {
-  background-color: #18193d;
-  height: 250px;
-  margin-top: 190px;
-}
-
-.video-image-inner {
-  position: relative;
-  bottom: 150px;
-}
-
-.video-image-title h2 {
-  text-transform: uppercase;
-  color: #FFF;
-  font-size: 16px;
-  font-weight: bold;
-  float: left;
-}
-
-.video-image-title img {
-  float: right;
-  width: 50px;
-}
-
-.video-day-details {
-  clear: both;
-  vertical-align: bottom;
-}
-
-.video-day {
-  background-color: #c8b6e6;
-  margin-right: 30px;
-  padding-right: 0;
-}
-
-.video-day video {
-  max-width: 100%;
-}
-
-.image-day {
-  background-color: #fbc100;
-  padding: 0;
-}
-
-.image-day-container {
-  padding: 15px;
-}
-
-.image-day img {
-  max-width: 100%;
-}
-
-.video-day .date, .image-day .date {
-  color: #FFF;
-  font-size: 12px;
-}
-
-.video-day .title, .image-day .title {
-  color: #08163b;
-  font-size: 14px;
-}
-
-.video-day .left-col {
-  padding: 15px;
-}
-
-.video-image-title {
-  padding-top: 15px;
-}
-
-.image-day-details {
-  clear: both;
-}
-
-/* Environment Top Stories */
-.environment-stories {
-  padding: 15px;
-}
-
-.environment-stories-container {
-  background-color: #f6f7f9;
-  padding: 65px;
-  margin-top: 15px;
-}
-
-.environment-stories-inner {
-  background-color: #fff;
-}
-
-.environment-stories-inner .top-story-text {
-  padding-top: 15px;
-  padding-left: 40px;
-}
-
-.environment-stories-inner .top-stories {
-  background-color: #f6f7f9;
-}
-
-/* Lifetime Top Stories */
-.lifestyle-stories {
-  padding-top: 60px;
-  margin-bottom: 100px;
-}
-
-.lifestyle-stories .article-excerpt a {
-  margin-top: 15px;
-}
-
-/* Explore Plants and Animals */
-.explore-plants-animals {
-  margin-top: 150px;
-}
-
-.explore-plants-animals h2.title {
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 50px;
-  width: 50%;
+#best-of-day .image {
+  background-color: #FBC100;
 }
 
 .btn-view-archive {
@@ -8791,49 +8782,48 @@ h2.section-title {
   padding: 10px;
 }
 
-.explore-plants {
-  padding: 50px;
-  padding-top: 75px;
-  padding-left: 8%;
-  background-color: #cfe9b1;
-  background-repeat: no-repeat;
-  background-position: 90%;
-  background-size: 40%;
+#environment {
+  padding-bottom: 1.5625rem;
 }
 
-.explore-animals {
-  background-color: #b78f8e;
-  padding: 15px;
-  padding-top: 75px;
-  padding-right: 8%;
+#explore {
+  padding-bottom: 3.125rem;
 }
 
-.plants-image {
-  position: relative;
+#explore .text {
+  padding: 2.8125rem 0 2.5rem 2.1875rem;
 }
 
-.plants-image img {
-  position: absolute;
-  bottom: -50px;
-  width: 70%;
+#explore .text h1 {
+  color: #ffffff;
 }
 
-/* Week's Top Stories */
-.weeks-top-stories {
-  padding-top: 70px;
-  padding-bottom: 70px;
+#explore .plants {
+  background: #CFE9B1;
 }
 
-.week-top-stories-title {
-  color: #a67dd5;
+#explore .plants img {
+  width: 55%;
+  bottom: 0;
+  right: 0;
 }
 
-.top-video {
-  padding-right: 30px;
+#explore .animals {
+  background: #B78F8E;
 }
 
-.top-video video {
-  max-width: 100%;
+#top-videos {
+  padding-bottom: 4.375rem;
+}
+
+#top-videos .category {
+  color: #A485D6;
+}
+
+#top-videos .title {
+  font-size: 1.0625rem;
+  font-weight: 800;
+  letter-spacing: -0.00625rem;
 }
 
 /* Friends of Animals */

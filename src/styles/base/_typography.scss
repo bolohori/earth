@@ -1,20 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-body {
-  font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Anton|Montserrat:300,400,700,800,900');
+$mont: 'Montserrat', sans-serif;
+$anton: 'Anton script=all rev=2', sans-serif;
+//
+//body {
+//  font-family: $mont;
+//}
+h1,h3,h4,h5,h6 {
+  font-family: $anton !important;
 }
 
-h2 {
-  font-size: rem(36px);
+h2.title,
+h5.title,
+h6.title {
+    color: $d-blue !important;
 
-  @include media-breakpoint-up(xs) {
-    font-size: rem(42px);
+  a {
+    color: inherit;
   }
 }
+
+h3.category {
+  font-size: rem(28px);
+  color: $red;
+}
+
 h4 {
   font-size: rem(17px);
 
-  @include media-breakpoint-between(xs, md) {
+  @include media-breakpoint-between(sm, md) {
     font-size: rem(16px);
   }
   @include  media-breakpoint-up(md) {
@@ -28,16 +41,70 @@ p, span, a {
     font-size: rem(16px);
   }
 }
-
-.category, .date {
+.meta {
+  .tag, .date {
     font-size: rem(12px);
     color: $meta-grey;
+  }
+  .tag {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+}
+//Category headings
+h4.category {
+  font-size: rem(20px);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $red;
 
-    @include media-breakpoint-up(sm) {
-      font-size: rem(11px);
+  &.badge {
+    background-color: $red;
+    color: $white;
+  }
+}
+//Featured article title
+
+.featured {
+  .card-img-overlay {
+    h4 {
+      color: $white;
+      background-color: $red;
     }
   }
-.category {
-  text-transform: uppercase;
-  font-weight: 900;
+  .title {
+    a {
+      font-family: $anton;
+      font-size: rem(36px);
+      text-decoration: none;
+      font-weight: bold;
+      line-height: 1;
+
+      @include  media-breakpoint-up(md) {
+        font-size: rem(42px);
+      }
+    }
+  }
+  .text {
+    font-weight: 300;
+
+    font-size: rem(17px);
+
+    @include  media-breakpoint-up(xs) {
+      font-size: rem(16px);
+    }
+  }
+  .read-more {
+    font-weight: 300;
+    text-decoration: none;
+  }
+}
+
+.top-stories {
+  .title {
+    a {
+      font-family: $mont;
+      font-weight: 900;
+    }
+  }
 }
