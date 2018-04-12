@@ -1,5 +1,6 @@
 <?php
   $title = "Earth.com - Contact Us";
+  include "./includes/head.php";
   include "includes/header.php";
 ?>
 
