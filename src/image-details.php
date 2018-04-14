@@ -7,10 +7,9 @@
 ?>
 
 <!-- Main Image Details -->
-<section>
+<section class="image-details-container">
   <div class="container">
-
-    <div class="row">
+    <div class="row earth-breadcrumb">
       <div class="col-xs-12">
         <a href="/">Home</a> / <a href="#">Images</a> / <a href="#">Radio Astronomy</a>
       </div>
@@ -18,34 +17,37 @@
 
     <div class="row">
       <div class="col-xs-12 user-container">
-        <h2>Radio Astronomy</h2>
+        <h2 class="title">Radio Astronomy</h2>
         <div class="left-user">
           <span>
             <img class="user-profile" src="assets/images/icons/user-profile.jpg" alt="user_profile">
           </span>
           <span>
-            by <strong>user_name</strong>
+            by <strong>user_name</strong> |
           </span>
           <span>
             01.02.2018
           </span>
-          <span>
-            <i class="fas fa-download"></i>Download High Resolution
+          <span class="download-hires">
+            <i class="fas fa-download"></i> Download High Resolution
           </span>
         </div>
         <div class="right-user">
-          <button type="button" class="btn btn-default"><i class="far fa-arrow-circle-left"></i> Previous Image</button>
+          <button type="button" class="btn btn-default btn-prev-image">
+            <i class="far fa-arrow-alt-circle-left"></i> Previous Image
+          </button>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-xs-12 image-big-container">
+        <img class="full-screen" src="assets/images/icons/full-screen.png" alt="Full Screen" />
         <img src="assets/images/big-image.jpg" alt="Image Details">
       </div>
     </div>
 
-    <div class="row">
+    <div class="row social-icons-container">
       <div class="col-xs-12">
         <div class="social-icons">
         <span class="spread-word">SPREAD THE WORD</span>
@@ -72,12 +74,16 @@
       </div>
     </div>
 
-    <div class="row">
-      <h2>Leave a comment</h2>
-      <div class="leave-comment-container">
+    <div class="row leave-comment-container">
+      <div class="col-xs-12">
+          <h2>Leave a comment</h2>
+      </div>
+    </div>
+    <div class="row leave-comment-container">
+      <div class="col-xs-12">
         <form class="leave-comment" action="/" method="post">
-          <textarea name="name" rows="8" cols="80"></textarea>
-          <button type="btn btn-primary" name="submit-comment">Post</button>
+          <textarea class="leave-comment-textarea" name="name" rows="8" cols="150"></textarea>
+          <button type="button" class="btn btn-primary btn-send-comment">Post</button>
         </form>
       </div>
     </div>
@@ -90,9 +96,9 @@
     <div class="row">
       <!-- News of the Day Image -->
       <div class="col-lg-8 news-of-the-day-image">
-        <div class="row article-category-date">
+        <div class="row">
           <div class="col-lg-12">
-            <h2>RELATED IMAGES</h2>
+            <h2 class="image-details-title-yellow">RELATED IMAGES</h2>
           </div>
           <div class="col-lg-6">
             <img src="assets/images/top-story.jpg" alt="Image">
@@ -179,7 +185,7 @@
 
       <!-- Right sidebar with Top Stories -->
       <div class="col-lg-4">
-        <h2 class="section-title">RELATED VIDEOS</h2>
+        <h2 class="image-details-title-purple">RELATED VIDEOS</h2>
 
         <!-- Top Story Article -->
         <article class="top-story">
@@ -312,6 +318,10 @@
     </div>
   </div>
 </section>
+
+<!-- Explore Plants and Animals -->
+<div class="container-big friends-of-animals">
+</div>
 
 <!-- Footer -->
 <?php include "includes/footer.php"; ?>
