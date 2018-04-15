@@ -97,3 +97,65 @@
     }
   }
 }
+
+.plantsnap-mobile-app {
+  height: 411px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  background-image: url('../assets/images/plantsnap-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .left {
+    margin-top: 75px;
+    color: #ffffff;
+    h1 {
+      text-transform: uppercase;
+    }
+    a {
+      color: #ffffff;
+    }
+  }
+  .middle {
+    position: relative;
+    img {
+      position: absolute;
+      width: auto;
+      top: -45px;
+    }
+  }
+  .right {
+    text-align: center;
+    padding-top: 125px;
+    img {
+      width: auto;
+      padding-bottom: 25px;
+    }
+  }
+}
+
+.animal-videos {
+  .date {
+    color: #bbbbbb;
+    font-size: 12px;
+  }
+  h2 {
+    color: #A67DD5;
+  }
+  h2.section-title {
+    color: #D33B1B;
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .video-section {
+    margin-bottom: 75px;
+  }
+  .category {
+    padding-left: 0;
+    color: #bbbbbb;
+  }
+  .article-title {
+    font-weight: bold;
+  }
+}
