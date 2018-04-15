@@ -1,0 +1,99 @@
+.earthpedia-header-form {
+  height: 600px;
+  background-image: url('../assets/images/earthpedia-web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .form-container {
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    h1 {
+      color: #ffffff;
+      font-size: 50px;
+    }
+    form {
+      position: relative;
+    }
+    input {
+      width: 550px;
+      height: 60px;
+      padding-left: 15px;
+      border-radius: 5px;
+    }
+    .search-button {
+      font-size: 30px;
+      color: #D33B1B;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
+  }
+}
+
+.curiosity-of-the-day {
+  position: relative;
+  top: -35px;
+  .curiosity-image {
+    position: relative;
+    padding: 0;
+    .highlight-ribbon.background-green {
+      position: absolute;
+      padding: 15px;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      top: 15px;
+      left: 0;
+      background-color: #8AC940 !important;
+    }
+  }
+  .curiosity-text {
+    padding-top: 20px;
+    background-color: #ffffff;
+    .date {
+      color: #bbbbbb;
+      font-size: 12px;
+    }
+    .news-title {
+      color: #18193D;
+      font-size: 44px;
+    }
+  }
+}
+
+.plants-animals-news {
+  .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #D33B1B;
+  }
+  .curiosity-image {
+    position: relative;
+    padding: 0;
+    .highlight-ribbon.background-green {
+      position: absolute;
+      padding: 15px;
+      color: #ffffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      top: 15px;
+      left: 0;
+      background-color: #8AC940 !important;
+    }
+  }
+  .curiosity-text {
+    padding-top: 20px;
+    background-color: #ffffff;
+    .date {
+      color: #bbbbbb;
+      font-size: 12px;
+    }
+    .news-title {
+      color: #18193D;
+      font-size: 44px;
+    }
+  }
+}
