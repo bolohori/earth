@@ -17,7 +17,6 @@
 
     .category {
       color: $white;
-      font-weight: 400;
     }
     .date {
       font-family: $mont !important;
@@ -26,6 +25,7 @@
     }
   }
   .title {
+    font-family: $mont !important;
     font-weight: 800;
     padding-left: rem(20px);
   }
@@ -37,7 +37,6 @@
   }
 }
 
-// Explore Plants and Animals
 
 .btn-view-archive {
   color: #FFF;
@@ -48,24 +47,53 @@
 }
 #environment {
   padding-bottom: rem(25px);
+
+  .category {
+    margin-bottom: rem(20px);
+  }
+
+  .featured {
+    @include  media-breakpoint-up(sm) {
+      margin-bottom: rem(30px);
+
+      >.row .card-body {
+        padding-top: 0 !important;
+      }
+    }
+  }
 }
+// Explore Plants and Animals
+
 #explore {
 
   padding-bottom: rem(50px);
 
   .text {
-    padding: rem(45px) rem(0) rem(40px) rem(35px);
+    padding: rem(30px) rem(0) rem(40px) rem(30px);
 
     h1 {
       color: $white;
+      font-size: rem(64px);
+      line-height: rem(61px);
+      margin-bottom: rem(100px);
     }
   }
   .plants {
-    background: $l-green;
-    img {
-      width: 55%;
-      bottom: 0;
-      right: 0;
+    padding-right: rem(15px);
+    .bg {
+      background-image: url("../assets/images/explore-plants.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 100% 100%;
+      padding-top: rem(10px);
+      @include  media-breakpoint-up(sm) {
+        padding-top: 0;
+      }
+    }
+    .text {
+      background: $l-green;
+      position: relative;
+      z-index: -1;
     }
   }
   .animals {
@@ -78,15 +106,20 @@
 
 #top-videos {
 
-  padding-bottom: rem(70px);
+  padding-bottom: rem(35px);
 
   .category {
     color: $purple;
+    margin-bottom: rem(20px);
   }
-  .title {
-    font-size: rem(17px);
-    font-weight: 800;
-    letter-spacing: rem(-0.1px);
+  .video {
+
+    margin-bottom: rem(45px);
+    .title {
+      font-size: rem(17px);
+      font-weight: 800;
+      letter-spacing: rem(-0.1px);
+    }
   }
 }
 /* Friends of Animals */
