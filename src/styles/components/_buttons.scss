@@ -43,9 +43,26 @@
 }
 
 .btn-explore {
-  color: #FFF;
-  border-color: #FFF;
-  display: flex;
-  font-size: 12px;
-  padding: 10px;
+  color: $white;
+  border: rem(2px) solid $white;
+  max-width: 165px;
+  border-radius: rem(3px);
+  font-size: rem(13px);
+  line-height: 1;
+  font-weight: bold;
+  padding-left: rem(15px);
+  padding-right: rem(15px);
+  height: rem(45px);
+  &:hover {
+    background-color: $white !important;
+    color:  $d-blue !important;
+    border-color: $white;
+  }
+  &:focus,
+  &:active {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
 }

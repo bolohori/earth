@@ -33,7 +33,7 @@
                 </article><!--featured-->
             </section><!--card-->
             <!--Top stories sidebar-->
-            <section class="col-xs-12 col-sm col-md-4 sidebar">
+            <section class="col-xs-12 col-sm-6 col-md-4 sidebar">
                 <div class="top-stories">
                     <h4 class="category mb-4">
                         Top Stories
@@ -95,12 +95,13 @@
                         </li>
                     </ul>
                 </div><!--top-stories-->
-                <img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">
+                <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
             </section><!--sidebar-->
             <!--Ad space-->
-            <section class="ad-space col-sm-6 d-none d-sm-flex d-md-none">
-                <img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">
-            </section>
+            <div class="ad-space col-sm-6">
+                <h1>hello world</h1>
+                <img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid" />
+            </div>
         </div>
     </div>
 </section>
@@ -294,7 +295,7 @@
 <section id="explore">
     <div class="row">
         <div class="col-xs-12 col-sm-6 plants">
-            <div class="d-flex">
+            <div class="d-flex bg">
                 <div class="text col w-60 mx-auto">
                     <h1 class="title">EXPLORE <br> PLANTS</h1>
                     <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
@@ -302,10 +303,7 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-6 animals">
-            <div class="d-flex">
-                <div class="image col">
-                    <hr class="sr-only">
-                </div>
+            <div class="d-flex bg">
                 <div class="text col mx-auto">
                     <h1 class="title">EXPLORE <br> ANIMALS</h1>
                     <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
