@@ -1,23 +1,30 @@
 <?php
-  $title = "Earth.com - Contact Us";
+  $title = "Earth.com - Animals";
   include "./includes/head.php";
   include "includes/header.php";
 ?>
 
 <!-- Explore Animals -->
-<div class="container">
+<div class="container explore-animals">
+  <div class="row animals-breadcrumb">
+    <div class="col-xs-12">
+      <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="earthpedia.php">Earthpedia </a> / <a href="animals.php">Animals</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="title">Explore Animals</h1>
+    </div>
+  </div>
   <div class="row">
     <!-- Animal of the Day Image -->
-    <div class="col-lg-8 news-of-the-day-image">
+    <div class="col-lg-8 animal-image">
       <div class="highlight-ribbon background-brown">
       Animal Videos
       </div>
       <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="Animal of the Day" />
       <div class="row article-category-date">
-        <div class="col-lg-2">
-          ENVIRONMENT
-        </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 date">
           11-22-2018
         </div>
       </div>
@@ -29,9 +36,8 @@
     </div>
 
     <!-- Right sidebar with Top Stories -->
-    <div class="col-lg-4">
-        <h2>heyas</h2>
-      <h2 id="hi" class="secton-title">Animals in the News</h2>
+    <div class="col-lg-4 animal-news">
+      <h2 class="section-title">Animals in the News</h2>
       <!-- Top Story Article -->
       <article class="top-story">
         <div class="row">
@@ -63,7 +69,6 @@
           </div>
         </div>
       </article>
-      <!-- Top Story Article -->
       <article class="top-story">
         <div class="row">
           <div class="col-lg-4">
@@ -71,15 +76,17 @@
           </div>
           <div class="col-lg-8">
             <div class="row">
-              <div class="col-xs-12">
-                <p class="meta d-flex mb-2 justify-content-between w-100">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
-                  <span class="date">
+                    <span class="date">
                 11-22-2018
               </span>
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-xs-12">
@@ -92,7 +99,6 @@
           </div>
         </div>
       </article>
-      <!-- Top Story Article -->
       <article class="top-story">
         <div class="row">
           <div class="col-lg-4">
@@ -100,15 +106,17 @@
           </div>
           <div class="col-lg-8">
             <div class="row">
-              <div class="col-xs-12">
-                <p class="meta d-flex mb-2 justify-content-between w-100">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
-                  <span class="date">
+                    <span class="date">
                 11-22-2018
               </span>
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-xs-12">
@@ -121,7 +129,6 @@
           </div>
         </div>
       </article>
-      <!-- Top Story Article -->
       <article class="top-story">
         <div class="row">
           <div class="col-lg-4">
@@ -129,15 +136,17 @@
           </div>
           <div class="col-lg-8">
             <div class="row">
-              <div class="col-xs-12">
-                <p class="meta d-flex mb-2 justify-content-between w-100">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
-                  <span class="date">
+                    <span class="date">
                 11-22-2018
               </span>
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-xs-12">
@@ -150,7 +159,6 @@
           </div>
         </div>
       </article>
-      <!-- Top Story Article -->
       <article class="top-story">
         <div class="row">
           <div class="col-lg-4">
@@ -158,15 +166,17 @@
           </div>
           <div class="col-lg-8">
             <div class="row">
-              <div class="col-xs-12">
-                <p class="meta d-flex mb-2 justify-content-between w-100">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
               <span class="category">
                 ENVIRONMENT
               </span>
-                  <span class="date">
+                    <span class="date">
                 11-22-2018
               </span>
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-xs-12">
@@ -184,8 +194,8 @@
 </div>
 
 <!-- Animals Listing -->
-<div class="container">
-    <div class="row article-category-date">
+<div class="container animal-listing">
+    <div class="row filter-container">
       <div class="col-lg-8">
         <span class="filter-title active">All Species</span>
         <span class="filter-title">Mamals</span>
@@ -194,18 +204,18 @@
         <span class="filter-title">Fish</span>
         <span class="filter-title">Invertebrates</span>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 searchbar-super-container">
         <!-- Search bar -->
         <div class="searchbar-container">
-          <input type="text" placeholder="Search...">
+          <input type="text" placeholder="Search for an animal">
           <i class="fas fa-search"></i>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row animals-images">
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -214,7 +224,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -223,7 +233,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -232,7 +242,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -241,7 +251,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -250,7 +260,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -259,7 +269,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -268,7 +278,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -277,7 +287,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -286,7 +296,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -295,7 +305,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
@@ -304,7 +314,7 @@
       </div>
       <div class="col-lg-3">
         <img src="assets/images/top-story.jpg" alt="Image">
-        <p>
+        <p class="title">
           Connot Armstrong
         </p>
         <p>
