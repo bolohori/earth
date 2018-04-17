@@ -2,11 +2,11 @@
   padding-top: 70px;
   @include media-breakpoint-down(sm) {
     padding-top: 330px;
-    text-align: center;
+    text-align: left;
   }
   @include media-breakpoint-down(md) {
     padding-top: 200px;
-    text-align: center;
+    text-align: left;
   }
   .footer-logo {
     padding-bottom: 30px;

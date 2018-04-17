@@ -1,8 +1,7 @@
 <?php
+  $title = "Earth.com - Home Page";
   include "./includes/head.php";
   include "./includes/header.php";
-
-  $title = "Earth.com - Home Page";
 ?>
 <!--News of the day section-->
 <section id="notd" class="category-section">
