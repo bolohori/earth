@@ -1,5 +1,13 @@
+[![Web Starter Kit](https://cloud.githubusercontent.com/assets/25930200/23856381/20707b74-0802-11e7-8578-5e4e91bb463e.png)](https://github.com/justcoded/web-starter-kit/releases)
+
+>  A modern Web starter kit for projects
+
+![node](http://img.shields.io/badge/node-4.0.x-blue.svg) ![npm](http://img.shields.io/badge/npm-2.13.x-blue.svg)  [![release](https://img.shields.io/github/release/justcoded/web-starter-kit.svg)](/releases) ![SCSS](http://img.shields.io/badge/SCSS-3.x.x-c6538c.svg) [![travis](https://img.shields.io/travis/justcoded/web-starter-kit.svg)](https://travis-ci.org) [![license](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![license](http://img.shields.io/badge/autoprefixer-included-blue.svg)](https://www.npmjs.com/package/autoprefixer) [![readme](http://img.shields.io/badge/readme-md-blue.svg)](/README.md) [![requests](http://img.shields.io/badge/PRs-welcome-green.svg)](/pulls)
+
 
 ## Overview
+
+Web Starter Kit is an opinionated boilerplate for web development. Tools for building a great experience across many devices. A solid starting point for both professionals and newcomers to the industry.
 
 ## Table of Contents
 1. [Browser Support](#browser-support)
@@ -13,6 +21,7 @@
 9. [Tasks](#tasks)
 10. [Troubleshooting](#troubleshooting)
 11. [Contributing](#contributing)
+12. [License](#license)
 
 
 ## Browser Support
@@ -25,7 +34,7 @@ At present, we officially aim to support the last two versions of the following 
 * Safari
 * Internet Explorer
 
-This is not to say that earth.com cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
+This is not to say that Web Starter Kit cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
 
 
 ## Features
@@ -47,7 +56,7 @@ This is not to say that earth.com cannot be used in browsers older than those re
 
 You can start from `index.html` - the default starting point, with template text.
 
-Be sure to look over the [installation](#install) to verify your environment is prepared to run earth.com.
+Be sure to look over the [installation](#install) to verify your environment is prepared to run Web Starter Kit.
 Once you have verified that your system can run WSK, check out the [commands](#commands) available to get started.
 
 
@@ -56,7 +65,7 @@ Once you have verified that your system can run WSK, check out the [commands](#c
 [Download WSK](https://github.com/justcoded/web-starter-kit/releases/latest) and run `$ npm install --global gulp && npm install` in that directory to get started.
 
 
-To take advantage of earth.com you need to:
+To take advantage of Web Starter Kit you need to:
 
 1. Download the code.
 2. Install all necessary dependencies if you don't already have them.
@@ -90,13 +99,13 @@ $ npm install --global gulp
 
 ### Local dependencies
 
-Next, install the local dependencies earth.com requires:
+Next, install the local dependencies Web Starter Kit requires:
 
 ```sh
 $ npm install
 ```
 
-That's it! You should now have everything needed to use the earth.com.
+That's it! You should now have everything needed to use the Web Starter Kit.
 
 
 You may also want to get used to some of the [commands](#commands) available.
@@ -259,7 +268,7 @@ If you find yourself running into issues during installation or running the tool
 
 ## Contributing
 
-Contributions, questions and comments are all welcome and encouraged. For code contributions to earth.com, please see our [Contribution guide](CONTRIBUTING.md) before submitting a pull request. [Website](https://github.com/justcoded/web-starter-kit) related issues should be filed on the [Web Fundamentals](https://github.com/justcoded/web-starter-kit/issues) issue tracker.
+Contributions, questions and comments are all welcome and encouraged. For code contributions to Web Starter Kit, please see our [Contribution guide](CONTRIBUTING.md) before submitting a pull request. [Website](https://github.com/justcoded/web-starter-kit) related issues should be filed on the [Web Fundamentals](https://github.com/justcoded/web-starter-kit/issues) issue tracker.
 
 ## License
 
