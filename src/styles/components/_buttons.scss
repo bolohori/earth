@@ -45,14 +45,17 @@
 .btn-explore {
   color: $white;
   border: rem(2px) solid $white;
-  max-width: 165px;
+  text-align: center;
   border-radius: rem(3px);
   font-size: rem(13px);
+  letter-spacing: rem(0.07px);
   line-height: 1;
   font-weight: bold;
-  padding-left: rem(15px);
-  padding-right: rem(15px);
-  height: rem(45px);
+  height: rem(35px);
+  padding: rem(8px) rem(25px);
+  @include media-breakpoint-up(sm) {
+    height: rem(45px);
+  }
   &:hover {
     background-color: $white !important;
     color:  $d-blue !important;
