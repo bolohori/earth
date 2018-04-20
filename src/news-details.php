@@ -94,7 +94,7 @@
       <div class="row leave-comment-container">
       <div class="col-xs-12">
         <form class="leave-comment" action="/" method="post">
-          <textarea class="leave-comment-textarea" name="name" rows="8" cols="150"></textarea>
+          <textarea class="leave-comment-textarea" name="name" rows="8" cols="100"></textarea>
           <button type="button" class="btn btn-primary btn-send-comment">Post</button>
         </form>
       </div>
@@ -279,6 +279,103 @@
       </div>
         </div>
 </div>
+</div>
+
+<!-- Related Stories -->
+<div class="container news-details-related-stories">
+  <div class="row">
+    <div class="col-lg-8">
+      <h2 class="section-title">Related Stories</h2>
+      <!-- Top Story Article -->
+      <article class="top-story">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./assets/images/news/top-story-thumb.jpg" alt="Top Story">
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
+                    <span class="date">
+                      11-22-2018
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="row">
+                <h4 class="article-title">
+                  Coventry City Guide Including Coventry Hotels
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="top-story">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./assets/images/news/top-story-thumb.jpg" alt="Top Story">
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
+                    <span class="date">
+                      11-22-2018
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="row">
+                <h4 class="article-title">
+                  Coventry City Guide Including Coventry Hotels
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="top-story">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./assets/images/news/top-story-thumb.jpg" alt="Top Story">
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <p class="meta d-flex mb-2 justify-content-between w-100">
+                    <span class="date">
+                      11-22-2018
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="row">
+                <h4 class="article-title">
+                  Coventry City Guide Including Coventry Hotels
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#">Read more...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
 </div>
 
 <!-- Explore Plants and Animals -->

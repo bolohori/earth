@@ -178,6 +178,19 @@
   }
 }
 
+.news-details-related-stories {
+  margin-top: 50px;
+  .section-title {
+    color: #D33B1B;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  article {
+    margin-bottom: 30px;
+  }
+}
+
 .partner-container {
   background-color: #f47a21;
 }
