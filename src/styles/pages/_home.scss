@@ -75,19 +75,22 @@
       color: $white;
       font-size: rem(64px);
       line-height: rem(61px);
-      margin-bottom: rem(100px);
+      margin-bottom: rem(15px);
+      @include media-breakpoint-up(sm) {
+        margin-bottom: rem(100px);
+      }
     }
   }
   .plants {
-    padding-right: rem(15px);
     .bg {
       background-image: url("../assets/images/explore-plants.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: 100% 100%;
+      background-position: right 20px bottom;
       padding-top: rem(10px);
       @include  media-breakpoint-up(sm) {
         padding-top: 0;
+        background-position: right 8px bottom;
       }
     }
     .text {

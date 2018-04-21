@@ -293,20 +293,23 @@
 </section>
 <!-- Explore Plants and Animals -->
 <section id="explore">
-    <div class="row">
+    <div class="row no-gutters">
         <div class="col-xs-12 col-sm-6 plants">
             <div class="d-flex bg">
-                <div class="text col w-60 mx-auto">
+                <div class="text col mx-auto">
                     <h1 class="title">EXPLORE <br> PLANTS</h1>
                     <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
                 </div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-6 animals">
-            <div class="d-flex bg">
+            <div class="d-flex col bg">
                 <div class="text col mx-auto">
-                    <h1 class="title">EXPLORE <br> ANIMALS</h1>
-                    <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
+                    <div class="float-right float-sm-none">
+                        <h1 class="title">EXPLORE <br> ANIMALS</h1>
+                        <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
