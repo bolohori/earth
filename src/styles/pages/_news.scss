@@ -1,7 +1,16 @@
-.news-title {
-  font-size: 3.4rem;
+#section-1-news {
+    .article-category-date {
+      color: #C0C0C1;
+      font-size: 12px;
+    }
+    .news-title {
+      font-size: 3rem;
+      color: #09173C;
+    }
 }
+
 #section-2-news {
+  margin-top: 35px;
   h2 {
     color: #0C1634;
     font-weight: bold;
@@ -12,6 +21,11 @@
 }
 
 #section-3-news {
+  margin-top: 110px;
+  .title {
+    color: #DE3400 !important;
+    font-weight: bold;
+  }
   h4 {
     color: #0C1634;
     font-size: 1.2rem;
@@ -24,6 +38,7 @@
 }
 
 #section-4-news {
+  margin-bottom: 75px;
   h2 {
     color: #0C1634;
     font-weight: bold;

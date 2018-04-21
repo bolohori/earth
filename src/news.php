@@ -5,7 +5,7 @@
 ?>
 
 <!-- News of the Day and Top Stories Row -->
-<div class="container">
+<div class="container" id="section-1-news">
   <div class="row">
     <!-- News of the Day Image -->
     <div class="col-lg-8 news-of-the-day-image">
@@ -20,9 +20,6 @@
         </div>
         <div class="col-lg-6">
           <div class="row article-category-date">
-            <div class="col-lg-6">
-              ENVIRONMENT
-            </div>
             <div class="col-lg-6">
               11-22-2018
             </div>
@@ -41,7 +38,7 @@
     <section class="col-xs-12 col-sm-6 col-md-4 sidebar">
         <div class="top-stories">
             <h4 class="category mb-4">
-                Top Stories
+                Breaking News
             </h4>
             <ul class="row list-unstyled m-0">
                 <li class="mb-3 col-md-12">
@@ -183,7 +180,7 @@
 <!-- SECTION 3 STARTS-->
 <section id="section-3-news">
   <div class="container">
-  <h2 class="text-uppercase pl-0">environment top stories</h2>
+  <h2 class="text-uppercase title pl-0">environment top stories</h2>
     <div class="row">
       <div class="col-lg-12">
         <div class="row">
@@ -253,29 +250,37 @@
         <h4 class="category mt-5 mb-4 text-uppercase">
             Top environmental titles
         </h4>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
       </div>
     </div>
   </div>
 </section>
 <!-- SECTION 4 ENDS -->
 
-<div class="container-big newsletter-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 col-left">
-        <h2 class="newsletter-title">News Coming Your Way</h2>
-        <h3 class="newsletter-text">The biggest news about our planet delivered to you once a week.</h3>
-      </div>
-      <div class="col-md-2 pigeon col-image">
-        <img src="assets/images/pigeon.png" alt="Pigeon">
-      </div>
-      <div class="col-md-5 col-right">
-        <input type="email" name="email" value="" placeholder="Your Email ...">
-        <button type="button" class="btn btn-outline-primary btn-subscribe-send">SUBSCRIBE</button>
-      </div>
-    </div>
-  </div>
-</div>
+<!--Newsletter-->
+<?php include "includes/newsletter.php" ?>
 
 <!-- Footer -->
 <?php include "includes/footer.php"; ?>
