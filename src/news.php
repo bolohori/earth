@@ -6,6 +6,11 @@
 
 <!-- News of the Day and Top Stories Row -->
 <div class="container" id="section-1-news">
+  <div class="row news-breadcrumb">
+    <div class="col-xs-12">
+      <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="news.php">News </a>
+    </div>
+  </div>
   <div class="row">
     <!-- News of the Day Image -->
     <div class="col-lg-8 news-of-the-day-image">
@@ -180,7 +185,7 @@
 <!-- SECTION 3 STARTS-->
 <section id="section-3-news">
   <div class="container">
-  <h2 class="text-uppercase title pl-0">environment top stories</h2>
+  <h4 class="text-uppercase category pl-0">environment top stories</h4>
     <div class="row">
       <div class="col-lg-12">
         <div class="row">
@@ -278,6 +283,475 @@
   </div>
 </section>
 <!-- SECTION 4 ENDS -->
+
+<!-- SECTION 5 STARTS -->
+<section id="section-5-news">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 mt-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4 class="category mt-5 mb-4 text-uppercase">
+              Science Top Stories
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="position-relative">
+              <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
+              <div class="card-img-overlay pl-0 pt-4">
+              </div> <!--overlay-->
+            </div>
+            <div class="row article-category-date">
+              <div class="col-lg-6">
+                11-22-2018
+              </div>
+            </div>
+            <h2 class="news-title">Stu Unger Rise and Fall Of A Poker Genius</h2>
+            <p class="news-excerpt">
+              Computer users and programmers have become so accustomed to using
+              Windows, even for the ...
+            </p>
+            <a href="#">Read more...</a>
+        </div>
+        <div class="col-lg-6">
+          <ul class="row list-unstyled m-0">
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                      <article class="story row no-gutters">
+                          <div class="image mr-2 col-auto">
+                              <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                          </div><!--image-->
+                          <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                              <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                  <span class="tag">Environment</span>
+                                  <span class="date">21-12-2020</span>
+                              </div><!--meta-->
+                              <h5 class="title m-0">
+                                  <a href="#">Coventry City Guide Including Coventry hotels</a>
+                              </h5>
+                          </div><!--article-body-->
+                      </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                      <article class="story row no-gutters">
+                          <div class="image mr-2 col-auto">
+                              <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                          </div><!--image-->
+                          <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                              <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                  <span class="tag">Environment</span>
+                                  <span class="date">21-12-2020</span>
+                              </div><!--meta-->
+                              <h5 class="title m-0">
+                                  <a href="#">Coventry City Guide Including Coventry hotels</a>
+                              </h5>
+                          </div><!--article-body-->
+                      </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mt-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4 class="category mt-5 mb-4 text-uppercase">
+              Animal Stories
+          </h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="row list-unstyled m-0">
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                      <article class="story row no-gutters">
+                          <div class="image mr-2 col-auto">
+                              <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                          </div><!--image-->
+                          <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                              <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                  <span class="tag">Environment</span>
+                                  <span class="date">21-12-2020</span>
+                              </div><!--meta-->
+                              <h5 class="title m-0">
+                                  <a href="#">Coventry City Guide Including Coventry hotels</a>
+                              </h5>
+                          </div><!--article-body-->
+                      </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                      <article class="story row no-gutters">
+                          <div class="image mr-2 col-auto">
+                              <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                          </div><!--image-->
+                          <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                              <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                  <span class="tag">Environment</span>
+                                  <span class="date">21-12-2020</span>
+                              </div><!--meta-->
+                              <h5 class="title m-0">
+                                  <a href="#">Coventry City Guide Including Coventry hotels</a>
+                              </h5>
+                          </div><!--article-body-->
+                      </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+              <li class="mb-3 col-md-12">
+                  <div class="row">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                  </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- SECTION 5 ENDS -->
+
+<!-- SECTION 6 STARTS -->
+<section id="section-6-news">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4 class="text-uppercase category pl-0">lifestyle top stories</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mt-2">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://www.placehold.it/640x480" alt="">
+          </div>
+          <div class="col-md-8">
+            <span class="date">21-12-2020</span>
+            <h2>Coventry City Guide including <!--<br-->
+                Coventry Hotels
+            </h2>
+            <p>Computer users and programmers have become so accustomed
+               to using Windows, even for the changing
+            </p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <img src="http://www.placehold.it/640x480" alt="">
+          </div>
+          <div class="col-md-8">
+            <span class="date">21-12-2020</span>
+            <h2>Coventry City Guide including <!--<br-->
+                Coventry Hotels
+            </h2>
+            <p>Computer users and programmers have become so accustomed
+               to using Windows, even for the changing
+            </p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-4">
+            <img src="http://www.placehold.it/640x480" alt="">
+          </div>
+          <div class="col-md-8">
+            <span class="date">21-12-2020</span>
+            <h2>Online games How to Play To Win
+
+            </h2>
+            <p>Stu Unger is one of the biggest superstars to have immerged from
+              the professional poker world. Besides
+            </p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SECTION 6 ENDS -->
+
+<!-- SECTION 7 STARTS -->
+<section id="section-7-news">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4 class="text-uppercase category pl-0">voices top stories</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mt-2">
+        <div class="row">
+            <div class="col-lg-6">
+              <div class="position-relative">
+                  <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
+                  <div class="card-img-overlay pl-0 pt-4">
+                  </div> <!--overlay-->
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row article-category-date">
+                <div class="col-lg-6">
+                  11-22-2018
+                </div>
+              </div>
+              <h2 class="news-title">Stu Unger Rise and Fall Of A Poker Genius</h2>
+              <p class="news-excerpt">
+                Computer users and programmers have become so accustomed to using
+                Windows, even for the ...
+              </p>
+              <a href="#">Read more...</a>
+            </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <img src="http://www.placehold.it/640x480" alt="">
+          </div>
+          <div class="col-md-8">
+            <span class="date">21-12-2020</span>
+            <h2>Coventry City Guide including <!--<br-->
+                Coventry Hotels
+            </h2>
+            <p>Computer users and programmers have become so accustomed
+               to using Windows, even for the changing
+            </p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <img src="http://www.placehold.it/640x480" alt="">
+          </div>
+          <div class="col-md-8">
+            <span class="date">21-12-2020</span>
+            <h2>Coventry City Guide including <!--<br-->
+                Coventry Hotels
+            </h2>
+            <p>Computer users and programmers have become so accustomed
+               to using Windows, even for the changing
+            </p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-4">
+            <img src="http://www.placehold.it/640x480" alt="">
+          </div>
+          <div class="col-md-8">
+            <span class="date">21-12-2020</span>
+            <h2>Coventry City Guide including <!--<br-->
+                Coventry Hotels
+            </h2>
+            <p>Computer users and programmers have become so accustomed
+               to using Windows, even for the changing
+            </p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+        <hr>
+        <h5 class="title m-0">
+          <a href="#">Coventry City Guide Including Coventry hotels</a>
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SECTION 7 ENDS -->
 
 <!--Newsletter-->
 <?php include "includes/newsletter.php" ?>
