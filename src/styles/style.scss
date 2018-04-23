@@ -21,6 +21,8 @@
 @import 'pages/image-details';
 @import 'pages/earthpedia';
 @import 'pages/animals';
+@import 'pages/news-details';
+@import 'pages/news';
 
 @import 'themes/default';
 
@@ -57,27 +59,32 @@
 /* Newsletter */
 
 .newsletter-container {
-  height: 245px;
+  height: auto;
   background-color: #a0e7d3;
   .pigeon {
     position: relative;
     img {
-      height: 312px;
       position: absolute;
-      top: -35px;
+      height: 190px;
+      width: 95px;
+      top: 50px;
+      right: 0;
+      z-index: 20;
     }
   }
   h2.newsletter-title {
-    color: #fff;
+    color: #fff !important;
+    font-weight: 900;
     text-transform: uppercase;
   }
   .col-left {
-    padding-left: 120px;
+    // padding-left: 120px;
     padding-top: 40px;
   }
   .col-right {
-    padding-right: 120px;
+    // padding-right: 120px;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
   h3.newsletter-text {
     font-size: 18px;
@@ -90,14 +97,15 @@
       margin-top: 20px;
     }
     button {
-      padding: 15px;
+      padding: 10px;
+      width: 70%;
       display: block;
-      width: 100%;
       margin-top: 20px;
       color: #fff;
       border-color: #fff;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
+      border: 3px solid white;
     }
   }
 }
