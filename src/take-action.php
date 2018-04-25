@@ -1,4 +1,4 @@
-<?php
+u<?php
   $title = "Earth.com - Take Action";
   include "./includes/head.php";
   include "includes/header.php";

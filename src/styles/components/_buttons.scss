@@ -53,7 +53,7 @@
   font-weight: bold;
   height: rem(35px);
   padding: rem(8px) rem(25px);
-  @include media-breakpoint-up(sm) {
+  @include media-breakpoint-up(md) {
     height: rem(45px);
   }
   &:hover {

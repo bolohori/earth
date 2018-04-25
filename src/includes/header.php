@@ -4,7 +4,8 @@
 	       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
 	         <span class="navbar-toggler-icon"></span>
 	       </button>
-         <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt="earth.com logo"></a>
+         <a class="navbar-brand" href="index.php"><img
+                 src="<?php echo $logoUrl ?>" alt="earth.com logo"></a>
 
 	       <div class="collapse navbar-collapse collapse" id="navbarsExample04">
   			   <ul class="navbar-nav mx-auto">
