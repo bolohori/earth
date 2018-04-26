@@ -62,7 +62,6 @@ p {
 .container {
   max-width: rem(1440px);
   margin: 0 auto;
-  padding: 0 rem(10px);
 
   @include  media-breakpoint-up(md) {
     padding: 0 rem(35px);
