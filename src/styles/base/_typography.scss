@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1,h3,h4,h5,h6 {
+h1,h2.nl-title,h3,h4,h5,h6 {
   font-family: $anton !important;
 }
 
@@ -63,6 +63,7 @@ h3, h4 {
     background-color: $red;
     color: $white;
     padding: rem(8px) rem(1px) rem(8px) rem(8px);
+    font-weight: normal;
   }
 }
 h3.category {
