@@ -1,0 +1,10 @@
+input, textarea, .form-control {
+  &:active,
+  &:focus {
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}

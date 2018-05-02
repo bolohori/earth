@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="36px" viewBox="0 0 77 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>slide icons preview</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slide_preview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-285.000000, -177.000000)">
+        <g id="slide-icons-preview" transform="translate(285.000000, 177.000000)">
+            <g id="Group-2" transform="translate(41.000000, 0.000000)">
+                <circle id="Oval-3-Copy-3" fill-opacity="0.15" fill="#08163B" transform="translate(18.000000, 18.000000) scale(-1, 1) translate(-18.000000, -18.000000) " cx="18" cy="18" r="18"></circle>
+                <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" transform="translate(19.114286, 17.200000) scale(-1, 1) translate(-19.114286, -17.200000) " points="23.1199525 10 15 17.1265038 23.2285714 24.4"></polyline>
+            </g>
+            <g id="Group-2-Copy" transform="translate(18.000000, 18.000000) scale(-1, 1) translate(-18.000000, -18.000000) ">
+                <circle id="Oval-3-Copy-3" fill-opacity="0.15" fill="#08163B" transform="translate(18.000000, 18.000000) scale(-1, 1) translate(-18.000000, -18.000000) " cx="18" cy="18" r="18"></circle>
+                <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" transform="translate(19.114286, 17.200000) scale(-1, 1) translate(-19.114286, -17.200000) " points="23.1199525 10 15 17.1265038 23.2285714 24.4"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

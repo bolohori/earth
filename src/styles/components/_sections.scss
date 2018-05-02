@@ -1,0 +1,177 @@
+.article-list {
+  ul {
+    li {
+      margin-bottom: rem(20px);
+      h5.title {
+        font-family: $mont !important;
+        a {
+          //font-family: $mont !important;
+          font-weight: 900;
+          display: block;
+        }
+      }
+    }
+  }
+}
+.expanding-al {
+  .title {
+    a {
+      font-size: rem(17px);
+      @include media-breakpoint-up(md) {
+        font-size: rem(22px);
+      }
+      @include media-breakpoint-up(md) {
+        font-size: rem(24px);
+      }
+    }
+  }
+}
+//Explore plants and animals
+// Explore Plants and Animals
+
+#explore {
+
+  padding-bottom: rem(55px);
+  @include  media-breakpoint-up(md) {
+    padding-bottom: rem(35px);
+  }
+  @include  media-breakpoint-up(lg) {
+    padding-bottom: rem(75px);
+  }
+
+  .text {
+    padding: rem(30px) rem(0) rem(40px) rem(30px);
+
+    h1 {
+      color: $white;
+      font-size: rem(64px);
+      line-height: rem(61px);
+      margin-bottom: rem(15px);
+      @include media-breakpoint-up(md) {
+        margin-bottom: rem(100px);
+      }
+    }
+  }
+  .bg {
+    padding-top: rem(10px);
+    margin-top: rem(-10px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 20px bottom;
+    @include  media-breakpoint-up(md) {
+      padding-top: 0;
+      margin-top: 0;
+      background-position: right 8px bottom;
+    }
+    @include  media-breakpoint-up(lg) {
+      padding-top: rem(85px);
+      margin-top: rem(-85px);
+    }
+  }
+  .plants {
+    background: $l-green;
+    .bg {
+      background-image: url("../assets/images/explore-plants.png");
+      @include media-breakpoint-down(lg) {
+        background-image: url("../assets/images/green-plant.png");
+      }
+    }
+  }
+  .animals {
+    background: $brickred;
+    .bg {
+      background-image: url("../assets/images/explore_animals_img@2x.png");
+      @include media-breakpoint-down(lg) {
+        background-image: url("../assets/images/flamingos.png");
+      }
+      @include media-breakpoint-down(sm) {
+        background-position: left 20px bottom;
+      }
+    }
+  }
+}
+
+
+//Plantsnap
+#plantsnap {
+  padding-bottom: rem(35px);
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: rem(70px);
+    padding-top: rem(40px);
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: rem(40px);
+  }
+  .bg-wrapper {
+    background: url("../assets/images/plantsnap/plantsnap_bg@3x.jpg") no-repeat center center;
+  }
+  .bg {
+    background: url("../assets/images/plantsnap/iPhone-bg-mobile.png") no-repeat right bottom rem(-25px);
+    padding-bottom: rem(95px);
+    background-size: contain;
+    margin-bottom: rem(-25px);
+    @include media-breakpoint-up(md) {
+      background: url("../assets/images/plantsnap/iPhone-bg-tablet.png") no-repeat center right;
+      padding-top: rem(35px);
+      margin-top: rem(-35px);
+      padding-bottom: rem(70px);
+      margin-bottom: rem(-70px);
+    }
+    @include media-breakpoint-up(lg) {
+      background: url("../assets/images/plantsnap/iPhone-bg-desktop.png") no-repeat center center;
+      padding-top: rem(40px);
+      margin-top: rem(-40px);
+      -webkit-background-size: contain;
+      background-size: contain;
+      padding-top: rem(80px);
+    }
+  }
+  .content {
+    padding-top: rem(60px);
+    @include media-breakpoint-up(md) {
+      padding-bottom: rem(70px);
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top: rem(25px);
+    }
+    .text {
+      .headline {
+        margin-bottom: rem(20px);
+        @include media-breakpoint-up(md) {
+          margin-bottom: rem(25px);
+        }
+        @include media-breakpoint-up(lg) {
+          margin-bottom: rem(15px);
+        }
+      }
+      p {
+        color: $white;
+        margin-bottom: rem(25px);
+
+        @include media-breakpoint-up(md) {
+          margin-bottom: rem(30px);
+        }
+      }
+    }
+    .store-buttons {
+      a {
+        margin-bottom: rem(20px);
+        width: rem(180px);
+        height: rem(55px);
+        &:last-of-type {
+          margin-bottom: 0;
+          margin-right: 0;
+        }
+        @include media-breakpoint-between(md,lg) {
+          margin-right: rem(12px);
+          margin-bottom: 0;
+        }
+        @include media-breakpoint-up(lg) {
+          margin-right: 0;
+          margin-bottom: rem(20px);
+        }
+      }
+    }
+  }
+}

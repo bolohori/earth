@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>download_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="images_details_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-156.000000, -233.000000)">
+        <g id="featured-img" transform="translate(15.000000, 149.000000)">
+            <g id="download_icon" transform="translate(141.000000, 84.000000)">
+                <circle id="Oval-2-Copy" stroke="#C5C5C5" cx="16" cy="16" r="15.5"></circle>
+                <polygon id="Shape" fill="#C5C5C5" fill-rule="nonzero" points="23 22.9972234 10 22.9972234 10 24 23 24"></polygon>
+                <g id="Group" transform="translate(10.000000, 9.000000)" fill="#C5C5C5" fill-rule="nonzero">
+                    <polygon id="Shape" points="0 5 6.49944775 12.8705652 13 5"></polygon>
+                    <rect id="Rectangle-path" x="5" y="0" width="3" height="6.65317391"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

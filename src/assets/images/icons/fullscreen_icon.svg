@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="26px" viewBox="0 0 30 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>fullscreen_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="images_details_mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-306.000000, -450.000000)">
+        <g id="featured-img" transform="translate(15.000000, 149.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M295.286307,322.668066 L316.713659,322.668066 L316.713659,305.331934 L295.286307,305.331934 L295.286307,322.668066 Z M299.570539,309.665967 L312.429461,309.665967 L312.429461,318.334033 L299.570539,318.334033 L299.570539,309.665967 Z M293.143154,303.167017 L299.570539,303.167017 L299.570539,301 L291,301 L291,309.665967 L293.143154,309.665967 L293.143154,303.167017 Z M293.143154,318.334033 L291,318.334033 L291,327 L299.570539,327 L299.570539,324.835083 L293.143154,324.835083 L293.143154,318.334033 Z M312.429461,301 L312.429461,303.167017 L318.856846,303.167017 L318.856846,309.665967 L321,309.665967 L321,301 L312.429461,301 Z M318.856813,324.835083 L312.429461,324.835083 L312.429461,327 L321,327 L321,318.334033 L318.856846,318.334033 L318.856846,324.835083 L318.856813,324.835083 Z" id="fullscreen_icon"></path>
+        </g>
+    </g>
+</svg>

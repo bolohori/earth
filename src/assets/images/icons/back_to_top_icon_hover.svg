@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>back_to_top_icon_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile_footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-319.000000, -475.000000)">
+        <g id="back_to_top_icon_hover" transform="translate(319.000000, 475.000000)">
+            <circle id="Oval-3-Copy-3" fill="#08163B" transform="translate(15.000000, 15.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -15.000000) " cx="15" cy="15" r="15"></circle>
+            <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" transform="translate(15.500000, 14.500000) rotate(-270.000000) translate(-15.500000, -14.500000) " points="18.9075985 8 12 14.4336493 19 21"></polyline>
+        </g>
+    </g>
+</svg>
