@@ -1,16 +1,25 @@
 #main-navigation {
   background-color: $d-blue;
+  padding: 0 rem(20px);
 }
 .navbar {
+  .secondary-menu-toggler {
+    color: $white;
+  }
   .navbar-brand {
-    width: 20%;
-    margin-left: 15px;
+    max-width: rem(107px);
+    margin-left: rem(20px);
+    margin-right: rem(10px);
     @include media-breakpoint-down(xs) {
-        // width: 30%;
+      // width: 30%;
     }
     img {
       vertical-align: inherit;
     }
+  }
+  .page-title {
+    font-weight: 300;
+    padding-top: rem(3px);
   }
   background-color: #08163b;
   margin-bottom: 125px;
@@ -29,13 +38,6 @@
   color: #FFF;
   border-color: #FFF;
   display: flex;
-}
-
-
-.container-big {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 /*************************************/

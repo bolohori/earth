@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title><?php echo $title; ?></title>
+    <title><?php echo 'Earth.com - '.$title; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Anton|Montserrat:300,400,700,800,800">
