@@ -573,7 +573,7 @@
                                 </article>
                             </div>
                         </li>
-                        <li class="col-lg-12">
+                        <li class="col-lg-w12">
                             <div class="row">
                                 <article class="story row no-gutters">
                                     <div class="image mr-2 col-auto">

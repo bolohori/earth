@@ -1,5 +1,5 @@
 .article-list {
-  li {
+  article {
     margin-bottom: rem(20px);
     h5.title {
       font-family: $mont !important;
@@ -13,7 +13,13 @@
       max-width: rem(100px);
     }
   }
-
+  &.medium-al {
+    article {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
   &.expanding-al {
 
     .title {

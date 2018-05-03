@@ -82,15 +82,21 @@ h3, h4 {
   }
 }
 h3.category {
-  font-size: rem(28px);
+  font-size: rem(20px) !important;
+  @include media-breakpoint-up(md) {
+    font-size: rem(28px) !important;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: rem(36px) !important;
+  }
 }
 h4.category {
-  font-size: rem(20px);
+  font-size: rem(20px) !important;
   @include media-breakpoint-up(md) {
-    font-size: rem(22px);
+    font-size: rem(22px) !important;
   }
-  @include media-breakpoint-up(md) {
-    font-size: rem(24px);
+  @include media-breakpoint-up(lg) {
+    font-size: rem(24px) !important;
   }
 }
 //Featured article title

@@ -80,10 +80,15 @@
     @include media-breakpoint-up(lg) {
       margin-top: rem(-35px);
       padding-top: 0;
-      padding-bottom: rem(110px);
+      padding-bottom: 0;
     }
     h4.badge {
       background-color: $ep-green;
+    }
+    .ad {
+      img {
+        max-width: rem(325px);
+      }
     }
   }
   #ep-news {
@@ -115,164 +120,24 @@
     }
   }
 }
-//.earthpedia-header-form {
-//  height: 600px;
-//  background-image: url('../assets/images/earthpedia-web.jpg');
-//  background-repeat: no-repeat;
-//  background-size: cover;
-//  position: relative;
-//  .form-container {
-//    position: absolute;
-//    top: 140px;
-//    left: 140px;
-//    h1 {
-//      color: #ffffff;
-//      font-size: 50px;
-//    }
-//    form {
-//      position: relative;
-//    }
-//    input {
-//      width: 550px;
-//      height: 60px;
-//      padding-left: 15px;
-//      border-radius: 5px;
-//    }
-//    .search-button {
-//      font-size: 30px;
-//      color: #D33B1B;
-//      position: absolute;
-//      right: 15px;
-//      top: 15px;
-//    }
-//  }
-//}
-//
-//.curiosity-of-the-day {
-//  position: relative;
-//  top: -35px;
-//  .curiosity-image {
-//    position: relative;
-//    padding: 0;
-//    .highlight-ribbon.background-green {
-//      position: absolute;
-//      padding: 15px;
-//      color: #ffffff;
-//      font-weight: bold;
-//      text-transform: uppercase;
-//      top: 15px;
-//      left: 0;
-//      background-color: #8AC940 !important;
-//    }
-//  }
-//  .curiosity-text {
-//    padding-top: 20px;
-//    background-color: #ffffff;
-//    .date {
-//      color: #bbbbbb;
-//      font-size: 12px;
-//    }
-//    .news-title {
-//      color: #18193D;
-//      font-size: 44px;
-//    }
-//  }
-//}
-//
-//.plants-animals-news {
-//  .card {
-//    margin-top: 20px;
-//    margin-bottom: 20px;
-//  }
-//  h2 {
-//    color: #D33B1B;
-//  }
-//  .curiosity-image {
-//    position: relative;
-//    padding: 0;
-//    .highlight-ribbon.background-green {
-//      position: absolute;
-//      padding: 15px;
-//      color: #ffffff;
-//      font-weight: bold;
-//      text-transform: uppercase;
-//      top: 15px;
-//      left: 0;
-//      background-color: #8AC940 !important;
-//    }
-//  }
-//  .curiosity-text {
-//    padding-top: 20px;
-//    background-color: #ffffff;
-//    .date {
-//      color: #bbbbbb;
-//      font-size: 12px;
-//    }
-//    .news-title {
-//      color: #18193D;
-//      font-size: 44px;
-//    }
-//  }
-//}
-//
-//.plantsnap-mobile-app {
-//  height: 411px;
-//  margin-bottom: 80px;
-//  margin-top: 80px;
-//  background-image: url('../assets/images/plantsnap-bg.jpg');
-//  background-repeat: no-repeat;
-//  background-size: cover;
-//  .left {
-//    margin-top: 75px;
-//    color: #ffffff;
-//    h1 {
-//      text-transform: uppercase;
-//    }
-//    a {
-//      color: #ffffff;
-//    }
-//  }
-//  .middle {
-//    position: relative;
-//    img {
-//      position: absolute;
-//      width: auto;
-//      top: -45px;
-//    }
-//  }
-//  .right {
-//    text-align: center;
-//    padding-top: 125px;
-//    img {
-//      width: auto;
-//      padding-bottom: 25px;
-//    }
-//  }
-//}
-//
-//.animal-videos {
-//  .date {
-//    color: #bbbbbb;
-//    font-size: 12px;
-//  }
-//  h2 {
-//    color: #A67DD5;
-//  }
-//  h2.section-title {
-//    color: #D33B1B;
-//    font-size: 18px;
-//  }
-//  h3 {
-//    font-size: 20px;
-//  }
-//  .video-section {
-//    margin-bottom: 75px;
-//  }
-//  .category {
-//    padding-left: 0;
-//    color: #bbbbbb;
-//  }
-//  .article-title {
-//    font-weight: bold;
-//  }
-//}
+#plants-animals-videos {
+  padding-bottom: rem(80px);
+  h3 {
+    &.category {
+      color: $purple !important;
+    }
+  }
+  .featured {
+    .title {
+      a {
+        font-size: rem(16px);
+        font-family: $mont !important;
+        font-weight: 900;
+
+        @include media-breakpoint-down(lg) {
+          font-size: rem(17px);
+        }
+      }
+    }
+  }
+}
