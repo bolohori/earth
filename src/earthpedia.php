@@ -98,131 +98,72 @@
                     <h3 class="category">
                         Plants in the news
                     </h3>
-                    <ul class="row list-unstyled m-0">
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-
-                        </li>
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                    </ul>
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                            <a href="#" class="btn-link read-more">Read more...</a>
+                        </div><!--article-body-->
+                    </article>
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                            <a href="#" class="btn-link read-more">Read more...</a>
+                        </div><!--article-body-->
+                    </article>
                 </section><!--#plants-->
-                <section class="animals article-list expanding-al col-md-12 col-lg-6 mb-4">
+                <section class="animals article-list expanding-al col-md-12 col-lg-6 mb-3">
                     <h3 class="category">
                         Animals in the news
                     </h3>
-                    <ul class="row list-unstyled m-0">
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                    </ul>
-                </section><!--#animals-->
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                            <a href="#" class="btn-link read-more">Read more...</a>
+                        </div><!--article-body-->
+                    </article>
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                            <a href="#" class="btn-link read-more">Read more...</a>
+                        </div><!--article-body-->
+                    </article>
+                </section><!--#plants-->
             </div>
         </div>
     </section><!--.ep-news-->
