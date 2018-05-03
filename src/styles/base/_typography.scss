@@ -56,14 +56,21 @@ h3, h4 {
   &.category {
     text-transform: uppercase;
     color: $red;
-    margin-bottom: rem(25px) !important;
+    margin-bottom: rem(30px) !important;
   }
 
   &.badge {
-    background-color: $red;
+    /*background-color: $red;*/
     color: $white;
-    padding: rem(8px) rem(1px) rem(8px) rem(8px);
+    padding: rem(8px);
     font-weight: normal;
+  }
+
+  &.badge-red {
+    background-color: $red;
+  }
+  &.badge-yellow {
+    background-color: $yellow;
   }
 }
 h3.category {
@@ -72,6 +79,11 @@ h3.category {
 h4.category {
   font-size: rem(20px);
 }
+
+h4.category.no-margin {
+  margin-bottom: 0 !important;
+}
+
 //Featured article title
 
 .featured {

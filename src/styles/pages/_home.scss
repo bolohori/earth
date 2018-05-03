@@ -20,7 +20,7 @@
   }
 
   .ad {
-    padding: 0 rem(10px);
+    /*padding: 0 rem(10px);*/
   }
 }
 // Best of day
@@ -28,7 +28,8 @@
 #best-of-day {
 
   color: $white !important;
-  padding-bottom: rem(60px);
+  margin-bottom: rem(60px);
+  background: linear-gradient(to top,  #091739 0%,#091739 50%,$bg-gray 50%,$bg-gray 100%);
 
   @include  media-breakpoint-up(md) {
     padding-bottom: rem(35px);
@@ -38,6 +39,7 @@
   }
 
   .header {
+    
     padding: rem(20px) rem(10px) rem(5px) rem(20px);
 
     .category {
@@ -47,12 +49,13 @@
       font-family: $mont !important;
       font-size: rem(16px);
       font-weight: 300 !important;
+      color: $white;
     }
   }
   .title {
     font-family: $mont !important;
     font-weight: 800;
-    padding-left: rem(20px);
+    /*padding-left: rem(20px);*/
   }
   .video {
     background-color: $purple;
@@ -62,6 +65,9 @@
     }
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
+    }
+    .date {
+      padding-top: rem(160px);
     }
   }
   .image {
@@ -78,7 +84,7 @@
   padding: 10px;
 }
 #environment {
-  margin-bottom: rem(35px);
+  padding-bottom: rem(100px);
 
   .category {
     margin-bottom: rem(20px);
@@ -97,13 +103,15 @@
 // Explore Plants and Animals
 
 #explore {
+  background: linear-gradient(to right,  $l-green 0%,$l-green 50%,$brickred 50%,$brickred 100%);
 
-  padding-bottom: rem(55px);
+  margin-bottom: rem(55px);
+
   @include  media-breakpoint-up(md) {
-    padding-bottom: rem(35px);
+    marign-bottom: rem(35px);
   }
   @include  media-breakpoint-up(lg) {
-    padding-bottom: rem(75px);
+    margin-bottom: rem(75px);
   }
 
   .text {
@@ -140,13 +148,13 @@
       background-position: right 20px bottom;
     }
     .text {
-      background: $l-green;
+      
       position: relative;
-      z-index: -1;
+      
     }
   }
   .animals {
-    background: $brickred;
+    
     .bg {
       background-image: url("../assets/images/explore_animals_img.png");
       background-position: right 20px bottom;

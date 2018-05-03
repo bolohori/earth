@@ -6,10 +6,17 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 news-of-the-day-image">
-      <div class="highlight-ribbon background-yellow">
+      <div class="position-relative">
+          <img class="img-fluid" src="assets/images/news/news-of-the-day.jpg" alt="Card image">
+          <div class="card-img-overlay pl-0 pt-4">
+              <h4 class="category badge badge-yellow text-uppercase rounded-0">Image of the Day</h4>
+          </div> <!--overlay-->
+      </div>
+
+<!--       <div class="highlight-ribbon background-yellow">
         News of the Day
       </div>
-      <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" />
+      <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" /> -->
       <div class="row article-category-date">
         <div class="col-lg-2">
           11-22-2018
@@ -26,7 +33,7 @@
 </div>
 
 <!-- Partner Organisation -->
-<div class="container">
+<div class="container pt-5">
   <div class="row">
     <!-- News of the Day Image -->
     <div class="col-lg-8 news-of-the-day-image">
@@ -34,7 +41,7 @@
         <div class="col-lg-12">
           <h2>Image Galleries</h2>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -44,7 +51,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -54,7 +61,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -64,7 +71,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -74,7 +81,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -84,7 +91,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -94,7 +101,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -104,7 +111,7 @@
           </p>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mb-4">
           <img src="assets/images/top-story.jpg" alt="Image">
           <p>
             11-22-2018
@@ -249,7 +256,7 @@
         </div>
       </article>
       <!-- NEWSLETTER LE PIGEON -->
-      <div class="container-big newsletter-container take-action-newsletter">
+      <div class="container-big newsletter-container take-action-newsletter mt-5">
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-left">
@@ -286,7 +293,7 @@
 </div>
 
 <!-- Explore Plants and Animals -->
-<div class="container-big friends-of-animals">
+<div class="container-fluid friends-of-animals">
 </div>
 
 

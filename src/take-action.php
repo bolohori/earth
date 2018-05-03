@@ -1,4 +1,4 @@
-u<?php
+<?php
   $title = "Earth.com - Take Action";
   include "./includes/head.php";
   include "includes/header.php";
@@ -33,7 +33,7 @@ u<?php
       </div>
 
       <!-- Top Story Article -->
-      <article class="top-story">
+      <article class="top-story mb-4">
         <div class="row">
           <div class="col-lg-4">
             <img src="assets/images/news/top-story-thumb.jpg" alt="Top Story" />
@@ -58,7 +58,7 @@ u<?php
         </div>
       </article>
       <!-- Top Story Article -->
-      <article class="top-story">
+      <article class="top-story mb-4">
         <div class="row">
           <div class="col-lg-4">
             <img src="assets/images/news/top-story-thumb.jpg" alt="Top Story" />
@@ -83,7 +83,7 @@ u<?php
         </div>
       </article>
       <!-- Top Story Article -->
-      <article class="top-story">
+      <article class="top-story mb-4">
         <div class="row">
           <div class="col-lg-4">
             <img src="assets/images/news/top-story-thumb.jpg" alt="Top Story" />
@@ -108,7 +108,7 @@ u<?php
         </div>
       </article>
       <!-- Top Story Article -->
-      <article class="top-story">
+      <article class="top-story mb-4">
         <div class="row">
           <div class="col-lg-4">
             <img src="assets/images/news/top-story-thumb.jpg" alt="Top Story" />
@@ -133,7 +133,7 @@ u<?php
         </div>
       </article>
       <!-- Top Story Article -->
-      <article class="top-story">
+      <article class="top-story mb-4">
         <div class="row">
           <div class="col-lg-4">
             <img src="assets/images/news/top-story-thumb.jpg" alt="Top Story" />
@@ -163,7 +163,7 @@ u<?php
 </div>
 
 <!-- Explore Plants and Animals -->
-<div class="container-big friends-of-animals">
+<div class="container-fluid mt-5 mb-5 friends-of-animals">
 </div>
 
 <!-- Partner Organisation -->

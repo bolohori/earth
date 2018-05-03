@@ -17,6 +17,7 @@ body {
   padding: 0;
   line-height: $line-height-base;
   overflow-x: hidden;
+  background: $bg-gray;
 }
 
 button,
@@ -78,3 +79,20 @@ p {
   border-radius: 0 !important;
 }
 
+.nopadding {
+  padding: 0;
+}
+.main-add {
+  background: $white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid $header-ad-border;
+}
+.no-bg-color {
+  background: none;
+}
+.slider-actions {
+  a {
+    color: $white;
+  }
+}

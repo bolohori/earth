@@ -6,11 +6,6 @@
 
 <!-- News of the Day and Top Stories Row -->
 <div class="container" id="section-1-news">
-  <div class="row news-breadcrumb">
-    <div class="col-xs-12">
-      <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="news.php">News </a>
-    </div>
-  </div>
   <div class="row">
     <!-- News of the Day Image -->
     <div class="col-lg-8 news-of-the-day-image">

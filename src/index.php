@@ -9,11 +9,11 @@
         <div class="row">
             <!--Featured article-->
             <section class="col-md-12 col-lg-8">
-                <article class="card featured">
+                <article class="card no-bg-color featured">
                     <div class="position-relative">
                         <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
                         <div class="card-img-overlay pl-0 pt-4">
-                            <h4 class="category badge badge-dark text-uppercase rounded-0">News of the Day</h4>
+                            <h4 class="category badge badge-red text-uppercase rounded-0">News of the Day</h4>
                         </div> <!--overlay-->
                     </div>
                     <div class="card-body p-0 pt-2">
@@ -94,6 +94,60 @@
                                 </article>
                             </div>
                         </li>
+                        <li class="col-lg-12">
+                            <div class="row">
+                                <article class="story row no-gutters">
+                                    <div class="image mr-2 col-auto">
+                                        <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    </div><!--image-->
+                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                            <span class="tag">Environment</span>
+                                            <span class="date">21-12-2020</span>
+                                        </div><!--meta-->
+                                        <h5 class="title m-0">
+                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                        </h5>
+                                    </div><!--article-body-->
+                                </article>
+                            </div>
+                        </li>
+                        <li class="col-lg-12">
+                            <div class="row">
+                                <article class="story row no-gutters">
+                                    <div class="image mr-2 col-auto">
+                                        <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    </div><!--image-->
+                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                            <span class="tag">Environment</span>
+                                            <span class="date">21-12-2020</span>
+                                        </div><!--meta-->
+                                        <h5 class="title m-0">
+                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                        </h5>
+                                    </div><!--article-body-->
+                                </article>
+                            </div>
+                        </li>
+                        <li class="col-lg-12">
+                            <div class="row">
+                                <article class="story row no-gutters">
+                                    <div class="image mr-2 col-auto">
+                                        <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    </div><!--image-->
+                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                            <span class="tag">Environment</span>
+                                            <span class="date">21-12-2020</span>
+                                        </div><!--meta-->
+                                        <h5 class="title m-0">
+                                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                        </h5>
+                                    </div><!--article-body-->
+                                </article>
+                            </div>
+                        </li>
                     </ul>
                 </div><!--top-stories-->
                 <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
@@ -109,10 +163,29 @@
 </section>
 <!-- Video and image of the day -->
 <section id="best-of-day" class="category-section  mt-5">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row row-eq-height">
             <!-- Video of the day -->
             <div class="col-12 col-lg-6 col-xl-8">
+                <div class="row no-gutters row-eq-height">
+                    <div class="col-lg-3 col-xs-12 video">
+                        <div class="header video">
+                            <h4 class="category">
+                                Video of the day 
+                                <span class="slider-actions float-right">
+                                    <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                                    <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                                </span>
+                            </h4>
+                            <p class="date d-block m-0 pb-2 font-weight-normal">11-20-2018</p>
+                            <h6 class="title m-0 pb-3">How Earth's oceans and atmosphere impact each other</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xs-12">
+                        <img class="img-fluid" src="assets/images/image-of-the-day.jpg" alt="Image of the Day" />
+                    </div>
+                </div>
+                <!--
                 <section class="video">
                     <div class="header">
                         <h4 class="category m-0">Video of the day</h4>
@@ -148,52 +221,33 @@
             <div class="col-12 col-lg-6 col-xl-4">
                 <section class="image">
                     <div class="header">
-                        <h4 class="category m-0">Image of the day</h4>
-                        <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">
-                            11-20-2018</p>
+                        <h4 class="category no-margin">
+                            Image of the day
+                            <span class="slider-actions float-right">
+                                <a href="#"><i class="fas fa-chevron-circle-left"></i></a>
+                                <a href="#"><i class="fas fa-chevron-circle-right"></i></a>
+                            </span>
+                        </h4>
+                        <p class="date d-block m-0 pt-4 pb-1 font-weight-normal">11-20-2018</p>
                     </div>
-                    <div id="carousel2" class="carousel slide"
-                         data-ride="carousel">
+                    <div id="carousel2" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <article class="carousel-item active">
-                                <div class="row no-gutters align-items-stretch">
-                                    <div class="col meta">
-                                        <h6 class="title m-0 pb-3">How Earth's
-                                            oceans and atmosphere impact each
-                                            other</h6>
-                                    </div>
-                                    <div class="col-auto contols">
-                                        <a class="prev" href="#carousel2"
-                                           role="button"
-                                           data-slide="prev">
-                                            <span class="icon carousel-control-prev-icon bg-dark"
-                                                  aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="next" href="#carousel2"
-                                           role="button" data-slide="next">
-                                            <span class="icon carousel-control-next-icon bg-dark"
-                                                  aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img class="img-fluid"
-                                     src="assets/images/image-of-the-day.jpg"
-                                     alt="Image of the Day"/>
+                                <h6 class="title pl-3">How Earth's oceans and atmosphere impact each other</h6>
+                                <img class="img-fluid" src="assets/images/image-of-the-day.jpg" alt="Image of the Day"/>
                             </article>
                         </div>
                     </div>
                 </section><!--.image--></div>
         </div><!--row-->
-    </div>container
+    </div>
 </section><!--#best-of-day-->
 <!--Environment section-->
 <section id="environment" class="category-section">
     <div class="container">
         <div class="row">
             <section class="col-md-12 col-lg-8 card">
-                <h3 class="category text-uppercase">Environment top stories</h3>
+                <h3 class="category text-uppercase mt-4">Environment top stories</h3>
                 <article class="featured">
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
@@ -308,22 +362,24 @@
 </section>
 <!-- Explore Plants and Animals -->
 <section id="explore">
-    <div class="row no-gutters">
-        <div class="col-xs-12 col-md-6 plants">
-            <div class="d-flex bg">
-                <div class="text col mx-auto">
-                    <h1 class="title">EXPLORE <br> PLANTS</h1>
-                    <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-xs-12 col-md-6 plants">
+                <div class="d-flex bg">
+                    <div class="text col mx-auto">
+                        <h1 class="title">EXPLORE <br> PLANTS</h1>
+                        <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xs-12 col-md-6 animals">
-            <div class="d-flex col bg">
-                <div class="text col mx-auto">
-                    <div class="float-right float-sm-none">
-                        <h1 class="title">EXPLORE <br> ANIMALS</h1>
-                        <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE
-                        </button>
+            <div class="col-xs-12 col-md-6 animals">
+                <div class="d-flex col bg">
+                    <div class="text col mx-auto">
+                        <div class="float-right float-sm-none">
+                            <h1 class="title">EXPLORE <br> ANIMALS</h1>
+                            <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -333,7 +389,7 @@
 <!--Top videos-->
 <section id="top-videos">
     <div class="container">
-        <h3 class="category text-uppercase d-block">Week's top videos</h3>
+        <h3 class="category text-uppercase mt-4 d-block">Week's top videos</h3>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 video">
                 <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
@@ -427,7 +483,7 @@
     <div class="container">
         <div class="row">
             <section class="col-12 card">
-                <h3 class="category text-uppercase">Lifestyle top stories</h3>
+                <h3 class="category text-uppercase mt-4">Lifestyle top stories</h3>
                 <!--Featured article-->
                 <article class="featured">
                     <img class="img-fluid" src="http://placehold.it/960x640" alt="Featured image">
@@ -447,7 +503,7 @@
                 </article><!--featured-->
             </section><!--card-->
             <section class="col-xs-12 col-md sidebar">
-                <div class="top-stories">
+                <div class="top-stories mt-4">
                     <ul class="row list-unstyled m-0">
                         <li class="col-xs-12 col-md-6 mb-3">
                             <div class="row">

@@ -1,5 +1,5 @@
 <section id="newsletter">
-    <div class="container">
+    <div class="container-fuild">
         <div class="d-flex">
             <div class="bg w-100">
                 <div class="row">

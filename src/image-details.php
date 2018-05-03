@@ -320,7 +320,7 @@
 </section>
 
 <!-- Explore Plants and Animals -->
-<div class="container-big friends-of-animals">
+<div class="container-fluid pt-5 friends-of-animals">
 </div>
 
 <!-- Footer -->
