@@ -1,0 +1,11 @@
+require('./gulp/build.dev');
+require('./gulp/build.dist');
+require('./gulp/clean');
+require('./gulp/copy');
+require('./gulp/default');
+require('./gulp/env');
+require('./gulp/preview');
+// require('./gulp/nunjucks');
+require('./gulp/scripts');
+require('./gulp/styles');
+require('./gulp/watch');

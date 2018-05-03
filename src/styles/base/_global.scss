@@ -1,0 +1,98 @@
+@import '../utils/_variables.scss';
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: $line-height-base;
+  overflow-x: hidden;
+  background: $bg-gray;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+select {
+  width: 100%;
+}
+
+[role='button'] {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:hover {
+    color: (blues, 10%);
+  }
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.container {
+  max-width: rem(1440px);
+  margin: 0 auto;
+
+  @include  media-breakpoint-up(md) {
+    padding: 0 rem(35px);
+  }
+}
+.container-fluid {
+  padding: 0 rem(10px);
+}
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
+
+.nopadding {
+  padding: 0;
+}
+.main-add {
+  background: $white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid $header-ad-border;
+}
+.no-bg-color {
+  background: none;
+}
+.slider-actions {
+  a {
+    color: $white;
+  }
+}

@@ -1,0 +1,5 @@
+.DS*
+._*
+._DS*
+build
+node_modules
