@@ -421,7 +421,7 @@
         <h3 class="category text-uppercase d-block">Week's top videos</h3>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 video">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
+                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
@@ -440,7 +440,7 @@
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
+                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-lg-block">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
@@ -459,7 +459,7 @@
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
+                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
