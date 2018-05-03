@@ -1,28 +1,54 @@
 .article-list {
-  ul {
-    li {
-      margin-bottom: rem(20px);
-      h5.title {
-        font-family: $mont !important;
-        a {
-          //font-family: $mont !important;
-          font-weight: 900;
-          display: block;
+  li {
+    margin-bottom: rem(20px);
+    h5.title {
+      font-family: $mont !important;
+      a {
+        //font-family: $mont !important;
+        font-weight: 900;
+        display: block;
+      }
+    }
+    img {
+      max-width: rem(100px);
+    }
+  }
+
+  &.expanding-al {
+
+    .title {
+      a {
+        font-size: rem(17px);
+        @include media-breakpoint-up(md) {
+          font-size: rem(22px);
+        }
+        @include media-breakpoint-up(md) {
+          font-size: rem(24px);
         }
       }
     }
+    img {
+      max-width: 100%;
+    }
   }
-}
-.expanding-al {
-  .title {
-    a {
-      font-size: rem(17px);
-      @include media-breakpoint-up(md) {
-        font-size: rem(22px);
+  &.link-al {
+    li {
+      margin-bottom: 0;
+      >.row {
+      border-bottom: 2px solid #dddddd;
+      padding: rem(25px) 0;
       }
-      @include media-breakpoint-up(md) {
-        font-size: rem(24px);
-      }
+     &:first-of-type {
+       >.row {
+         padding-top: 0;
+       }
+     }
+    }
+    .image {
+      display: none;
+    }
+    .meta {
+      display: none !important;
     }
   }
 }
@@ -36,6 +62,7 @@
     padding-bottom: rem(35px);
   }
   @include  media-breakpoint-up(lg) {
+    padding-top: rem(100px);
     padding-bottom: rem(75px);
   }
 
@@ -90,7 +117,6 @@
     }
   }
 }
-
 
 //Plantsnap
 #plantsnap {
@@ -173,5 +199,27 @@
         }
       }
     }
+  }
+}
+
+#animal-friends {
+  background: #000;
+  padding-top: rem(60px);
+  padding-bottom: rem(80px);
+  .title {
+    color: $l-red !important;
+  }
+  .headline {
+    margin-top: rem(35px);
+    margin-bottom: rem(25px);
+  }
+  .text {
+    font-weight: 300;
+    color: #fff;
+  }
+  .btn-cta {
+    @extend .btn-explore;
+    height: auto !important;
+    padding: rem(15px) rem(25px) !important;
   }
 }

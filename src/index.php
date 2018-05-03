@@ -11,7 +11,7 @@
             <section class="col-md-12 col-lg-8">
                 <article class="card featured">
                     <div class="position-relative">
-                        <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
                         <div class="card-img-overlay pl-0 pt-4">
                             <h4 class="category badge badge-dark text-uppercase rounded-0">News of the Day</h4>
                         </div> <!--overlay-->
@@ -24,10 +24,10 @@
 
                         <h2 class="title mb-2">
                             <a href="#" class="d-block">
-                                John Doe
+                                Stu Unger Rise And Fall Of A Poker Genius
                             </a>
                         </h2>
-                        <p class="text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate delectus deserunt ex harum illo iusto libero minus molestiae molestias optio quae, quia quibusdam repellendus reprehenderit rerum veniam vitae voluptate.</p>
+                        <p class="text mb-3">Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical interface of the versions, therefore it has remained Microsoft’s product. of the graphical interface of the versions, therAlthough, Lycoris, Red Hat, Mandrake, Suse, Knoppix, Slackof the graphical interface of the versions, ther ware and Lindows make ….</p>
                         <a href="#" class="btn-link read-more pb-2">Read more..
                             .</a>
                     </div><!--card-body-->
@@ -43,7 +43,7 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -61,7 +61,7 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -79,7 +79,43 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                        <span class="tag">Environment</span>
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title m-0">
+                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                    </h5>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </li>
+                    <li class="col-lg-12">
+                        <div class="row">
+                            <article class="story row no-gutters">
+                                <div class="image mr-2 col-auto">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                        <span class="tag">Environment</span>
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title m-0">
+                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                    </h5>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </li>
+                    <li class="col-lg-12">
+                        <div class="row">
+                            <article class="story row no-gutters">
+                                <div class="image mr-2 col-auto">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -94,10 +130,14 @@
                         </div>
                     </li>
                 </ul>
+                <div class="ad mx-auto">
+                    <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                </div>
+
                 <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
             </section><!--sidebar-->
             <!--Ad space-->
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 d-lg-none">
                 <section class="ad">
                     <img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />
                 </section>
@@ -106,98 +146,69 @@
     </div>
 </section>
 <!-- Video and image of the day -->
-<section id="best-of-day" class="category-section  mt-5">
-    <div class="container-fluid">
+<section id="best-of-day" class="category-section">
+    <div class="container">
         <div class="row row-eq-height">
             <!-- Video of the day -->
-            <div class="col-12 col-lg-6 col-xl-8">
-                <section class="video">
-                    <div class="header">
-                        <h4 class="category m-0">Video of the day</h4>
-                        <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">11-20-2018</p>
-                    </div>
-                    <div id="carousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <article class="carousel-item active">
-                                <div class="row align-items-stretch">
-                                    <div class="col meta">
-                                        <h6 class="title m-0 pb-3">How Earth's oceans and atmosphere impact each other</h6>
-                                    </div>
-                                    <div class="col-auto contols">
-                                        <a class="prev" href="#carousel" role="button" data-slide="prev">
-                                            <span class="icon carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="next" href="#carousel" role="button"
-                                           data-slide="next">
-                                                                                                    <span class="icon carousel-control-next-icon bg-dark"
-                                                                                                          aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img class="img-fluid" src="assets/images/image-of-the-day.jpg"
-                                     alt="Image of the Day" />
-                            </article>
+            <div class="col-12 col-lg-8">
+                <section class="video h-100 d-flex no-gutters">
+                    <div class="header col-4 d-flex flex-column justify-content-between">
+                        <h4 class="category m-0">
+                            Video of the day
+                            <span class="slider-actions float-right">
+                            <a href="#" data-wpel-link="internal"><i class="fas fa-chevron-circle-left"></i></a>
+                            <a href="#" data-wpel-link="internal"><i class="fas fa-chevron-circle-right"></i></a>
+                        </span>
+                        </h4>
+                        <div class="meta">
+                            <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">11-20-2018</p>
+                            <h6 class="title m-0 pb-3">
+                                <a href="#">How forests in the U.S. have changed over the past 25 years</a>
+                            </h6>
                         </div>
+                    </div>
+                    <div class="media col">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/iotd.jpg" alt="">
                     </div>
                 </section><!--.video-->
             </div>
-            <div class="col-12 col-lg-6 col-xl-4">
-                <section class="image">
-                    <div class="header">
-                        <h4 class="category m-0">Image of the day</h4>
-                        <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">
-                            11-20-2018</p>
-                    </div>
-                    <div id="carousel2" class="carousel slide"
-                         data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <article class="carousel-item active">
-                                <div class="row no-gutters align-items-stretch">
-                                    <div class="col meta">
-                                        <h6 class="title m-0 pb-3">How Earth's
-                                            oceans and atmosphere impact each
-                                            other</h6>
-                                    </div>
-                                    <div class="col-auto contols">
-                                        <a class="prev" href="#carousel2"
-                                           role="button"
-                                           data-slide="prev">
-                                            <span class="icon carousel-control-prev-icon bg-dark"
-                                                  aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="next" href="#carousel2"
-                                           role="button" data-slide="next">
-                                            <span class="icon carousel-control-next-icon bg-dark"
-                                                  aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <img class="img-fluid"
-                                     src="assets/images/image-of-the-day.jpg"
-                                     alt="Image of the Day"/>
-                            </article>
+            <div class="col-12 col-lg-4">
+                <section class="image h-100 d-flex flex-column">
+                    <div class="header d-flex flex-column justify-content-between">
+                        <h4 class="category m-0">
+                            Image of the day
+                            <span class="slider-actions float-right">
+                                                        <a href="#" data-wpel-link="internal"><i class="fas fa-chevron-circle-left"></i></a>
+                                                        <a href="#" data-wpel-link="internal"><i class="fas fa-chevron-circle-right"></i></a>
+                                                    </span>
+                        </h4>
+                        <div class="meta">
+                            <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">11-20-2018</p>
+                            <h6 class="title m-0 pb-3">
+                                <a href="#">How forests in the U.S. have changed over the past 25 years</a>
+                            </h6>
                         </div>
                     </div>
-                </section><!--.image--></div>
+                    <div class="media flex-fill align-self-stretch">
+                        <img class="img-fluid h-lg-100" src="./assets/images/placeholder%20images/iotd.jpg" alt="">
+                    </div>
+                </section><!--.image-->
+            </div>
         </div><!--row-->
-    </div>container
+    </div><!--.container-fluid-->
 </section><!--#best-of-day-->
 <!--Environment section-->
 <section id="environment" class="category-section">
     <div class="container">
+        <h3 class="category text-uppercase">Environment top stories</h3>
         <div class="row">
             <section class="col-md-12 col-lg-8 card">
-                <h3 class="category text-uppercase">Environment top stories</h3>
                 <article class="featured side-article">
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <img class="img-fluid d-block d-sm-none" src="http://placehold.it/960x640"
+                            <img class="img-fluid d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
-                            <img class="img-fluid d-none d-sm-block" src="http://placehold.it/640x480"
+                            <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
 
                         </div>
@@ -208,10 +219,10 @@
                                 </div> <!--meta-->
                                 <h2 class="title mb-2">
                                     <a href="#" class="d-block">
-                                        John Doe
+                                        Stu Unger Rise And Fall Of A Poker Genius
                                     </a>
                                 </h2>
-                                <p class="text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure, magni, molestias quisquam, suscipit ullam vitae. Ab consequatur et eveniet minus odio!</p>
+                                <p class="text mb-3">Computer users and programmers have become so accustomed to using Windows, even for the …</p>
                                 <a href="#" class="btn-link read-more">Read more...</a>
                             </div><!--card-body-->
                         </div>
@@ -225,7 +236,7 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -243,7 +254,7 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -261,7 +272,7 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -279,7 +290,7 @@
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -294,6 +305,84 @@
                         </div>
                     </li>
                 </ul>
+            </section><!--sidebar-->
+            <!--Ad space-->
+            <section class="ad-space col-md-6 d-none d-sm-flex d-md-none">
+                <img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">
+            </section>
+        </div><!--row-->
+    </div>
+</section>
+<section id="lifestyle" class="category-section">
+    <div class="container">
+        <h3 class="category text-uppercase">Lifestyle top stories</h3>
+        <div class="row">
+            <section class="col-md-12 col-lg-8 article-list expanding-al">
+                <ul class="row list-unstyled m-0">
+                    <li class="col-lg-12">
+                        <div class="row">
+                            <article class="story row no-gutters">
+                                <div class="image mr-2 col-auto">
+                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title mb-3">
+                                        <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                                    </h5>
+                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </li>
+                    <li class="col-lg-12">
+                        <div class="row">
+                            <article class="story row no-gutters">
+                                <div class="image mr-2 col-auto">
+                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title mb-3">
+                                        <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                                    </h5>
+                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </li>
+                    <li class="col-lg-12">
+                        <div class="row">
+                            <article class="story row no-gutters">
+                                <div class="image mr-2 col-auto">
+                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title mb-3">
+                                        <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                                    </h5>
+                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </li>
+                </ul>
+            </section><!--article-list expanding-->
+            <!--Top stories sidebar-->
+            <section class="col-md-12 col-lg-4 sidebar">
+                <div class="ad d-flex justify-content-center">
+                    <img class="img-fluid" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
+                </div>
             </section><!--sidebar-->
             <!--Ad space-->
             <section class="ad-space col-md-6 d-none d-sm-flex d-md-none">
@@ -333,63 +422,57 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 video">
                 <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
-                </div>
+                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
+                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
+                <!--allowfullscreen></iframe>-->
+                <!--</div>-->
                 <div class="meta d-flex mb-2 pt-2">
-                    <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
                 <a href="#" class="d-block mb-2">
                     <h5 class="title m-0">
                         <a href="#">
-                            Video title
+                            Grand Canyon
                         </a>
                     </h5>
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video">
                 <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
-                </div>
+                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
+                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
+                <!--allowfullscreen></iframe>-->
+                <!--</div>-->
                 <div class="meta d-flex mb-2 pt-2">
-                    <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
                 <a href="#" class="d-block mb-2">
                     <h5 class="title m-0">
                         <a href="#">
-                            Video title
+                            Grand Canyon
                         </a>
                     </h5>
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video">
                 <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
-                </div>
+                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
+                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
+                <!--allowfullscreen></iframe>-->
+                <!--</div>-->
                 <div class="meta d-flex mb-2 pt-2">
-                    <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
                 <a href="#" class="d-block mb-2">
                     <h5 class="title m-0">
                         <a href="#">
-                            Video title
+                            Grand Canyon
                         </a>
                     </h5>
                 </a>
@@ -399,10 +482,10 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                             allowfullscreen></iframe>
                 </div>
-                <div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-                            allowfullscreen></iframe>
-                </div>
+                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
+                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
+                <!--allowfullscreen></iframe>-->
+                <!--</div>-->
                 <div class="meta d-flex mb-2 pt-2">
                     <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
@@ -418,37 +501,127 @@
         </div>
     </div>
 </section>
-<!--Lifestyle section-->
-<section id="lifestyle" class="category-section">
+<!--Animal friends-->
+<section id="animal-friends">
     <div class="container">
         <div class="row">
-            <section class="col-12 card">
-                <h3 class="category text-uppercase">Lifestyle top stories</h3>
-                <!--Featured article-->
-                <article class="featured">
-                    <img class="img-fluid" src="http://placehold.it/960x640" alt="Featured image">
-                    <div class="card-body p-0 pt-2">
-                        <div class="meta d-flex mb-2">
-                            <span class="date">21-12-2020</span>
-                        </div> <!--meta-->
-                        <h2 class="title mb-2">
-                            <a href="#" class="d-block">
-                                Mysteries of the mountains
-                            </a>
-                        </h2>
-                        <p class="text mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque culpa est exercitationem, ipsum maxime officiis temporibus voluptatum! Eos hic impedit iure laboriosam optio quas ut.
-                            odit.</p>
-                        <a href="#" class="btn-link read-more">Read more...</a>
-                    </div><!--card-body-->
+            <div class="info col-lg-5 offset-lg-2">
+                <h5 class="title text-uppercase">Friends of the animals foundation</h5>
+                <h2 class="headline text-uppercase">Let's not forget them.</h2>
+                <p class="text m-0">The Law - Everything is energy. Choose to believe this law. You must accept it.</p>
+            </div>
+            <div class="call-to-action col-lg-2 offset-lg-1 d-flex justify-content-between flex-column">
+                <p class="text text-uppercase">
+                    We plan to save <br> african elefants <br> by 2020.
+                </p>
+                <a href="#" class="btn btn-cta text-uppercase">
+                    Support Cause
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Lifestyle section 2-->
+<section id="lifestyle2" class="category-section">
+    <div class="container">
+        <h3 class="category text-uppercase">Lifestyle top stories</h3>
+        <div class="row">
+            <section class="col-md-12 col-lg-8">
+                <article class="featured side-article card">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <img class="img-fluid d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
+                                 alt="Featured image">
+                            <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
+                                 alt="Featured image">
+
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div> <!--meta-->
+                                <h2 class="title mb-2">
+                                    <a href="#" class="d-block">
+                                        Stu Unger Rise And Fall Of A Poker Genius
+                                    </a>
+                                </h2>
+                                <p class="text mb-3">Computer users and programmers have become so accustomed to using Windows, even for the …</p>
+                                <a href="#" class="btn-link read-more">Read more...</a>
+                            </div><!--card-body-->
+                        </div>
+                    </div>
                 </article><!--featured-->
+                <section class="article-list expanding-al">
+                    <ul class="row list-unstyled m-0">
+                        <li class="col-lg-12">
+                            <div class="row">
+                                <article class="story row no-gutters">
+                                    <div class="image mr-2 col-auto">
+                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                                    </div><!--image-->
+                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                            <span class="date">21-12-2020</span>
+                                        </div><!--meta-->
+                                        <h5 class="title mb-3">
+                                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                                        </h5>
+                                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                                    </div><!--article-body-->
+                                </article>
+                            </div>
+                        </li>
+                        <li class="col-lg-12">
+                            <div class="row">
+                                <article class="story row no-gutters">
+                                    <div class="image mr-2 col-auto">
+                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                                    </div><!--image-->
+                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                            <span class="date">21-12-2020</span>
+                                        </div><!--meta-->
+                                        <h5 class="title mb-3">
+                                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                                        </h5>
+                                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                                    </div><!--article-body-->
+                                </article>
+                            </div>
+                        </li>
+                        <li class="col-lg-12">
+                            <div class="row">
+                                <article class="story row no-gutters">
+                                    <div class="image mr-2 col-auto">
+                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                                    </div><!--image-->
+                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                            <span class="date">21-12-2020</span>
+                                        </div><!--meta-->
+                                        <h5 class="title mb-3">
+                                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                                        </h5>
+                                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                                    </div><!--article-body-->
+                                </article>
+                            </div>
+                        </li>
+                    </ul>
+                </section><!--article-list expanding-->
             </section><!--card-->
-            <section class="col-xs-12 col-md sidebar article-list">
-                <ul class="row list-unstyled m-0">
-                    <li class="col-xs-12 col-md-6 mb-3">
+            <!--Top stories sidebar-->
+            <section class="col-md-12 col-lg-4 sidebar">
+                <ul class="row list-unstyled article-list link-al m-0 mb-5">
+                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -462,11 +635,11 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 mb-3">
+                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -480,11 +653,11 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 mb-3">
+                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -498,11 +671,11 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 mb-3">
+                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
                                 <div class="body align-self-stretch d-flex flex-column flex col pr-2">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
@@ -517,12 +690,12 @@
                         </div>
                     </li>
                 </ul>
+                <div class="ad mx-auto">
+                    <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                </div>
             </section><!--sidebar-->
             <!--Ad space-->
-            <section class="ad-space col-md-6 d-flex">
-                <img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">
-            </section>
-        </div>
+        </div><!--row-->
     </div>
 </section>
 <!--Newsletter-->

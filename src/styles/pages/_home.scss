@@ -7,17 +7,24 @@
     padding-bottom: rem(55px);
   }
   @include  media-breakpoint-up(lg) {
-    padding-bottom: rem(30px);
-  }w
+    padding-bottom: rem(50px);
+  }
 
   .ad {
     padding: 0 rem(10px);
+  }
+
+  .sidebar {
+    .ad {
+      max-width: rem(325px);
+    }
   }
 }
 // Best of day
 
 #best-of-day {
 
+  background-color: $white;
   color: $white !important;
   padding-bottom: rem(60px);
 
@@ -25,6 +32,12 @@
     padding-bottom: rem(35px);
   }
   @include  media-breakpoint-up(lg) {
+
+    background: -moz-linear-gradient(top, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
+    background: -o-linear-gradient(top, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
+    background: -ms-linear-gradient(top, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
+    background: linear-gradient(to bottom, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$white ', endColorstr='#ff0000', GradientType=0 );
     padding-bottom: rem(75px);
   }
 
@@ -37,13 +50,14 @@
     .date {
       font-family: $mont !important;
       font-size: rem(16px);
+      color: $white;
       font-weight: 300 !important;
     }
   }
   .title {
     font-family: $mont !important;
     font-weight: 800;
-    padding-left: rem(20px);
+    //padding-left: rem(20px);
   }
   .video {
     background-color: $purple;
@@ -58,6 +72,18 @@
   .image {
     background-color: $yellow;
   }
+
+  .slider-actions {
+    a {
+      color: $white;
+      font-size: rem(25px);
+      vertical-align: middle;
+
+      &:hover {
+        color: darken($white, 20%);
+      }
+    }
+  }
 }
 
 
@@ -71,6 +97,14 @@
 #environment {
   margin-bottom: rem(35px);
 
+  @include  media-breakpoint-up(lg) {
+    padding-top: rem(70px);
+    margin-bottom: rem(40px);
+
+    >.row .card-body {
+      padding-top: 0 !important;
+    }
+  }
   .category {
     margin-bottom: rem(20px);
   }
@@ -116,11 +150,22 @@
 }
 #lifestyle {
   padding-bottom: rem(55px);
+  .ad {
+    img {
+      max-width: rem(300px);
+    }
+  }
   @include  media-breakpoint-up(md) {
     padding-bottom: rem(35px);
   }
   @include  media-breakpoint-up(lg) {
+    padding-bottom: rem(65px);
+  }
+}
+#lifestyle2 {
+  @include  media-breakpoint-up(lg) {
     padding-bottom: rem(75px);
+    padding-top: rem(75px);
   }
 }
 /* Friends of Animals */
