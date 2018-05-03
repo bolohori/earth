@@ -7,7 +7,7 @@ const { reload, stream } = browserSync;
 gulp.task('watch', ['build:dev'], () => {
   console.log('watching dev');
   browserSync.init({
-    proxy: 'http://localhost/earth.com/build/',
+    proxy: 'http://192.168.1.114/earth.com/build/',
   });``
 });
 watch(['./src/*.php', './src/**/*.php'], () => {
