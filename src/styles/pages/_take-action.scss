@@ -21,15 +21,66 @@
       .title {
         font-size: rem(24px);
         margin-bottom: rem(25px);
+        @include media-breakpoint-down(lg) {
+          font-size: rem(18px);
+        }
         @include media-breakpoint-down(md) {
-          font-size: rem(16px);
+          font-size: rem(18px);
         }
       }
-      .link {
-        font-weight: 900;
+      a {
         font-size: 16px;
-        color: $grey;
+        color: $black;
+
+        &.phone {
+          margin-bottom: rem(10px);
+          color: $grey;
+          font-weight: 900;
+        }
       }
     }
   }
+}
+#save-earth {
+  padding: rem(85px) 0 rem(140px) 0;
+  background: url("../assets/images/save_earth_bg@2x.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover !important;
+  @include media-breakpoint-down(lg) {
+    background: url("../assets/images/save_earth_tablet@2x.jpg")
+  }
+  @include media-breakpoint-down(md) {
+    background: url("../assets/images/save_earth_mobile@2x.jpg");
+  }
+  .headline {
+    margin-bottom: rem(15px);
+    font-size: rem(42px) !important;
+    span {
+      color: $orange !important;
+      @include media-breakpoint-down(lg) {
+        color: $yellow !important;
+      }
+      font-size: inherit !important;
+      font-weight: normal;
+    }
+  }
+  p {
+    color: $white;
+    font-weight: 300;
+    margin-bottom: rem(50px);
+  }
+
+  .form-group {
+    max-width: rem(325px);
+    margin: 0 auto !important;
+    @include media-breakpoint-down(md) {
+      max-width: rem(300px);
+    }
+
+    input {
+      height: rem(50px);
+      color: #000
+    }
+  }
+
 }
