@@ -38,6 +38,11 @@
     left: 0;
     background-color: #B28E8D !important;
   }
+  section.sidebar {
+    h4 {
+    color: #C4C667;
+    }
+  }
   .animal-news {
     article.top-story {
       margin-bottom: 20px;
@@ -68,6 +73,10 @@
     background-color: #B28E8D;
     padding: 30px;
     font-weight: bold;
+    .filter-all {
+      display: flex;
+      align-items: center;
+    }
     .filter-title.active {
       color: #1B1D41;
     }
@@ -144,5 +153,13 @@
       padding-left: 0;
       color: #9C9C9C;
     }
+  }
+}
+.top-story {
+  margin-bottom: 30px;
+}
+section.sidebar {
+  .justify-content-center img {
+    max-width: 18.75rem;
   }
 }
