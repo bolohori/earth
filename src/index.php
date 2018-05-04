@@ -34,7 +34,7 @@
                 </article><!--featured-->
             </section><!--card-->
             <!--Top stories sidebar-->
-            <section class="col-xs-12 col-md-6 col-lg-4 article-list sidebar">
+            <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
                 <h4 class="category">
                     Top Stories
                 </h4>
@@ -205,14 +205,14 @@
             <section class="col-md-12 col-lg-8 card">
                 <article class="featured side-article">
                     <div class="row">
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12 col-md-6">
                             <img class="img-fluid d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
                             <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
 
                         </div>
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12 col-md-6">
                             <div class="card-body p-0 pt-2">
                                 <div class="meta d-flex mb-2">
                                     <span class="date">21-12-2020</span>
@@ -232,7 +232,7 @@
             <!--Top stories sidebar-->
             <section class="col-md-12 col-lg-4 article-list sidebar">
                 <ul class="row list-unstyled m-0">
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -250,7 +250,7 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -268,7 +268,7 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -286,7 +286,7 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -394,7 +394,7 @@
 <!-- Explore Plants and Animals -->
 <section id="explore">
     <div class="row no-gutters">
-        <div class="col-xs-12 col-md-6 plants">
+        <div class="col-12 col-md-6 plants">
             <div class="d-flex bg">
                 <div class="text col mx-auto">
                     <h1 class="title">EXPLORE <br> PLANTS</h1>
@@ -402,7 +402,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-md-6 animals">
+        <div class="col-12 col-md-6 animals">
             <div class="d-flex col bg">
                 <div class="text col mx-auto">
                     <div class="float-right float-sm-none">
@@ -529,14 +529,14 @@
             <section class="col-md-12 col-lg-8">
                 <article class="featured side-article card">
                     <div class="row">
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12 col-md-6">
                             <img class="img-fluid d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
                             <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
 
                         </div>
-                        <div class="col-xs-12 col-md-6">
+                        <div class="col-12 col-md-6">
                             <div class="card-body p-0 pt-2">
                                 <div class="meta d-flex mb-2">
                                     <span class="date">21-12-2020</span>
@@ -617,7 +617,7 @@
             <!--Top stories sidebar-->
             <section class="col-md-12 col-lg-4 sidebar">
                 <ul class="row list-unstyled article-list link-al m-0 mb-5">
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -635,7 +635,7 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -653,7 +653,7 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">
@@ -671,7 +671,7 @@
                             </article>
                         </div>
                     </li>
-                    <li class="col-xs-12 col-md-6 col-lg-12 mb-3">
+                    <li class="col-12 col-md-6 col-lg-12 mb-3">
                         <div class="row">
                             <article class="story row no-gutters">
                                 <div class="image mr-2 col-auto">

@@ -1,13 +1,13 @@
 <!-- Footer -->
 <div class="container footer">
     <div class="row">
-        <div class="col-xs-12 col-lg-3">
+        <div class="col-12 col-lg-3">
             <img class="footer-logo" src="assets/images/footer-logo.png" alt="earth.com logo">
         </div>
     </div>
     <div class="row">
         <div
-                class="col-xs-12 col-md-2 offset-md-1 order-md-2 col-lg-2 offset-lg-1">
+                class="col-12 col-md-2 offset-md-1 order-md-2 col-lg-2 offset-lg-1">
             <h6 class="footer-title d-none d-lg-block text-uppercase">Earth.com</h6>
             <ul class="footer-menu footer-categories">
                 <li>

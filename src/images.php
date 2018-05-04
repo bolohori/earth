@@ -139,7 +139,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -165,7 +165,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -191,7 +191,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -216,7 +216,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -241,7 +241,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -265,22 +265,22 @@
           </div>
         </div>
       </div>
-  </div>
-
-  <div class="row pagination-container">
-    <div class="col-lg-12">
-      <ul class="pagination">
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">...</a></li>
-        <li><a href="#">120</a></li>
-        <li><a href="#">next &gt;</a></li>
-      </ul>
     </div>
-  </div>
+
+    <div class="row pagination-container">
+      <div class="col-lg-12">
+        <ul class="pagination">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">...</a></li>
+          <li><a href="#">120</a></li>
+          <li><a href="#">next &gt;</a></li>
+        </ul>
+      </div>
+    </div>
 
   </div>
 </div>

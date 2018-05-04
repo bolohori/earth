@@ -146,7 +146,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -172,7 +172,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -198,7 +198,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -223,7 +223,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -248,7 +248,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>

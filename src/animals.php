@@ -7,12 +7,12 @@
 <!-- Explore Animals -->
 <div class="container explore-animals">
   <div class="row animals-breadcrumb">
-    <div class="col-xs-12">
+    <div class="col-12">
       <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="earthpedia.php">Earthpedia </a> / <a href="animals.php">Animals</a>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-12">
       <h1 class="title">Explore Animals</h1>
     </div>
   </div>
@@ -59,7 +59,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -89,7 +89,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -119,7 +119,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -149,7 +149,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -179,7 +179,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -383,7 +383,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -409,7 +409,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -435,7 +435,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -460,7 +460,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>
@@ -485,7 +485,7 @@
               </div>
             </div>
             <div class="row article-title">
-              <div class="col-xs-12">
+              <div class="col-12">
                 Coventry City Guide Including Coventry Hotels
               </div>
             </div>

@@ -1,5 +1,5 @@
 <?php
-  $title = "Earth.com - Image Details";
+  $title = "Image Details";
   include "./includes/head.php";
   include "./includes/header.php";
 
@@ -10,13 +10,13 @@
 <section class="image-details-container">
   <div class="container">
     <div class="row earth-breadcrumb">
-      <div class="col-xs-12">
+      <div class="col-12">
         <a href="/">Home</a> / <a href="#">Images</a> / <a href="#">Radio Astronomy</a>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12 user-container">
+      <div class="col-12 user-container">
         <h2 class="title">Radio Astronomy</h2>
         <div class="left-user">
           <span>
@@ -41,14 +41,14 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-12 image-big-container">
+      <div class="col-12 image-big-container">
         <img class="full-screen" src="assets/images/icons/full-screen.png" alt="Full Screen" />
         <img src="assets/images/big-image.jpg" alt="Image Details">
       </div>
     </div>
 
     <div class="row social-icons-container">
-      <div class="col-xs-12">
+      <div class="col-12">
         <div class="social-icons">
         <span class="spread-word">SPREAD THE WORD</span>
         <a href="#">
@@ -68,19 +68,19 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-12">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
     </div>
 
     <div class="row leave-comment-container">
-      <div class="col-xs-12">
+      <div class="col-12">
           <h2>Leave a comment</h2>
       </div>
     </div>
     <div class="row leave-comment-container">
-      <div class="col-xs-12">
+      <div class="col-12">
         <form class="leave-comment" action="/" method="post">
           <textarea class="leave-comment-textarea" name="name" rows="8" cols="150"></textarea>
           <button type="button" class="btn btn-primary btn-send-comment">Post</button>
@@ -205,7 +205,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -231,7 +231,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -257,7 +257,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -282,7 +282,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -307,7 +307,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>

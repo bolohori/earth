@@ -4,7 +4,7 @@
             <div class="d-flex">
                 <div class="bg w-100">
                     <div class="row">
-                        <div class="col-xs-12 col-md-5 col-lg-3 offset-lg-2">
+                        <div class="col-12 col-md-5 col-lg-3 offset-lg-2">
                             <h2 class="nl-title m-0 text-uppercase">
                                 <span class="d-sm-inline d-md-none">Fresh</span>
                                 News
@@ -17,7 +17,7 @@
                                 delivered to
                                 you each day</p>
                         </div>
-                        <div class="col-xs-12 col-md-4 offset-md-3 col-lg-3 offset-lg-2 d-flex align-items-center">
+                        <div class="col-12 col-md-4 offset-md-3 col-lg-3 offset-lg-2 d-flex align-items-center">
                             <form id="nl-form">
                                 <label class="sr-only" for="nl-email">Email
                                     address</label>

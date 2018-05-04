@@ -46,7 +46,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -70,7 +70,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -94,7 +94,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -117,7 +117,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -140,7 +140,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -235,7 +235,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -258,7 +258,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -281,7 +281,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -304,7 +304,7 @@
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
@@ -329,17 +329,17 @@
             </div>
             <div class="col-lg-7">
               <div class="row article-category-date">
-                <div class="col-xs-12">
+                <div class="col-12">
                   11-22-2018
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
               <div class="row article-excerpt">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
                 <a href="#">Read more...</a>
@@ -355,17 +355,17 @@
             </div>
             <div class="col-lg-7">
               <div class="row article-category-date">
-                <div class="col-xs-12">
+                <div class="col-12">
                   11-22-2018
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
               <div class="row article-excerpt">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
                 <a href="#">Read more...</a>
@@ -381,17 +381,17 @@
             </div>
             <div class="col-lg-7">
               <div class="row article-category-date">
-                <div class="col-xs-12">
+                <div class="col-12">
                   11-22-2018
                 </div>
               </div>
               <div class="row article-title">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Coventry City Guide Including Coventry Hotels
                 </div>
               </div>
               <div class="row article-excerpt">
-                <div class="col-xs-12">
+                <div class="col-12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </div>
                 <a href="#">Read more...</a>

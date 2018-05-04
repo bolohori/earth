@@ -7,7 +7,7 @@
 <!-- News of the Day and Top Stories Row -->
 <div class="container" id="section-1-news">
   <div class="row news-breadcrumb">
-    <div class="col-xs-12">
+    <div class="col-12">
       <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="news.php">News </a>
     </div>
   </div>
@@ -40,7 +40,7 @@
     </div>
 
     <!--Top stories sidebar-->
-    <section class="col-xs-12 col-sm-6 col-md-4 sidebar">
+    <section class="col-12 col-sm-6 col-md-4 sidebar">
         <div class="top-stories">
             <h4 class="category mb-4">
                 Breaking News

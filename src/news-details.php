@@ -7,7 +7,7 @@
 <!-- News of the Day and Top Stories Row -->
 <div class="container news-details-container">
   <div class="row news-details-breadcrumb">
-    <div class="col-xs-12">
+    <div class="col-12">
       <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="news.php">News </a> / <a href="animals.php">Environment</a> / <a href="#">Lasik Eye Surgery Are You Ready</a>
     </div>
   </div>
@@ -16,12 +16,12 @@
     <div class="col-lg-8 news-of-the-day-image">
       <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" />
       <div class="row article-category-date">
-        <div class="col-xs-12">
+        <div class="col-12">
           <strong>ENVIRONMENT</strong> 11-22-2018
         </div>
       </div>
       <div class="row news-description-container">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h2 class="news-title">Green Peace - Land of the Dreamer</h2>
           <div class="social-icons">
             <a href="#">
@@ -44,15 +44,15 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-12 user-container">
+      <div class="col-12 user-container">
         <div class="left-user">
           <div class="row">
-            <div class="col-xs-4 user-img">
+            <div class="col-4 user-img">
               <span>
                 <img class="user-profile" src="assets/images/icons/user-profile.jpg" alt="user_profile">
               </span>
             </div>
-            <div class="col-xs-8 user-details">
+            <div class="col-8 user-details">
               <span>
                 by <strong>user_name</strong><br />
                 Earth.com Staff Writer
@@ -60,13 +60,13 @@
             </div>
           </div>
           <div class="row see-also">
-            <div class="col-xs-12">
+            <div class="col-12">
               <p>See also: <strong><a href="#">Coventry City Guide Including Coventry Hotels</a></strong></p>
             </div>
           </div>
           <hr>
           <div class="row social-icons-container">
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="social-icons">
               <span class="spread-word">SPREAD THE WORD</span>
               <a href="#">
@@ -86,13 +86,13 @@
           </div>
 
       <div class="row leave-comment-container">
-        <div class="col-xs-12">
+        <div class="col-12">
             <h2>Leave a comment</h2>
         </div>
       </div>
 
       <div class="row leave-comment-container">
-      <div class="col-xs-12">
+      <div class="col-12">
         <form class="leave-comment" action="/" method="post">
           <textarea class="leave-comment-textarea" name="name" rows="8" cols="100"></textarea>
           <button type="button" class="btn btn-primary btn-send-comment">Post</button>
@@ -130,7 +130,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="row">
                     <h4 class="article-title">
                       Coventry City Guide Including Coventry Hotels
@@ -160,7 +160,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="row">
                     <h4 class="article-title">
                       Coventry City Guide Including Coventry Hotels
@@ -190,7 +190,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="row">
                     <h4 class="article-title">
                       Coventry City Guide Including Coventry Hotels
@@ -220,7 +220,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="row">
                     <h4 class="article-title">
                       Coventry City Guide Including Coventry Hotels
@@ -250,7 +250,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-12">
                   <div class="row">
                     <h4 class="article-title">
                       Coventry City Guide Including Coventry Hotels
@@ -304,7 +304,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -333,7 +333,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
@@ -362,7 +362,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-12">
               <div class="row">
                 <h4 class="article-title">
                   Coventry City Guide Including Coventry Hotels
