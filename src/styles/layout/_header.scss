@@ -144,3 +144,14 @@
   height: 20px;
   background-repeat: no-repeat;
 }
+
+
+.breadcrumbs {
+  color: #9C9C9C;
+  font-size: rem(14px);
+  padding-bottom: rem(35px);
+  padding-top: rem(35px);
+  a {
+    color: #9C9C9C;
+  }
+}

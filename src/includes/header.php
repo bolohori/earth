@@ -1,15 +1,13 @@
 <section id="<?php echo $navId; ?>" class="main-navigation">
-	<nav class="navbar navbar-expand-xl navbar-dark main-nav d-flex">
+	<nav class="navbar navbar-expand-xl navbar-dark main-nav d-flex mb-0">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<a href="#" class="secondary-menu-toggler"><i class="fas fa-bars"></i></a>
-		<a class="navbar-brand" href="index.php"><img
-				src="<?php echo $logoUrl; ?>" alt="earth.com logo">
-		</a>
+		<a class="navbar-brand" href="index.php"><img src="assets/images/logos/logo-white.png" alt="earth.com logo"></a>
 		<span class="page-title text-uppercase">
-					<?php echo $title; ?>
-			</span>
+			<?php echo $title; ?>
+		</span>
 
 		<div class="collapse navbar-collapse collapse" id="navbarsExample04">
 			<ul class="navbar-nav mx-auto">
@@ -54,3 +52,27 @@
 		<a href="#" class="btn btn-outline-primary btn-subscribe">SUBSCRIBE</a>
 	</nav>
 </section>
+
+<!-- Header Add -->
+<section id="main-add" class="main-add">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        HEADER ADD  
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END Header Add -->
+
+<!-- BreadCrumbs -->
+<section id="breadcrumbs">
+  <div class="container">
+    <div class="breadcrumbs">
+      <div class="col-xs-12">
+        <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="news.php">News </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END BreadCrumbs -->
