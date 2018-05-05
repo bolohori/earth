@@ -24,7 +24,7 @@
 
 #best-of-day {
 
-  background-color: $white;
+  background-color: $bg-gray;
   color: $white !important;
   padding-bottom: rem(60px);
 
@@ -33,11 +33,11 @@
   }
   @include  media-breakpoint-up(lg) {
 
-    background: -moz-linear-gradient(top, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
-    background: -o-linear-gradient(top, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
-    background: -ms-linear-gradient(top, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
-    background: linear-gradient(to bottom, $white 0%, $white 40%, $d-blue 40%, $d-blue 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$white ', endColorstr='#ff0000', GradientType=0 );
+    background: -moz-linear-gradient(top, $bg-gray 0%, $bg-gray 40%, $d-blue 40%, $d-blue 100%);
+    background: -o-linear-gradient(top, $bg-gray 0%, $bg-gray 40%, $d-blue 40%, $d-blue 100%);
+    background: -ms-linear-gradient(top, $bg-gray 0%, $bg-gray 40%, $d-blue 40%, $d-blue 100%);
+    background: linear-gradient(to bottom, $bg-gray 0%, $bg-gray 40%, $d-blue 40%, $d-blue 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$bg-gray ', endColorstr='#ff0000', GradientType=0 );
     padding-bottom: rem(75px);
   }
 
