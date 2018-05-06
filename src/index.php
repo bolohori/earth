@@ -38,102 +38,65 @@
                 <h4 class="category">
                     Top Stories
                 </h4>
-                <ul class="row list-unstyled m-0">
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                </ul>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
                 <div class="ad mx-auto">
                     <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
                 </div>
-
                 <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
             </section><!--sidebar-->
             <!--Ad space-->
@@ -231,80 +194,62 @@
             </section><!--card-->
             <!--Top stories sidebar-->
             <section class="col-md-12 col-lg-4 article-list sidebar">
-                <ul class="row list-unstyled m-0">
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                </ul>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
             </section><!--sidebar-->
             <!--Ad space-->
             <section class="ad-space col-md-6 d-none d-sm-flex d-md-none">
@@ -318,65 +263,51 @@
         <h3 class="category text-uppercase">Lifestyle top stories</h3>
         <div class="row">
             <section class="col-md-12 col-lg-8 article-list expanding-al">
-                <ul class="row list-unstyled m-0">
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title mb-3">
-                                        <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
-                                    </h5>
-                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title mb-3">
-                                        <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
-                                    </h5>
-                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-lg-12">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title mb-3">
-                                        <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
-                                    </h5>
-                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                </ul>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title mb-3">
+                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                        </h5>
+                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title mb-3">
+                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                        </h5>
+                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title mb-3">
+                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                        </h5>
+                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                    </div><!--article-body-->
+                </article>
             </section><!--article-list expanding-->
             <!--Top stories sidebar-->
             <section class="col-md-12 col-lg-4 sidebar">
@@ -553,143 +484,39 @@
                     </div>
                 </article><!--featured-->
                 <section class="article-list expanding-al">
-                    <ul class="row list-unstyled m-0">
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                        <li class="col-lg-w12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                        <li class="col-lg-12">
-                            <div class="row">
-                                <article class="story row no-gutters">
-                                    <div class="image mr-2 col-auto">
-                                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                    </div><!--image-->
-                                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                            <span class="date">21-12-2020</span>
-                                        </div><!--meta-->
-                                        <h5 class="title mb-3">
-                                            <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
-                                        </h5>
-                                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
-                                        <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                    </div><!--article-body-->
-                                </article>
-                            </div>
-                        </li>
-                    </ul>
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                            <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                        </div><!--article-body-->
+                    </article>
                 </section><!--article-list expanding-->
             </section><!--card-->
             <!--Top stories sidebar-->
-            <section class="col-md-12 col-lg-4 sidebar">
-                <ul class="row list-unstyled article-list link-al m-0 mb-5">
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                    <li class="col-12 col-md-6 col-lg-12 mb-3">
-                        <div class="row">
-                            <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                                </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                                        <span class="tag">Environment</span>
-                                        <span class="date">21-12-2020</span>
-                                    </div><!--meta-->
-                                    <h5 class="title m-0">
-                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                                    </h5>
-                                </div><!--article-body-->
-                            </article>
-                        </div>
-                    </li>
-                </ul>
+            <section class="col-md-12 col-lg-4 list-unstyled article-list link-al sidebar">
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
                 <div class="ad mx-auto">
                     <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
                 </div>

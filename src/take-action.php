@@ -159,7 +159,7 @@
                     </div>
                 </div>
                 <!--Sidebar-->
-                <section class="col-12 col-md-6 col-lg-4 sidebar">
+                <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
                     <h4 class="category">
                         Realted stories </h4>
                     <article class="story row no-gutters">
@@ -204,11 +204,12 @@
                             </h5>
                         </div><!--article-body-->
                     </article>
+
                 </section><!--Sidebar-->
             </div><!--row-->
         </div><!--container-->
     </section><!--org-list-->
-    <section id="save-earth" class="w-100 text-center order-md-2 order-sm-first">
+    <section id="save-earth" class="w-100 text-center order-sm-first order-md-2">
         <h1 class="headline text-uppercase">Save the earth. <span>Get involved.</span></h1>
         <p class="text-uppercase">Find an organization in your area</p>
         <form id="ep-searchform" action="/" method="post">
@@ -217,8 +218,44 @@
             </div>
         </form>
     </section>
-</div>
+    <section id="partnership" class="w-100 order-last">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center my-auto">
+                    <img src="./assets/images/partnership_headline@3x.png" alt="Partner campaign">
+                </div>
+                <div class="col-12 col-md-5 offset-md-1 my-auto">
+                    <p class="d-none d-lg-block text-uppercase">Register your organization and <br>let's make a change together</p>
+                    <form id="partnership-form" action="" method="post">
+                        <div class="row">
+                            <div class="form-group col-12 col-lg-6 mb-3">
+                                <label class="sr-only" for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Organization name...">
+                            </div>
+                            <div class="form-group col-12 col-lg-6 mb-3">
+                                <label class="sr-only" for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Contact Email...">
+                            </div>
+                            <div class="form-group col-12 col-lg-6 mb-3 mb-lg-0">
+                                <label class="sr-only" for="activity">Main Activity</label>
+                                <input type="text" class="form-control" id="activity" placeholder="Main activity...">
+                            </div>
+                            <div class="form-group col-12 col-lg-6 mb-3">
+                                <label class="sr-only" for="phone">Phone Number</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Phone number...">
+                            </div>
+                            <div class="form-group col-12 col-lg-6 mb-3">
+                                <label class="sr-only" for="website">Website</label>
+                                <input type="text" class="form-control" id="Website" placeholder="Website...">
+                            </div>
+                            <div class="form-group col-12 col-lg-6 mb-lg-0">
+                                <button type="submit" class="btn btn-primary btn-partnership w-100">REGISTER</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </div><!--control-row-->
-<?php
-  include "includes/footer.php";
-?>
+<?php include "includes/footer.php"; ?>

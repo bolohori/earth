@@ -3,7 +3,6 @@
   include "./includes/head.php";
   include "includes/header.php";
 ?>
-
 <!-- Explore Animals -->
 <div class="container explore-animals">
     <div class="row animals-breadcrumb">

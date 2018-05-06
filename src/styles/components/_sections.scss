@@ -4,7 +4,7 @@
     h5.title {
       font-family: $mont !important;
       a {
-        //font-family: $mont !important;
+        font-family: $mont !important;
         font-weight: 900;
         display: block;
       }
@@ -40,10 +40,8 @@
   &.link-al {
     article {
       margin-bottom: 0;
-      >.row {
       border-bottom: 2px solid #dddddd;
       padding: rem(25px) 0;
-      }
      &:first-of-type {
        >.row {
          padding-top: 0;

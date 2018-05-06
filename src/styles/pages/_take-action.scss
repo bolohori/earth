@@ -15,12 +15,15 @@
 }
 
 #organization-list {
+  padding: rem(50px) 0 rem(70px) 0;
   .organization {
     .meta {
       padding-top: rem(10px);
       .title {
         font-size: rem(24px);
-        margin-bottom: rem(25px);
+        font-family: $mont !important;
+        font-weight: 800;
+        margin-bottom: rem(20px);
         @include media-breakpoint-down(lg) {
           font-size: rem(18px);
         }
@@ -82,5 +85,21 @@
       color: #000
     }
   }
-
+}
+#partnership {
+  background: $orange !important;
+  padding: rem(75px) 0 rem(90px) 0;
+  @include media-breakpoint-down(md) {
+    order: 1;
+  }
+  #partnership-form {
+    input,
+    .btn-parnership {
+      height: 50px;
+    }
+    .btn-partnership {
+      @extend .btn-explore;
+      background: none !important;
+    }
+  }
 }

@@ -1,5 +1,5 @@
 <?php
-  $title = "Earth.com - Contact Us";
+  $title = "Contact Us";
   include "./includes/head.php";
   include "includes/header.php";
 ?>
@@ -21,7 +21,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="">
+                                <input type="email" class="form-control" id="email" placeholder="Contact ">
                             </div>
                             <div class="form-group">
                                 <label for="subject">Subject</label>

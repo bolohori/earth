@@ -1,69 +1,68 @@
-#earthpedia {
-  #ep-header {
-    height: rem(540px);
+#ep-header {
+  height: rem(540px);
+  position: relative;
+  background: url("../assets/images/earthpedia_hero_mobile.jpg");
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(md) {
+    height: rem(600px);
+    background: url("../assets/images/earthpedia_hero_web.jpg") top right;
+    background-size: cover;
+  }
+  @include media-breakpoint-up(lg) {
+    height: rem(560px);
+    background: url("../assets/images/earthpedia-header-desk.jpg") center center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $d-blue;
+    opacity: 0.2;
+    z-index: 5
+  }
+  .content {
     position: relative;
-    background: url("../assets/images/earthpedia_hero_mobile.jpg") center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover !important;
-
+    z-index: 10;
+    padding: rem(60px) rem(25px) rem(40px) rem(30px);
     @include media-breakpoint-up(md) {
-      height: rem(600px);
-      background: url("../assets/images/earthpedia_hero_web.jpg") top right;
-      background-size: cover;
-    }
-    @include media-breakpoint-up(lg) {
-      height: rem(560px);
-      background: url("../assets/images/earthpedia-header-desk.jpg") center center;
+      padding-top: rem(145px);
+      padding-bottom: rem(125px);
     }
 
-    .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: $d-blue;
-      opacity: 0.2;
-      z-index: 5
+    .headline {
+
     }
-    .content {
-      position: relative;
-      z-index: 10;
-      padding: rem(60px) rem(25px) rem(40px) rem(30px);
-      @include media-breakpoint-up(md) {
-        padding-top: rem(145px);
-        padding-bottom: rem(125px);
+    .search-wrapper {
+
+      p {
+        color: $white;
+        line-height: rem(20px);
+        font-weight: 800;
       }
+      #ep-searchform {
+        .input-group {
+          max-width: rem(320px);
+          border-radius: rem(3px);
+          height: rem(63px);
+          @include media-breakpoint-up(lg) {
+            max-width: rem(550px);
+          }
+          .form-control {
+            padding: rem(15px) rem(0) rem(15px) rem(25px);
+          }
+          .input-group-addon {
+            padding: 0 rem(25px) 0 0;
+            .fas {
+              color: $ep-green;
 
-      .headline {
-
-      }
-      .search-wrapper {
-
-        p {
-          color: $white;
-          line-height: rem(20px);
-          font-weight: 800;
-        }
-        #ep-searchform {
-          .input-group {
-            max-width: rem(320px);
-            border-radius: rem(3px);
-            height: rem(63px);
-            @include media-breakpoint-up(lg) {
-              max-width: rem(550px);
-            }
-            .form-control {
-              padding: rem(15px) rem(0) rem(15px) rem(25px);
-            }
-            .input-group-addon {
-              padding: 0 rem(25px) 0 0;
-              .fas {
-                color: $ep-green;
-
-                @include media-breakpoint-up(lg) {
-                  color: $red;
-                }
+              @include media-breakpoint-up(lg) {
+                color: $red;
               }
             }
           }
@@ -71,51 +70,51 @@
       }
     }
   }
-  #cotd {
-    position: relative;
-    z-index: 20;
-    padding-bottom: rem(40px);
-    padding-top: rem(20px);
-    @include media-breakpoint-up(lg) {
-      margin-top: rem(-35px);
-      padding-top: 0;
-      padding-bottom: 0;
+}
+#cotd {
+  position: relative;
+  z-index: 20;
+  padding-bottom: rem(40px);
+  padding-top: rem(20px);
+  @include media-breakpoint-up(lg) {
+    margin-top: rem(-35px);
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  h4.badge {
+    background-color: $ep-green;
+  }
+  .ad {
+    img {
+      max-width: rem(325px);
     }
-    h4.badge {
-      background-color: $ep-green;
+  }
+}
+#ep-news {
+  padding-bottom: rem(40px);
+  .plants {
+    @include media-breakpoint-down(md) {
+      margin-bottom: rem(20px);
     }
-    .ad {
-      img {
-        max-width: rem(325px);
+  }
+  .animals {
+    @include media-breakpoint-down(md) {
+      margin-bottom: rem(25px);
+    }
+  }
+}
+#explore {
+  .plants {
+    .bg {
+      @include media-breakpoint-down(lg) {
+        background-image: url("../assets/images/green-plant.png");
       }
     }
   }
-  #ep-news {
-    padding-bottom: rem(40px);
-    .plants {
-      @include media-breakpoint-down(md) {
-        margin-bottom: rem(20px);
-      }
-    }
-    .animals {
-      @include media-breakpoint-down(md) {
-        margin-bottom: rem(25px);
-      }
-    }
-  }
-  #explore {
-    .plants {
-      .bg {
-        @include media-breakpoint-down(lg) {
-          background-image: url("../assets/images/green-plant.png");
-        }
-      }
-    }
-    .animals {
-      .bg {
-        @include media-breakpoint-down(lg) {
-          background-image: url("../assets/images/flamingos.png");
-        }
+  .animals {
+    .bg {
+      @include media-breakpoint-down(lg) {
+        background-image: url("../assets/images/flamingos.png");
       }
     }
   }
