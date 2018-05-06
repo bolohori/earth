@@ -15,7 +15,7 @@
                             <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
                             <div class="card-img-overlay pl-0 pt-4">
-                                <h4 class="category badge badge-dark text-uppercase rounded-0">News of the Day</h4>
+                                <h4 class="category badge badge-dark text-uppercase rounded-0">Story of the Day</h4>
                             </div> <!--overlay-->
                         </div>
                         <div class="col-12 col-md-6 card">
