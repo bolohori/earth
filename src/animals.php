@@ -3,69 +3,117 @@
   include "./includes/head.php";
   include "includes/header.php";
 ?>
-<!-- Explore Animals -->
-<div class="container explore-animals">
-    <div class="row animals-breadcrumb">
-        <div class="col-12">
-            <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="earthpedia.php">Earthpedia </a> / <a href="animals.php">Animals</a>
+<!-- Animals -->
+<section id="animal-otd">
+    <div class="container">
+        <div class="w-100 bg-white">
+            <h1 class="headline accent-title text-uppercase m-0">Explore Animals</h1>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <h1 class="title">Explore Animals</h1>
-        </div>
-    </div>
-    <div class="row">
-        <!-- Animal of the Day Image -->
-        <div class="col-lg-8 animal-image">
-            <div class="highlight-ribbon background-brown">
-                Animal Videos
-            </div>
-            <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="Animal of the Day" />
-            <div class="article-category-date">
-                <div class="col-lg-2 date">
-                    11-22-2018
-                </div>
-            </div>
-            <h2 class="news-title">The Blue Whale</h2>
-            <p class="news-excerpt">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="#">View more...</a>
-        </div>
-        <!--Top stories sidebar-->
-        <section class="col-xs-12 col-md-6 col-lg-4 article-list sidebar">
-            <h4 class="category">
-                Animals in the news
-            </h4>
-            <article class="story row no-gutters">
-                <div class="image mr-2 col-auto">
-                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                </div><!--image-->
-                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                        <span class="tag">Environment</span>
-                        <span class="date">21-12-2020</span>
-                    </div><!--meta-->
-                    <h5 class="title m-0">
-                        <a href="#">Coventry City Guide Including Coventry hotels</a>
-                    </h5>
-                </div><!--article-body-->
-            </article>
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <!--featured article-->
+                <article class="card featured">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/animal-otd.jpg" alt="Card image">
+                        <div class="card-img-overlay pl-0 pt-4">
+                            <h4 class="category badge badge-dark text-uppercase rounded-0">Animal of the day</h4>
+                        </div> <!--overlay-->
+                    </div>
+                    <div class="card-body p-0 pt-2">
+                        <div class="meta d-flex mb-2">
+                            <span class="tag mr-5">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div> <!--meta-->
 
-            <div class="ad mx-auto">
-                <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                        <h2 class="title mb-2">
+                            <a href="#" class="d-block">
+                                The happy duck
+                            </a>
+                        </h2>
+                        <p class="text mb-3">There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck of your home or having a powerful but mobile telescope set up to take to the remove countryside to really get a good shot at some breath taking star gazing.</p>
+                        <a href="#" class="btn-link read-more pb-2">Read more..
+                            .</a>
+                    </div><!--card-body-->
+                </article>
+                <!--end of featured article-->
             </div>
-            <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
-        </section><!--sidebar-->
-        <!--Ad space-->
-        <div class="col-12 col-md-6 d-lg-none">
-            <section class="ad">
-                <img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />
-            </section>
+            <!--sidebar-->
+            <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
+                <h4 class="category">
+                    Top Stories
+                </h4>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    </div><!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div><!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div><!--article-body-->
+                </article>
+                <div class="ad mx-auto">
+                    <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                </div>
+                <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
+            </section><!--sidebar-->
+            <!--end of sidebar-->
+            <!--ad space-->
+            <div class="col-12 col-md-6 d-lg-none">
+                <section class="ad">
+                    <img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />
+                </section>
+            </div>
+            <!--end of ad space-->
         </div>
     </div>
-</div>
+</section>
 <!-- Animals Listing -->
 <div class="container animal-listing">
     <div class="row filter-container">

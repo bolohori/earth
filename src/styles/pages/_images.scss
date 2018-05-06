@@ -1,29 +1,35 @@
-// .newsletter-container {
-//   height: auto;
-//   background-color: #a0e7d3;
-//
-//   .newsletter-container h2.newsletter-title {
-//     color: #fff;
-//     font-weight: 900;
-//     text-transform: uppercase;
-//   }
-//
-//   .newsletter-container .col-right button {
-//     padding: 10px;
-//     width: 70%;
-//     display: block;
-//     margin-top: 20px;
-//     color: #fff;
-//     border-color: #fff;
-//     font-size: 20px;
-//     font-weight: bold;
-//     border: 3px solid white;
-//   }
-//   .newsletter-container .pigeon img {
-//     position: absolute;
-//     height: 190px;
-//     width: 95px;
-//     right: 0;
-//     z-index: 20;
-//   }
-// }
+#image-otd {
+  .category {
+    &.badge {
+      background: $yellow;
+    }
+  }
+  .ad {
+    img {
+      width: auto;
+    }
+  }
+}
+#gallery-list {
+  padding: rem(50px) 0 rem(70px) 0;
+  margin-bottom: rem(25px);
+  .category {
+    color: $yellow
+  }
+  h4.category {
+    color: $purple;
+  }
+  .gallery {
+
+    margin-bottom: rem(25px);
+
+    .title {
+      a {
+      font-size:  rem(16px);
+      font-family: $mont !important;
+        font-weight: 800;
+        color: inherit !important;
+      }
+    }
+  }
+}

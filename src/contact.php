@@ -1,12 +1,12 @@
 <?php
   $title = "Contact Us";
-  include "./includes/head.php";
+  include "includes/head.php";
   include "includes/header.php";
 ?>
 <section id="contact">
-    <div class="container-fluid bg-white">
-        <div class="col-12">
-            <h1 class="title text-uppercase m-0">Contact Us</h1>
+    <div class="w-100 bg-white">
+        <div class="container">
+            <h1 class="title accent-title text-uppercase m-0">Contact Us</h1>
         </div>
     </div>
     <div class="container">
@@ -21,7 +21,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Contact ">
+                                <input type="email" class="form-control" id="email" placeholder="">
                             </div>
                             <div class="form-group">
                                 <label for="subject">Subject</label>

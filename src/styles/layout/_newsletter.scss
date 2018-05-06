@@ -85,5 +85,44 @@
       }
     }
   }
+}
+#newsletter-small {
+  position: relative;
+  max-width: rem(375px);
+  margin: 0 auto;
+  .bg-wrapper {
+    position: relative;
+    padding: rem(30px) rem(25px) rem(50px) rem(25px);
+    background: $nl-teal;
+  }
 
+  img {
+    position: absolute;
+    bottom: rem(-10px);
+    width: auto;
+    right: 0;
+    pointer-events: none;
+    z-index: 999;
+  }
+  .headline {
+    font-size: rem(36px);
+    margin-bottom: rem(20px);
+    letter-spacing: 0.2px;
+    text-align: left;
+    line-height: 37px;
+  }
+  #nl-form {
+    input {
+      height: rem(50px);
+      margin-bottom: rem(15px);
+    }
+    .btn-nl {
+      @extend .btn-explore;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: rem(215px);
+      background-color: transparent;
+    }
+  }
 }

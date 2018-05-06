@@ -32,6 +32,8 @@
 }
 
 .btn-subscribe {
+  @extend .btn-explore;
+
   @include media-breakpoint-down(xs) {
       display: none;
   }

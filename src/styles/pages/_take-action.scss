@@ -16,7 +16,9 @@
 
 #organization-list {
   padding: rem(50px) 0 rem(70px) 0;
+  margin-bottom: rem(25px);
   .organization {
+    margin-bottom: rem(25px);
     .meta {
       padding-top: rem(10px);
       .title {
@@ -34,7 +36,9 @@
       a {
         font-size: 16px;
         color: $black;
-
+        &.mail {
+          margin-bottom: rem(5px);
+        }
         &.phone {
           margin-bottom: rem(10px);
           color: $grey;

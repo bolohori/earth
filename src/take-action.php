@@ -11,7 +11,6 @@
   include "includes/head.php";
   include "includes/header.php";
 ?>
-
 <div class="row no-gutters control-row">
     <section id="next-event" class="category-section">
         <div class="container">
@@ -103,24 +102,7 @@
             </div>
         </div>
     </section>
-    <section id="animal-friends" class="w-100">
-        <div class="container">
-            <div class="row">
-                <div class="info col-lg-5 offset-lg-2">
-                    <h5 class="title text-uppercase">Friends of the animals foundation</h5>
-                    <h2 class="headline text-uppercase">Let's not forget them.</h2>
-                    <p class="text m-0">The Law - Everything is energy. Choose to believe this law. You must accept it.</p>
-                </div>
-                <div class="call-to-action col-lg-2 offset-lg-1 d-flex justify-content-between flex-column">
-                    <p class="text text-uppercase">
-                        We plan to save <br> african elefants <br> by 2020. </p>
-                    <a href="#" class="btn btn-cta text-uppercase">
-                        Support Cause
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include "includes/animal-friends.php"; ?>
     <section id="organization-list">
         <div class="container">
             <div class="row">
@@ -137,7 +119,63 @@
                                     <h5 class="title">
                                         Organization name </h5>
                                     <a href="tel:555-711-2783" class="phone d-block">555-711-2783</a>
-                                    <a href="mailto:mail@organization.com" class="mail d-block mb-2">mail@organization.com</a>
+                                    <a href="mailto:mail@organization.com" class="mail d-block">mail@organization.com</a>
+                                    <a href="#" class="link d-block">www.organization.com</a>
+                                </div>
+                            </div>
+                        </section><!--organization-->
+                        <section class="card organization col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-auto col-md-12 image">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image"/>
+                                </div><!--image-->
+                                <div class="col col-md-12 meta">
+                                    <h5 class="title">
+                                        Organization name </h5>
+                                    <a href="tel:555-711-2783" class="phone d-block">555-711-2783</a>
+                                    <a href="mailto:mail@organization.com" class="mail d-block">mail@organization.com</a>
+                                    <a href="#" class="link d-block">www.organization.com</a>
+                                </div>
+                            </div>
+                        </section><!--organization-->
+                        <section class="card organization col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-auto col-md-12 image">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image"/>
+                                </div><!--image-->
+                                <div class="col col-md-12 meta">
+                                    <h5 class="title">
+                                        Organization name </h5>
+                                    <a href="tel:555-711-2783" class="phone d-block">555-711-2783</a>
+                                    <a href="mailto:mail@organization.com" class="mail d-block">mail@organization.com</a>
+                                    <a href="#" class="link d-block">www.organization.com</a>
+                                </div>
+                            </div>
+                        </section><!--organization-->
+                        <section class="card organization col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-auto col-md-12 image">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image"/>
+                                </div><!--image-->
+                                <div class="col col-md-12 meta">
+                                    <h5 class="title">
+                                        Organization name </h5>
+                                    <a href="tel:555-711-2783" class="phone d-block">555-711-2783</a>
+                                    <a href="mailto:mail@organization.com" class="mail d-block">mail@organization.com</a>
+                                    <a href="#" class="link d-block">www.organization.com</a>
+                                </div>
+                            </div>
+                        </section><!--organization-->
+                        <section class="card organization col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-auto col-md-12 image">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image"/>
+                                </div><!--image-->
+                                <div class="col col-md-12 meta">
+                                    <h5 class="title">
+                                        Organization name </h5>
+                                    <a href="tel:555-711-2783" class="phone d-block">555-711-2783</a>
+                                    <a href="mailto:mail@organization.com" class="mail d-block">mail@organization.com</a>
                                     <a href="#" class="link d-block">www.organization.com</a>
                                 </div>
                             </div>
@@ -209,7 +247,7 @@
             </div><!--row-->
         </div><!--container-->
     </section><!--org-list-->
-    <section id="save-earth" class="w-100 text-center order-sm-first order-md-2">
+    <section id="save-earth" class="text-center order-sm-first order-md-2">
         <h1 class="headline text-uppercase">Save the earth. <span>Get involved.</span></h1>
         <p class="text-uppercase">Find an organization in your area</p>
         <form id="ep-searchform" action="/" method="post">
@@ -218,7 +256,7 @@
             </div>
         </form>
     </section>
-    <section id="partnership" class="w-100 order-last">
+    <section id="partnership" class="order-last">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 text-center my-auto">

@@ -6,12 +6,9 @@
       padding: 0 rem(10px);
     }
   }
-  .title:nth-child(1) {
-    background: $white;
-    font-size: rem(48px);
+  .accent-title {
     color: $contact-grey;
-    letter-spacing: 0;
-    line-height: 0.8;
+    background: $white;
   }
   .wrapper {
     padding: rem(50px) 0;
@@ -41,9 +38,11 @@
 
       address {
         font-weight: 300;
+        margin-bottom: rem(30px);
 
         .subtitle {
           font-size: rem(16px);
+          font-family: $mont !important;
           font-weight: 800;
           color: $d-blue;
           text-transform: uppercase;

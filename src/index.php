@@ -4,11 +4,11 @@
   include "./includes/header.php";
 ?>
 <!--News of the day section-->
-<section id="notd" class="category-section">
+<section id="notd">
     <div class="container">
         <div class="row">
-            <!--Featured article-->
-            <section class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-8">
+                <!--featured article-->
                 <article class="card featured">
                     <div class="position-relative">
                         <img class="img-fluid" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
@@ -31,9 +31,10 @@
                         <a href="#" class="btn-link read-more pb-2">Read more..
                             .</a>
                     </div><!--card-body-->
-                </article><!--featured-->
-            </section><!--card-->
-            <!--Top stories sidebar-->
+                </article>
+                <!--end of featured article-->
+            </div>
+            <!--sidebar-->
             <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
                 <h4 class="category">
                     Top Stories
@@ -99,17 +100,19 @@
                 </div>
                 <!--<img src="http://www.placehold.it/640x480" alt="" class="ad img-fluid">-->
             </section><!--sidebar-->
-            <!--Ad space-->
+            <!--end of sidebar-->
+            <!--ad space-->
             <div class="col-12 col-md-6 d-lg-none">
                 <section class="ad">
                     <img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />
                 </section>
             </div>
+            <!--end of ad space-->
         </div>
     </div>
 </section>
 <!-- Video and image of the day -->
-<section id="best-of-day" class="category-section">
+<section id="best-of-day">
     <div class="container">
         <div class="row row-eq-height">
             <!-- Video of the day -->
@@ -161,7 +164,7 @@
     </div><!--.container-fluid-->
 </section><!--#best-of-day-->
 <!--Environment section-->
-<section id="environment" class="category-section">
+<section id="environment">
     <div class="container">
         <h3 class="category text-uppercase">Environment top stories</h3>
         <div class="row">
@@ -258,7 +261,7 @@
         </div><!--row-->
     </div>
 </section>
-<section id="lifestyle" class="category-section">
+<section id="lifestyle">
     <div class="container">
         <h3 class="category text-uppercase">Lifestyle top stories</h3>
         <div class="row">
@@ -311,7 +314,7 @@
             </section><!--article-list expanding-->
             <!--Top stories sidebar-->
             <section class="col-md-12 col-lg-4 sidebar">
-                <div class="ad d-flex justify-content-center">
+                <div class="ad d-flex mx-auto justify-content-center">
                     <img class="img-fluid" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
                 </div>
             </section><!--sidebar-->
@@ -329,7 +332,7 @@
             <div class="d-flex bg">
                 <div class="text col mx-auto">
                     <h1 class="title">EXPLORE <br> PLANTS</h1>
-                    <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</button>
+                    <a href="plants.php" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</a>
                 </div>
             </div>
         </div>
@@ -338,8 +341,7 @@
                 <div class="text col mx-auto">
                     <div class="float-right float-sm-none">
                         <h1 class="title">EXPLORE <br> ANIMALS</h1>
-                        <button type="button" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE
-                        </button>
+                        <a href="animals.php" class="btn btn-outline-primary btn-explore">VIEW OUR ARCHIVE</a>
                     </div>
                 </div>
             </div>
@@ -433,27 +435,9 @@
     </div>
 </section>
 <!--Animal friends-->
-<section id="animal-friends">
-    <div class="container">
-        <div class="row">
-            <div class="info col-lg-5 offset-lg-2">
-                <h5 class="title text-uppercase">Friends of the animals foundation</h5>
-                <h2 class="headline text-uppercase">Let's not forget them.</h2>
-                <p class="text m-0">The Law - Everything is energy. Choose to believe this law. You must accept it.</p>
-            </div>
-            <div class="call-to-action col-lg-2 offset-lg-1 d-flex justify-content-between flex-column">
-                <p class="text text-uppercase">
-                    We plan to save <br> african elefants <br> by 2020.
-                </p>
-                <a href="#" class="btn btn-cta text-uppercase">
-                    Support Cause
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include "includes/animal-friends.php"; ?>
 <!--Lifestyle section 2-->
-<section id="lifestyle2" class="category-section">
+<section id="lifestyle2">
     <div class="container">
         <h3 class="category text-uppercase">Lifestyle top stories</h3>
         <div class="row">
@@ -499,33 +483,32 @@
                             <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                         </div><!--article-body-->
                     </article>
-            </section><!--card-->
-            <!--Top stories sidebar-->
-            <section class="col-md-12 col-lg-4 list-unstyled article-list link-al sidebar">
-                <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
-                    </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
-                            <span class="tag">Environment</span>
-                            <span class="date">21-12-2020</span>
-                        </div><!--meta-->
-                        <h5 class="title m-0">
-                            <a href="#">Coventry City Guide Including Coventry hotels</a>
-                        </h5>
-                    </div><!--article-body-->
-                </article>
-                <div class="ad mx-auto">
-                    <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
-                </div>
-            </section><!--sidebar-->
-            <!--Ad space-->
+                </section><!--card-->
+                <!--Top stories sidebar-->
+                <section class="col-md-12 col-lg-4 list-unstyled article-list link-al sidebar">
+                    <article class="story row no-gutters">
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                        </div><!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                <span class="tag">Environment</span>
+                                <span class="date">21-12-2020</span>
+                            </div><!--meta-->
+                            <h5 class="title m-0">
+                                <a href="#">Coventry City Guide Including Coventry hotels</a>
+                            </h5>
+                        </div><!--article-body-->
+                    </article>
+                    <div class="ad mx-auto">
+                        <img class="img-fluid d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                    </div>
+                </section><!--sidebar-->
+                <!--Ad space-->
         </div><!--row-->
     </div>
 </section>
-<!--Newsletter-->
-<?php include "includes/newsletter.php" ?>
-
-<!-- Footer -->
-<?php include "includes/footer.php"; ?>
+<?php
+    include "includes/newsletter.php";
+    include "includes/footer.php";
+?>

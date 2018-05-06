@@ -6,19 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1,h2.nl-title,h2,h3,h4,h5,h6 {
+h1,h2.nl-title,h2,h3,h4 {
   font-family: $anton !important;
 }
 .headline {
   color: $white;
   line-height: rem(67px);
-  font-weight: 800 !important;
+  //font-weight: 800 !important;
 }
-h1.headline {
-  font-size: rem(72px);
+h1 {
+  &.headline {
+    font-size: rem(72px) !important;
 
-  @include media-breakpoint-down(md) {
-    font-size: rem(68px);
+    @include media-breakpoint-down(md) {
+      font-size: rem(68px) !important;
+    }
+  }
+  &.accent-title {
+    letter-spacing: 0;
+    line-height: 0.8;
   }
 }
 h2.headline {
@@ -128,5 +134,12 @@ h4.category {
   .read-more {
     font-weight: 300;
     text-decoration: none;
+  }
+}
+
+h5.title {
+  font-size: rem(16px);
+  a {
+    font-weight: 800;
   }
 }

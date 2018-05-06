@@ -43,6 +43,10 @@
 }
 
 .btn-explore {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
   color: $white;
   border: rem(2px) solid $white;
   text-align: center;

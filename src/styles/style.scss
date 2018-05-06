@@ -23,6 +23,7 @@
 @import 'pages/contact';
 @import 'pages/earthpedia';
 @import 'pages/take-action';
+@import 'pages/images';
 @import 'pages/image-details';
 @import 'pages/animals';
 @import 'pages/news-details';
@@ -31,85 +32,3 @@
 @import 'themes/default';
 
 @import 'shame';
-
-/*************************************/
-/************ GENERAL ****************/
-/*************************************/
-.background-red {
-  background-color: #d33b1b;
-}
-
-.background-orange {
-  background-color: #f47a21;
-}
-
-.text-red {
-  color: #d33b1b;
-}
-
-.text-orange {
-  color: #f47a21;
-}
-
-.background-yellow {
-  background-color: #FBC100;
-}
-
-.news-img {
-  max-width: 100%;
-}
-
-
-/* Newsletter */
-
-.newsletter-container {
-  height: auto;
-  background-color: #a0e7d3;
-  .pigeon {
-    position: relative;
-    img {
-      position: absolute;
-      height: 190px;
-      width: 95px;
-      top: 50px;
-      right: 0;
-      z-index: 20;
-    }
-  }
-  h2.newsletter-title {
-    color: #fff !important;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-  .col-left {
-    // padding-left: 120px;
-    padding-top: 40px;
-  }
-  .col-right {
-    // padding-right: 120px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  h3.newsletter-text {
-    font-size: 18px;
-  }
-  .col-right {
-    input[type="email"] {
-      padding: 15px;
-      display: block;
-      width: 100%;
-      margin-top: 20px;
-    }
-    button {
-      padding: 10px;
-      width: 70%;
-      display: block;
-      margin-top: 20px;
-      color: #fff;
-      border-color: #fff;
-      font-size: 20px;
-      font-weight: bold;
-      border: 3px solid white;
-    }
-  }
-}

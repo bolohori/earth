@@ -3,7 +3,7 @@
   include "./includes/head.php";
   include "./includes/header.php";
 
-  $title = "Earth.com - Home Page";
+  $title = "Earths.com - Home Page";
 ?>
 
 <!-- Main Image Details -->

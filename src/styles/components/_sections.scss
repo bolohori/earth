@@ -207,7 +207,11 @@
 }
 
 #animal-friends {
-  background: #000;
+  background: $black;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   padding-top: rem(60px);
   padding-bottom: rem(80px);
   .title {
@@ -226,4 +230,21 @@
     height: auto !important;
     padding: rem(15px) rem(25px) !important;
   }
+}
+
+#from-the-web {
+  .category {
+    color: $d-blue;
+  }
+  article {
+    margin-bottom: rem(20px);
+
+    .title {
+      font-size: rem(16px) !important;
+    }
+  }
+}
+
+.ad {
+  position: relative;
 }
