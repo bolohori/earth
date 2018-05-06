@@ -7,8 +7,7 @@
 <section id="ep-header">
     <div class="overlay w-100"></div>
     <div class="content h-100 d-flex flex-column">
-        <h1 class="headline text-uppercase">Rediscover<br>
-            class="d-block d-lg-none"> Earth</h1>
+        <h1 class="headline text-uppercase">Rediscover<br> Earth</h1>
         <div class="row no-gutters h-100 align-items-end align-items-lg-start">
             <div class="col-12 col-md-6 search-wrapper">
                 <p class="d-lg-none">Explore the most amazing plants<br> and animals.</p>
@@ -33,8 +32,7 @@
                 <article class="card featured side-article">
                     <div class="row">
                         <div class="col-12 col-lg-6">
-                            <img class="img-fluid"
-                                 src="./assets/images/placeholder%20images/news_v1@2x.jpg" alt="Card image">
+                            <img class="img-fluid" src="./assets/images/placeholder%20images/news_v1@2x.jpg" alt="Card image">
                         </div>
                         <div class="col-12 col-lg-6">
                             <div class="card-body p-0 pt-2">

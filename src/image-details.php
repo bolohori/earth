@@ -9,18 +9,20 @@
 <!-- Main Image Details -->
 <section class="image-details-container">
   <div class="container">
+    <!--
     <div class="row earth-breadcrumb">
       <div class="col-12">
         <a href="/">Home</a> / <a href="#">Images</a> / <a href="#">Radio Astronomy</a>
       </div>
     </div>
+  -->
 
     <div class="row">
       <div class="col-12 user-container">
         <h2 class="title">Radio Astronomy</h2>
         <div class="left-user">
           <span>
-            <img class="user-profile" src="assets/images/icons/user-profile.jpg" alt="user_profile">
+            <img class="user-profile" src="assets/images/icons/user_profile.jpg" alt="user_profile">
           </span>
           <span>
             by <strong>user_name</strong> |
@@ -52,16 +54,16 @@
         <div class="social-icons">
         <span class="spread-word">SPREAD THE WORD</span>
         <a href="#">
-          <img src="assets/images/icons/fb-icon.png" alt="Facebook">
+          <img src="assets/images/icons/fb_icon.png" alt="Facebook">
         </a>
         <a href="#">
-          <img src="assets/images/icons/ig-icon.png" alt="Instagram">
+          <img src="assets/images/icons/ig_icon.png" alt="Instagram">
         </a>
         <a href="#">
-          <img src="assets/images/icons/twitter-icon.png" alt="Twitter">
+          <img src="assets/images/icons/twitter_icon.png" alt="Twitter">
         </a>
         <a href="#">
-          <img src="assets/images/icons/rss-icon.png" alt="RSS">
+          <img src="assets/images/icons/rss_icon.png" alt="RSS">
         </a>
       </div>
       </div>

@@ -165,7 +165,7 @@
     <div class="container">
         <h3 class="category text-uppercase">Environment top stories</h3>
         <div class="row">
-            <section class="col-md-12 col-lg-8 card">
+            <section class="col-md-12 col-lg-8 card pt-3">
                 <article class="featured side-article">
                     <div class="row">
                         <div class="col-12 col-md-6">
@@ -499,7 +499,6 @@
                             <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                         </div><!--article-body-->
                     </article>
-                </section><!--article-list expanding-->
             </section><!--card-->
             <!--Top stories sidebar-->
             <section class="col-md-12 col-lg-4 list-unstyled article-list link-al sidebar">
