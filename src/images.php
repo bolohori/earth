@@ -54,7 +54,21 @@
         <div class="row">
             <!--Featured article-->
             <div class="col-md-12 col-lg-8">
-                <h3 class="category text-uppercase">Image Galleries</h3>
+                <div class="row">
+                    <div class="col-auto">
+                        <h3 class="category mr-auto text-uppercase">Image Galleries</h3>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <form class="filter-form" action="/" method="post">
+                            <div class="input-group bg-white">
+                                <input class="form-control border-0" placeholder="Filter results...">
+                                <div class="input-group-addon my-auto bg-white border-0">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <div class="row">
                     <section class="card gallery col-12 col-md-6">
                         <div class="row no-gutters">
