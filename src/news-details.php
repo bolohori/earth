@@ -6,11 +6,13 @@
 
 <!-- News of the Day and Top Stories Row -->
 <div class="container news-details-container">
+  <!--
   <div class="row news-details-breadcrumb">
     <div class="col-12">
       <a href="index.php"><i class="fas fa-globe"></i></a> / <a href="news.php">News </a> / <a href="animals.php">Environment</a> / <a href="#">Lasik Eye Surgery Are You Ready</a>
     </div>
   </div>
+  -->
   <div class="row">
     <!-- News of the Day Image -->
     <div class="col-lg-8 news-of-the-day-image">
@@ -25,16 +27,16 @@
           <h2 class="news-title">Green Peace - Land of the Dreamer</h2>
           <div class="social-icons">
             <a href="#">
-              <img src="assets/images/icons/fb-icon.png" alt="Facebook">
+              <img src="./assets/images/icons/fb_icon.png" alt="Facebook">
             </a>
             <a href="#">
-              <img src="assets/images/icons/ig-icon.png" alt="Instagram">
+              <img src="assets/images/icons/ig_icon.png" alt="Instagram">
             </a>
             <a href="#">
-              <img src="assets/images/icons/twitter-icon.png" alt="Twitter">
+              <img src="assets/images/icons/twitter_icon.png" alt="Twitter">
             </a>
             <a href="#">
-              <img src="assets/images/icons/rss-icon.png" alt="RSS">
+              <img src="assets/images/icons/rss_icon.png" alt="RSS">
             </a>
           </div>
           <p class="news-excerpt">
@@ -47,12 +49,12 @@
       <div class="col-12 user-container">
         <div class="left-user">
           <div class="row">
-            <div class="col-4 user-img">
+            <div class="col-1 user-img">
               <span>
-                <img class="user-profile" src="assets/images/icons/user-profile.jpg" alt="user_profile">
+                <img class="user-profile" src="assets/images/icons/user_profile.jpg" alt="user_profile">
               </span>
             </div>
-            <div class="col-8 user-details">
+            <div class="col-11 user-details">
               <span>
                 by <strong>user_name</strong><br />
                 Earth.com Staff Writer
@@ -70,16 +72,16 @@
               <div class="social-icons">
               <span class="spread-word">SPREAD THE WORD</span>
               <a href="#">
-                <img src="assets/images/icons/fb-icon.png" alt="Facebook">
+                <img src="assets/images/icons/fb_icon.png" alt="Facebook">
               </a>
               <a href="#">
-                <img src="assets/images/icons/ig-icon.png" alt="Instagram">
+                <img src="assets/images/icons/ig_icon.png" alt="Instagram">
               </a>
               <a href="#">
-                <img src="assets/images/icons/twitter-icon.png" alt="Twitter">
+                <img src="assets/images/icons/twitter_icon.png" alt="Twitter">
               </a>
               <a href="#">
-                <img src="assets/images/icons/rss-icon.png" alt="RSS">
+                <img src="assets/images/icons/rss_icon.png" alt="RSS">
               </a>
             </div>
             </div>

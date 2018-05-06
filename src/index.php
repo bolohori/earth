@@ -202,7 +202,7 @@
     <div class="container">
         <h3 class="category text-uppercase">Environment top stories</h3>
         <div class="row">
-            <section class="col-md-12 col-lg-8 card">
+            <section class="col-md-12 col-lg-8 card pt-3">
                 <article class="featured side-article">
                     <div class="row">
                         <div class="col-12 col-md-6">
@@ -573,7 +573,7 @@
                                 </article>
                             </div>
                         </li>
-                        <li class="col-lg-w12">
+                        <li class="col-lg-12">
                             <div class="row">
                                 <article class="story row no-gutters">
                                     <div class="image mr-2 col-auto">
