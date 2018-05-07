@@ -148,8 +148,8 @@ include "includes/header.php";
                 <div class="ad d-flex text-center mb-5">
                     <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
                 </div>
+                <h4 class="category">Related Videos</h4>
                 <section class="article-list">
-                    <h4 class="category">Top Videos</h4>
                     <article class="story row no-gutters">
                         <div class="image mr-2 col-auto">
                             <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
