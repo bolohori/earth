@@ -113,3 +113,4 @@
     </div>
 </div>
 </div> <!-- main container -->
+<?php include "scripts.php" ?>

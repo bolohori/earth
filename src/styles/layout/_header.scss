@@ -5,6 +5,9 @@
 .navbar {
   .secondary-menu-toggler {
     color: $white;
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
   }
   .navbar-brand {
     max-width: rem(107px);

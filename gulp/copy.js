@@ -12,7 +12,7 @@ gulp.task('copy:general', ['clean:dist'], () =>
   gulp
     .src([
       './src/**/*',
-	  './src/**/*',
+      './src/**/*',
       '!./src/data',
       '!./src/data/**',
       '!./src/images',

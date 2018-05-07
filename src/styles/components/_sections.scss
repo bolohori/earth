@@ -42,11 +42,11 @@
       margin-bottom: 0;
       border-bottom: 2px solid #dddddd;
       padding: rem(25px) 0;
-     &:first-of-type {
-       >.row {
-         padding-top: 0;
-       }
-     }
+      &:first-of-type {
+        >.row {
+          padding-top: 0;
+        }
+      }
     }
     .image {
       display: none;
@@ -247,4 +247,47 @@
 
 .ad {
   position: relative;
+}
+//Styling for single-post pages
+
+.details-section {
+  .card-img-overlay {
+    bottom: rem(-10px) !important;
+    left: rem(12px);
+    top: unset;
+  }
+  .category {
+    &.subtitle {
+      font-size: rem(24px) !important;
+    }
+    &.badge {
+      color: $white;
+      font-size: rem(14px) !important;
+      padding: rem(5px);
+    }
+  }
+  .info-table {
+    margin-bottom: rem(40px);
+    .row {
+      &.tr {
+        padding: rem(20px) 0;
+        border-bottom: 1px solid $meta-grey;
+      }
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+    .th {
+      span {
+        color: #b6b6b6;
+        font-weight: 700;
+      }
+    }
+    .td {
+      padding-left: rem(30px);
+      span {
+        font-weight: 300 !important;
+      }
+    }
+  }
 }
