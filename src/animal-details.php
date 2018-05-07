@@ -241,8 +241,116 @@ include "includes/header.php";
         </div>
     </div>
 </section>
+<?php include "includes/animal-friends.php"; ?>
+<section class="animal-videos mt-5">
+    <div class="container">
+        <h3 class="category text-uppercase">Animal Videos</h3>
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="row">
+                    <div class="col">
+                        <article class="card featured">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
+                            </div>
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div> <!--meta-->
+                                <h2 class="title mb-2">
+                                    <a href="#" class="d-block">
+                                        Stu Unger Rise And Fall Of A Poker Genius
+                                    </a>
+                                </h2>
+                            </div><!--card-body-->
+                        </article><!--featured article-->
+                        <article class="card featured">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
+                            </div>
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div> <!--meta-->
+                                <h2 class="title mb-2">
+                                    <a href="#" class="d-block">
+                                        Stu Unger Rise And Fall Of A Poker Genius
+                                    </a>
+                                </h2>
+                            </div><!--card-body-->
+                        </article><!--featured article-->
+                    </div><!--col-->
+                    <div class="col article-list medium-al m-0">
+                        <article class="story row no-gutters">
+                            <div class="image mr-2 col-auto">
+                                <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                            </div><!--image-->
+                            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                    <span class="tag">Environment</span>
+                                    <span class="date">21-12-2020</span>
+                                </div><!--meta-->
+                                <h5 class="title m-0">
+                                    <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                </h5>
+                            </div><!--article-body-->
+                        </article>
+                        <article class="story row no-gutters">
+                            <div class="image mr-2 col-auto">
+                                <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                            </div><!--image-->
+                            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                    <span class="tag">Environment</span>
+                                    <span class="date">21-12-2020</span>
+                                </div><!--meta-->
+                                <h5 class="title m-0">
+                                    <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                </h5>
+                            </div><!--article-body-->
+                        </article>
+                        <article class="story row no-gutters">
+                            <div class="image mr-2 col-auto">
+                                <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                            </div><!--image-->
+                            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                    <span class="tag">Environment</span>
+                                    <span class="date">21-12-2020</span>
+                                </div><!--meta-->
+                                <h5 class="title m-0">
+                                    <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                </h5>
+                            </div><!--article-body-->
+                        </article>
+                        <article class="story row no-gutters">
+                            <div class="image mr-2 col-auto">
+                                <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                            </div><!--image-->
+                            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                    <span class="tag">Environment</span>
+                                    <span class="date">21-12-2020</span>
+                                </div><!--meta-->
+                                <h5 class="title m-0">
+                                    <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                </h5>
+                            </div><!--article-body-->
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 article-list sidebar">
+                <div class="ad d-flex text-center mb-5">
+                    <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section><!--animals-->
 <hr class="divider invisible my-5">
 <?php
-include "includes/animal-friends.php";
+include "includes/newsletter.php";
 include "includes/footer.php";
 ?>

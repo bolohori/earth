@@ -2,6 +2,21 @@
     .sidebar {
         .category {
             color: $purple;
+        }git
+    }
+}
+.animal-videos {
+    .category {
+    color: $purple !important;
+    }
+    .featured {
+        .title {
+            a {
+                font-size: rem(16px) !important;
+                font-family: $mont !important;
+                font-weight: 900;
+
+            }
         }
     }
 }
