@@ -5,7 +5,7 @@
 ?>
 <section id="story-otd">
     <div class="container">
-        <div class="row mb-4">
+        <div class="row m-0 mb-4">
             <section class="col-md-12 col-lg-8 card pt-3">
                 <article class="featured side-article">
                     <div class="row mb-5">
@@ -657,7 +657,7 @@
 <section id="voices">
     <div class="container">
         <h3 class="title category">Voices top stories</h3>
-        <div class="row mb-4">
+        <div class="row m-0 mb-4">
             <section class="col-md-12 col-lg-8 card pt-3">
                 <article class="featured side-article">
                     <div class="row mb-5">

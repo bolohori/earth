@@ -520,7 +520,7 @@
 <!--Lifestyle section 2-->
 <section id="lifestyle2">
     <div class="container">
-        <div class="row mb-4">
+        <div class="row m-0 mb-4">
             <section class="col-md-12 col-lg-8">
                 <article class="featured side-article card">
                     <h3 class="category">Lifestyle top stories</h3>
@@ -611,7 +611,7 @@
                 </article>
             </section><!--sidebar-->
         </div><!--row-->
-        <div class="row mb-5">
+        <div class="row m-0 mb-5">
             <section class="col-md-12 col-lg-8 article-list expanding-al">
                 <article class="story row no-gutters">
                     <div class="image mr-2 col-auto">
