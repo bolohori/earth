@@ -1,9 +1,9 @@
 <?php
-$title = "Earth.com - Take Action";
+$title = "Animal details";
 include "./includes/head.php";
 include "includes/header.php";
 ?>
-<section id="animal" class="details-section">
+<section id="animal-details" class="details-section">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-8">

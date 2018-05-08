@@ -140,14 +140,14 @@
                         <div class="header col-4 d-flex flex-column justify-content-between">
                             <h4 class="category m-0">
                                 Video of the day
-                                <span class="slider-actions float-right">
+                                <div class="slider-actions float-right">
                                     <a href="#" data-wpel-link="internal">
                                         <i class="fas fa-chevron-circle-left"></i>
                                     </a>
                                     <a href="#" data-wpel-link="internal">
                                         <i class="fas fa-chevron-circle-right"></i>
                                     </a>
-                                </span>
+                                </div>
                             </h4>
                             <div class="meta">
                                 <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">11-20-2018</p>
@@ -167,14 +167,14 @@
                         <div class="header d-flex flex-column justify-content-between">
                             <h4 class="category m-0">
                                 Image of the day
-                                <span class="slider-actions float-right">
+                                <div class="slider-actions float-right">
                                     <a href="#" data-wpel-link="internal">
                                         <i class="fas fa-chevron-circle-left"></i>
                                     </a>
                                     <a href="#" data-wpel-link="internal">
                                         <i class="fas fa-chevron-circle-right"></i>
                                     </a>
-                                </span>
+                                </div>
                             </h4>
                             <div class="meta">
                                 <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">11-20-2018</p>

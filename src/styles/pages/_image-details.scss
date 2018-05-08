@@ -1,94 +1,65 @@
-.image-details-container {
-  .earth-breadcrumb a,
-  .earth-breadcrumb {
-    color: #bbbbbb;
-    font-size: 12px;
-    margin-bottom: 18px;
-  }
-  .image-big-container {
-    position: relative;
-    .full-screen {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      width: auto;
-    }
-  }
-  .social-icons-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .spread-word {
-    font-weight: bold;
-    padding-right: 10px;
-  }
-  .leave-comment-container {
-    h2 {
-      color: #FBD558;
-      font-size: 16px;
-      display: block;
-    }
-    .leave-comment {
-      position: relative;
-    }
-    .btn-send-comment {
-      position: absolute;
-      bottom: 15px;
-      right: 15px;
-    }
-  }
-}
-
-.user-container {
-  width: 100%;
-  padding-bottom: 15px;
+#image-details {
   .title {
-    color: #08163B;
+    margin-bottom: rem(20px);
   }
-  .left-user {
-    float: left;
-    display: inline-block;
-    color: #bbbbbb;
-  }
-  .right-user {
-    float: right;
-  }
-  .user-profile {
-    width: auto;
-  }
-  .download-hires {
-    padding-left: 15px;
-  }
-  .btn-prev-image {
-    background-color: #ffffff;
-    border: 1px solid #bbbbbb;
-    color: #bbbbbb;
-    font-size: 14px;
-  }
-}
-
-.social-icons {
-  img {
-    width: auto;
-  }
-}
-
-.related-images-videos {
-  margin-top: 125px;
-  .image-details-title-yellow {
-    color: #FBD558;
-  }
-  .image-details-title-purple {
-    color: #A485D6;
-  }
-  .article-category-date {
-    color: #bbbbbb;
-    padding-bottom: 10px;
-    .category {
-      padding-left: 0;
+  .meta {
+    margin-bottom: rem(10px);
+    .user-info {
+      margin: 0;
+    }
+    .download-link {
+      display: inline-flex;
+      margin-left: rem(15px);
+      img {
+        width: rem(30px);
+        height: rem(30px);
+      }
+    }
+    .slider-actions {
+      a {
+        font-size: rem(28px);
+        color: $title-grey;
+        text-align: center;
+        &:hover {
+          color: darken($ft-title-grey, 20%);
+        }
+      }
     }
   }
-  .article-title {
-    font-weight: bold;
+  .social {
+    h6 {
+      color: $title-grey !important;
+      font-size: rem(14px);
+    }
+  }
+  .comments {
+    margin-bottom: rem(45px);
+    label {
+      font-family: $anton;
+      font-weight: normal;
+      color: $title-grey;
+      text-transform: uppercase;
+    }
+    .form-group {
+      margin-bottom: 0;
+    }
+  }
+  .related-galleries {
+    .gallery {
+      margin-bottom: rem(20px);
+      .title {
+        margin-bottom: rem(10px);
+        a {
+          color: $d-blue !important;
+          font-size: rem(17px) !important;
+        }
+      }
+    }
+  }
+  .from-the-web {
+    margin-top: rem(20px);
+    .category {
+      color: $black;
+    }
   }
 }
