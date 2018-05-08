@@ -2,7 +2,7 @@
 <div class="container footer">
     <div class="row">
         <div class="col-12 col-lg-3">
-            <img class="footer-logo" src="assets/images/footer-logo.png" alt="earth.com logo">
+            <img class="footer-logo" src="assets/images/logos/footer-logo.png" alt="earth.com logo">
         </div>
     </div>
     <div class="row">

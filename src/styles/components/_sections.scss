@@ -267,6 +267,11 @@
       padding: rem(5px);
     }
   }
+  p {
+    a {
+      color: inherit;
+    }
+  }
   .info-table {
     margin-bottom: rem(40px);
     .row {
@@ -289,6 +294,54 @@
       span {
         font-weight: 300 !important;
       }
+    }
+  }
+}
+
+.user-info {
+  margin: rem(15px) 0;
+  .avatar {
+    img {
+      width: rem(55px);
+      height: rem(55px);
+    }
+  }
+  .details {
+    padding-left: rem(15px);
+    p {
+      font-weight: 300;
+      margin: 0;
+      a {
+        color: inherit;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.comment-form {
+  label {
+    font-weight: 800;
+    color: $red;
+  }
+  textarea {
+    border: 1px solid #cbcbcb !important;
+  }
+  .btn-comment {
+    position: absolute;
+    right: rem(10px);
+    bottom: rem(10px);
+    color: $white;
+    background-color: $l-blue;
+    font-weight: 800;
+    line-height: 22px;
+    width: rem(75px);
+    height: rem(32px);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background-color: darken($l-blue, 10%);
     }
   }
 }

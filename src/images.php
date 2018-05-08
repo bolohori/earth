@@ -352,8 +352,11 @@
         <!--container-->
     </section>
     <!--gallery-list-->
-
-    <?php include "includes/from-the-web.php"; ?>
+<section id="from-the-web">
+    <div class="container">
+        <?php include "includes/from-the-web.php"; ?>
+    </div>
+</section>
     <hr class="divider invisible my-5">
     <?php
     include "includes/animal-friends.php";
