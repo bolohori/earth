@@ -255,6 +255,9 @@
                         </section>
                         <!--gallery-->
                     </div>
+                    <section id="from-the-web">
+                        <?php include "includes/from-the-web.php" ?>
+                    </section>
                 </div>
                 <!--Sidebar-->
                 <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
@@ -352,12 +355,6 @@
         <!--container-->
     </section>
     <!--gallery-list-->
-<section id="from-the-web">
-    <div class="container">
-        <?php include "includes/from-the-web.php"; ?>
-    </div>
-</section>
-    <hr class="divider invisible my-5">
     <?php
     include "includes/animal-friends.php";
     include "includes/footer.php";
