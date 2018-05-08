@@ -1,9 +1,8 @@
 <?php
-  $title = "Earth.com - Take Action";
+  $title = "Images";
   include "./includes/head.php";
   include "includes/header.php";
 ?>
-    <h1 class="someclass"></h1>
     <section id="image-otd">
         <div class="container">
             <div class="row">
@@ -38,13 +37,12 @@
                     <!--end of featured article-->
                 </div>
                 <!--sidebar-->
-                <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
+                <aside class="col-12 col-md-6 col-lg-4 article-list sidebar">
                     <div class="ad d-flex text-center mb-5">
                         <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
                     </div>
-                </section>
+                </aside>
                 <!--sidebar-->
-                <!--end of sidebar-->
                 <!--ad space-->
                 <div class="col-12 col-md-6 d-lg-none">
                     <section class="ad">
@@ -55,7 +53,7 @@
             </div>
         </div>
     </section>
-    <section id="gallery-list">
+    <section id="gallery-list" class="filter-list">
         <div class="container">
             <div class="row">
                 <!--Featured article-->
@@ -66,14 +64,14 @@
                         </div>
                         <div class="col filter-form">
                             <div class="input-group bg-white justify-content-end">
-                                <input id="searchFilter" class="form-control border-0" onkeyup="myFunction()" placeholder="Filter results...">
+                                <input id="searchFilter" class="form-control border-0" onkeyup="myFunction()" placeholder="Search for...">
                                 <div class="input-group-addon my-auto bg-white border-0">
                                     <i class="fas fa-search"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row filter-list">
+                    <div class="row list">
                         <section class="card gallery filter-item col-12 col-md-6">
                             <div class="row no-gutters">
                                 <div class="col-auto col-md-12 image">
@@ -260,7 +258,7 @@
                     </section>
                 </div>
                 <!--Sidebar-->
-                <section class="col-12 col-md-6 col-lg-4 article-list sidebar">
+                <aside class="col-12 col-md-6 col-lg-4 article-list sidebar">
                     <h4 class="category">Top Videos</h4>
                     <article class="story row no-gutters">
                         <div class="image mr-2 col-auto">
@@ -347,7 +345,7 @@
                         </div>
                         <!--article-body-->
                     </article>
-                </section>
+                </aside>
                 <!--Sidebar-->
             </div>
             <!--row-->

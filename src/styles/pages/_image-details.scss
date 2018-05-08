@@ -15,16 +15,6 @@
         height: rem(30px);
       }
     }
-    .slider-actions {
-      a {
-        font-size: rem(28px);
-        color: $title-grey;
-        text-align: center;
-        &:hover {
-          color: darken($ft-title-grey, 20%);
-        }
-      }
-    }
   }
   .social {
     h6 {

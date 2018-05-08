@@ -142,10 +142,10 @@
                                 Video of the day
                                 <div class="slider-actions float-right">
                                     <a href="#" data-wpel-link="internal">
-                                        <i class="fas fa-chevron-circle-left"></i>
+                                        <i class="fas fa-chevron-left"></i>
                                     </a>
                                     <a href="#" data-wpel-link="internal">
-                                        <i class="fas fa-chevron-circle-right"></i>
+                                        <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>
                             </h4>
@@ -169,10 +169,10 @@
                                 Image of the day
                                 <div class="slider-actions float-right">
                                     <a href="#" data-wpel-link="internal">
-                                        <i class="fas fa-chevron-circle-left"></i>
+                                        <i class="fas fa-chevron-left"></i>
                                     </a>
                                     <a href="#" data-wpel-link="internal">
-                                        <i class="fas fa-chevron-circle-right"></i>
+                                        <i class="fas fa-chevron-right"></i>
                                     </a>
                                 </div>
                             </h4>

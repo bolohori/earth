@@ -32,12 +32,15 @@ h2.headline {
   line-height: rem(49px);
 }
 h2.title,
+h3.title,
+h4.title,
 h5.title,
 h6.title {
   color: $d-blue !important;
 
   a {
-    color: $d-blue;
+    color: inherit !important;
+    font-size: inherit !important;
   }
 }
 

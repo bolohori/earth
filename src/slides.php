@@ -1,282 +1,342 @@
 <?php
-  $title = "Earth.com - Take Action";
+  $title = "Slides";
   include "./includes/head.php";
   include "includes/header.php";
 ?>
-<div class="container">
-  <div class="row">
-    <h1>The top 10 snowiest places in the world</h1>
-    <div class="col-lg-8 news-of-the-day-image slides-border-bottom">
-      <div class="highlight-ribbon background-yellow">
-        News of the Day
-      </div>
-      <img class="news-img" src="assets/images/news/news-of-the-day.jpg" alt="News of the Day" />
-        <div class="col-lg-5 arrow-left">
-          <i class="fas fa-chevron-circle-left"></i>
-        </div>
-        <div class="col-lg-6 arrow-right">
-          <i class="fas fa-chevron-circle-right"></i>
-        </div>
-      <h2 class="news-title">Alaska</h2>
-      <p class="news-excerpt">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- Partner Organisation -->
-<div class="container">
-  <div class="row">
-    <!-- News of the Day Image -->
-    <div class="col-lg-8 news-of-the-day-image">
-      <div class="row article-category-date">
-        <div class="col-lg-6">
-          <h2>Image Galleries</h2>
-        </div>
-        <div class="col-lg-6">
-          <!-- Search bar -->
-          <div class="searchbar-container">
-            <input type="text" placeholder="Search...">
-            <i class="fas fa-search"></i>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-        <div class="col-lg-6">
-          <img src="assets/images/top-story.jpg" alt="Image">
-          <p>
-            11-22-2018
-          </p>
-          <p>
-            Selecting the right hotel
-          </p>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Right sidebar with Top Stories -->
-    <div class="col-lg-4">
-      <h2 class="section-title">EARTH SLIDES</h2>
-
-      <!-- Top Story Article -->
-      <article class="top-story">
+<section id="slide-otd">
+    <div class="container">
+        <h2 class="title mb-2">
+            <a href="#" class="d-block">
+                Asteroids
+            </a>
+        </h2>
         <div class="row">
-          <div class="col-lg-6">
-            <video width="170" controls>
-              <source src="assets/videos/sample.mp4" type=video/mp4 />
-            </video>
-          </div>
-          <div class="col-lg-6">
-            <div class="row article-category-date">
-              <div class="col-md-6 category">
-                ENVIRONMENT
-              </div>
-              <div class="col-md-6 date">
-                11-22-2018
-              </div>
+            <div class="col-md-12 col-lg-8">
+                <!--featured article-->
+                <article class="card featured">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/image-otd.jpg" alt="Card image">
+                        <div class="card-img-overlay pl-0 pt-4">
+                            <h4 class="category badge badge-dark text-uppercase rounded-0">Slide of the day</h4>
+                        </div>
+                        <!--overlay-->
+                    </div>
+                    <div class="card-body p-0 pt-2">
+                        <div class="slider-actions  row text-center w-100">
+                            <div class="col">
+                                <a href="#" data-wpel-link="internal">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" data-wpel-link="internal">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text mb-3 item">1. Alaska</p>
+                        <p class="text mb-3">There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope.</p>
+                        <a href="#" class="btn-link read-more pb-2">Read more...</a>
+                    </div>
+                    <!--card-body-->
+                </article>
+                <!--end of featured article-->
+                <section id="slider-list" class="filter-list">
+                    <!--Featured article-->
+                    <div class="row">
+                        <div class="col-auto">
+                            <h3 class="category mr-auto text-uppercase">Earth slides</h3>
+                        </div>
+                        <div class="col filter-form">
+                            <div class="input-group bg-white justify-content-end">
+                                <input id="searchFilter" class="form-control border-0" onkeyup="myFunction()" placeholder="Search for...">
+                                <div class="input-group-addon my-auto bg-white border-0">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row list">
+                        <section class="card slider filter-item col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-aol-md-12 image position-relative">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div>
+                                <!--meta-->
+                                <h3 class="title">
+                                    <a href="#" class="d-block">
+                                        Gallery Title
+                                    </a>
+                                </h3>
+                            </div>
+                        </section>
+                        <section class="card slider filter-item col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-aol-md-12 image position-relative">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div>
+                                <!--meta-->
+                                <h3 class="title">
+                                    <a href="#" class="d-block">
+                                        Gallery Title
+                                    </a>
+                                </h3>
+                            </div>
+                        </section>
+                        <section class="card slider filter-item col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-aol-md-12 image position-relative">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div>
+                                <!--meta-->
+                                <h3 class="title">
+                                    <a href="#" class="d-block">
+                                        Gallery Title
+                                    </a>
+                                </h3>
+                            </div>
+                        </section>
+                        <section class="card slider filter-item col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-aol-md-12 image position-relative">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div>
+                                <!--meta-->
+                                <h3 class="title">
+                                    <a href="#" class="d-block">
+                                        Gallery Title
+                                    </a>
+                                </h3>
+                            </div>
+                        </section>
+                        <section class="card slider filter-item col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-aol-md-12 image position-relative">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div>
+                                <!--meta-->
+                                <h3 class="title">
+                                    <a href="#" class="d-block">
+                                        Gallery Title
+                                    </a>
+                                </h3>
+                            </div>
+                        </section>
+                        <section class="card slider filter-item col-12 col-md-6">
+                            <div class="row no-gutters">
+                                <div class="col-aol-md-12 image position-relative">
+                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </a>
+                                        <a href="#" data-wpel-link="internal">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                                <div class="meta d-flex mb-2">
+                                    <span class="date">21-12-2020</span>
+                                </div>
+                                <!--meta-->
+                                <h3 class="title">
+                                    <a href="#" class="d-block">
+                                        Gallery Title
+                                    </a>
+                                </h3>
+                            </div>
+                        </section>
+                    </div>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <!--<li class="page-item disabled">-->
+                            <!--<a class="page-link" href="#" aria-label="Previous">-->
+                            <!--<span aria-hidden="true">&laquo;</span>-->
+                            <!--<span class="sr-only">Previous</span>-->
+                            <!--</a>-->
+                            <!--</li>-->
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">Next ></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <!--slide-gallery-->
+                <section class="from-the-web">
+                    <?php include "includes/from-the-web.php" ?>
+                </section>
             </div>
-            <div class="row article-title">
-              <div class="col-12">
-                Coventry City Guide Including Coventry Hotels
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Top Story Article -->
-      <article class="top-story">
-        <div class="row">
-          <div class="col-lg-6">
-            <video width="170" controls>
-              <source src="assets/videos/sample.mp4" type=video/mp4 />
-            </video>
-          </div>
-          <div class="col-lg-6">
-            <div class="row article-category-date">
-              <div class="col-md-6 category">
-                ENVIRONMENT
-              </div>
-              <div class="col-md-6 date">
-                11-22-2018
-              </div>
-            </div>
-            <div class="row article-title">
-              <div class="col-12">
-                Coventry City Guide Including Coventry Hotels
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Top Story Article -->
-      <article class="top-story">
-        <div class="row">
-          <div class="col-lg-6">
-            <video width="170" controls>
-              <source src="assets/videos/sample.mp4" type=video/mp4 />
-            </video>
-          </div>
-          <div class="col-lg-6">
-            <div class="row article-category-date">
-              <div class="col-md-6 category">
-                ENVIRONMENT
-              </div>
-              <div class="col-md-6 date">
-                11-22-2018
-              </div>
-            </div>
-            <div class="row article-title">
-              <div class="col-12">
-                Coventry City Guide Including Coventry Hotels
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!-- Top Story Article -->
-      <article class="top-story">
-        <div class="row">
-          <div class="col-lg-6">
-            <video width="170" controls>
-              <source src="assets/videos/sample.mp4" type=video/mp4 />
-            </video>
-          </div>
-          <div class="col-lg-6">
-            <div class="row article-category-date">
-              <div class="col-md-6 category">
-                ENVIRONMENT
-              </div>
-              <div class="col-md-6 date">
-                11-22-2018
-              </div>
-            </div>
-            <div class="row article-title">
-              <div class="col-12">
-                Coventry City Guide Including Coventry Hotels
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!-- Top Story Article -->
-      <article class="top-story">
-        <div class="row">
-          <div class="col-lg-6">
-            <video width="170" controls>
-              <source src="assets/videos/sample.mp4" type=video/mp4 />
-            </video>
-          </div>
-          <div class="col-lg-6">
-            <div class="row article-category-date">
-              <div class="col-md-6 category">
-                ENVIRONMENT
-              </div>
-              <div class="col-md-6 date">
-                11-22-2018
-              </div>
-            </div>
-            <div class="row article-title">
-              <div class="col-12">
-                Coventry City Guide Including Coventry Hotels
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-  </div>
-
-  <div class="row pagination-container">
-    <div class="col-lg-12">
-      <ul class="pagination">
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">...</a></li>
-        <li><a href="#">120</a></li>
-        <li><a href="#">next &gt;</a></li>
-      </ul>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-<?php include "includes/newsletter.php" ?>
-
+            <aside class="col-12 col-md-6 col-lg-4 article-list sidebar">
+                <div class="ad d-flex text-center mb-5">
+                    <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
+                </div><!--first ad-->
+                <h4 class="category">Top Videos</h4>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    </div>
+                    <!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div>
+                        <!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div>
+                    <!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    </div>
+                    <!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div>
+                        <!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div>
+                    <!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    </div>
+                    <!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div>
+                        <!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div>
+                    <!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    </div>
+                    <!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div>
+                        <!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div>
+                    <!--article-body-->
+                </article>
+                <article class="story row no-gutters">
+                    <div class="image mr-2 col-auto">
+                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    </div>
+                    <!--image-->
+                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                            <span class="tag">Environment</span>
+                            <span class="date">21-12-2020</span>
+                        </div>
+                        <!--meta-->
+                        <h5 class="title m-0">
+                            <a href="#">Coventry City Guide Including Coventry hotels</a>
+                        </h5>
+                    </div>
+                    <!--article-body-->
+                </article>
+            </aside>
+</section>
 <?php
-  include "includes/footer.php";
+    include "includes/newsletter.php";
+    include "includes/footer.php";
 ?>

@@ -54,75 +54,75 @@ include "includes/header.php";
                 <div class="related-stories my-5">
                     <h3 class="category">Related stories</h3>
                     <article class="story row no-gutters">
-                                            <div class="image mr-2 col-auto">
-                                                <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                            </div>
-                                            <!--image-->
-                                            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                                <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                                    <span class="date">21-12-2020</span>
-                                                </div>
-                                                <!--meta-->
-                                                <h5 class="title mb-3">
-                                                    <a href="#">Coventry City Guide Including
-                                                        <br> Coventry hotels</a>
-                                                </h5>
-                                                <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
-                                                    <span
-                                                        class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
-                                                </p>
-                                                <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                            </div>
-                                            <!--article-body-->
-                                        </article>
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div>
+                        <!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div>
+                            <!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including
+                                    <br> Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
+                                <span
+                                        class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
+                            </p>
+                            <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                        </div>
+                        <!--article-body-->
+                    </article>
                     <article class="story row no-gutters">
-                                                                <div class="image mr-2 col-auto">
-                                                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                                                </div>
-                                                                <!--image-->
-                                                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                                                        <span class="date">21-12-2020</span>
-                                                                    </div>
-                                                                    <!--meta-->
-                                                                    <h5 class="title mb-3">
-                                                                        <a href="#">Coventry City Guide Including
-                                                                            <br> Coventry hotels</a>
-                                                                    </h5>
-                                                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
-                                                                        <span
-                                                                            class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
-                                                                    </p>
-                                                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                                                </div>
-                                                                <!--article-body-->
-                                                            </article>
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div>
+                        <!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div>
+                            <!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including
+                                    <br> Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
+                                <span
+                                        class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
+                            </p>
+                            <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                        </div>
+                        <!--article-body-->
+                    </article>
                     <article class="story row no-gutters">
-                                                                <div class="image mr-2 col-auto">
-                                                                    <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
-                                                                </div>
-                                                                <!--image-->
-                                                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                                                                    <div class="meta mb-2 d-flex flex-wrap justify-content-between">
-                                                                        <span class="date">21-12-2020</span>
-                                                                    </div>
-                                                                    <!--meta-->
-                                                                    <h5 class="title mb-3">
-                                                                        <a href="#">Coventry City Guide Including
-                                                                            <br> Coventry hotels</a>
-                                                                    </h5>
-                                                                    <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
-                                                                        <span
-                                                                            class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
-                                                                    </p>
-                                                                    <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
-                                                                </div>
-                                                                <!--article-body-->
-                                                            </article>
+                        <div class="image mr-2 col-auto">
+                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        </div>
+                        <!--image-->
+                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                                <span class="date">21-12-2020</span>
+                            </div>
+                            <!--meta-->
+                            <h5 class="title mb-3">
+                                <a href="#">Coventry City Guide Including
+                                    <br> Coventry hotels</a>
+                            </h5>
+                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
+                                <span
+                                        class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
+                            </p>
+                            <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
+                        </div>
+                        <!--article-body-->
+                    </article>
                 </div>
             </div>
             <!--start of sidebar-->
-            <section class="col-12 col-md-6 col-lg-4 sidebar">
+            <aside class="col-12 col-md-6 col-lg-4 sidebar">
                 <div class="ad d-flex text-center mb-5">
                     <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
                 </div><!--first ad-->
@@ -215,13 +215,12 @@ include "includes/header.php";
                     </article>
                 </section><!--articles-->
                 <hr class="divider invisible pt-4">
-                    <?php include "includes/newsletter-small.php" ?>
+                <?php include "includes/newsletter-small.php" ?>
                 <hr class="divider invisible pt-4">
                 <div class="ad d-flex text-center mb-5">
                     <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/manday-ad.jpg" alt="">
                 </div>
-                <!--Sidebar-->
-            </section>
+            </aside>
             <!--end of sidebar-->
         </div>
     </div>

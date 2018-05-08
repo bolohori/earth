@@ -1,10 +1,21 @@
-.arrow-left, .arrow-right {
-  background-color: #f3f3f3;
-  text-align: center;
-  padding: 0;
-  display: inline-block;
-}
-
-.slides-border-bottom {
-  border-bottom: 1px solid #DBDBDB;
+#slide-otd {
+  .title {
+    margin-bottom: rem(15px);
+  }
+  .featured {
+    margin-bottom: rem(70px);
+  }
+  .category {
+    &.badge {
+      background: $yellow !important;
+    }
+  }
+  .slider-actions {
+    margin: rem(15px) 0;
+  }
+  p {
+    &.item {
+      font-weight: 800;
+    }
+  }
 }
