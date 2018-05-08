@@ -5,14 +5,14 @@ include "includes/header.php";
 ?>
 <section id="image-details" class="details-section">
   <div class="container">
+    <h2 class="title">
+                <a href="#" class="d-block">
+                  Stu Unger - Rise and Fall
+                </a>
+              </h2>
     <div class="row">
       <div class="col-12 col-md-12 col-lg-8">
         <article class="card featured"><!--start of featured article-->
-          <h2 class="title">
-            <a href="#" class="d-block">
-              Stu Unger - Rise and Fall
-            </a>
-          </h2>
           <div class="meta row justify-content-between">
             <div class="col d-flex">
               <?php include "includes/user-info.php"; ?>
@@ -52,7 +52,7 @@ include "includes/header.php";
           <div class="row">
             <section class="card gallery filter-item col-12 col-md-6">
               <div class="row no-gutters">
-                <div class="col-auto col-md-12 image">
+                <div class="col-md-12 image">
                   <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                 </div>
                 <!--image-->
@@ -68,7 +68,7 @@ include "includes/header.php";
             </section>
             <section class="card gallery filter-item col-12 col-md-6">
                           <div class="row no-gutters">
-                            <div class="col-auto col-md-12 image">
+                            <div class="col-md-12 image">
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
@@ -84,7 +84,7 @@ include "includes/header.php";
                         </section>
             <section class="card gallery filter-item col-12 col-md-6">
                           <div class="row no-gutters">
-                            <div class="col-auto col-md-12 image">
+                            <div class="col-md-12 image">
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
@@ -100,7 +100,39 @@ include "includes/header.php";
                         </section>
             <section class="card gallery filter-item col-12 col-md-6">
                           <div class="row no-gutters">
-                            <div class="col-auto col-md-12 image">
+                            <div class="col-md-12 image">
+                              <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                              <h3 class="title">
+                                <a href="#" class="d-block">
+                                  Gallery Title
+                                </a>
+                              </h3>
+                              <a href="#" class="btn-link">View Gallery</a>
+                            </div>
+                          </div>
+                        </section>
+            <section class="card gallery filter-item col-12 col-md-6">
+                          <div class="row no-gutters">
+                            <div class="col-md-12 image">
+                              <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                            </div>
+                            <!--image-->
+                            <div class="card-body p-0 pt-2">
+                              <h3 class="title">
+                                <a href="#" class="d-block">
+                                  Gallery Title
+                                </a>
+                              </h3>
+                              <a href="#" class="btn-link">View Gallery</a>
+                            </div>
+                          </div>
+                        </section>
+            <section class="card gallery filter-item col-12 col-md-6">
+                          <div class="row no-gutters">
+                            <div class="col-md-12 image">
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->

@@ -59,7 +59,7 @@
                     <div class="row list">
                         <section class="card slider filter-item col-12 col-md-6">
                             <div class="row no-gutters">
-                                <div class="col-aol-md-12 image position-relative">
+                                <div class="col-md-12 image position-relative">
                                     <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                                     <div class="slider-actions card-img-overlay pl-0 pt-4">
                                         <a href="#" data-wpel-link="internal">
@@ -85,140 +85,140 @@
                             </div>
                         </section>
                         <section class="card slider filter-item col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-aol-md-12 image position-relative">
-                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
-                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </a>
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
-                                    <span class="date">21-12-2020</span>
-                                </div>
-                                <!--meta-->
-                                <h3 class="title">
-                                    <a href="#" class="d-block">
-                                        Gallery Title
-                                    </a>
-                                </h3>
-                            </div>
-                        </section>
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-12 image position-relative">
+                                                            <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                                            <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-left"></i>
+                                                                </a>
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--image-->
+                                                    <div class="card-body p-0 pt-2">
+                                                        <div class="meta d-flex mb-2">
+                                                            <span class="date">21-12-2020</span>
+                                                        </div>
+                                                        <!--meta-->
+                                                        <h3 class="title">
+                                                            <a href="#" class="d-block">
+                                                                Gallery Title
+                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                </section>
                         <section class="card slider filter-item col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-aol-md-12 image position-relative">
-                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
-                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </a>
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
-                                    <span class="date">21-12-2020</span>
-                                </div>
-                                <!--meta-->
-                                <h3 class="title">
-                                    <a href="#" class="d-block">
-                                        Gallery Title
-                                    </a>
-                                </h3>
-                            </div>
-                        </section>
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-12 image position-relative">
+                                                            <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                                            <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-left"></i>
+                                                                </a>
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--image-->
+                                                    <div class="card-body p-0 pt-2">
+                                                        <div class="meta d-flex mb-2">
+                                                            <span class="date">21-12-2020</span>
+                                                        </div>
+                                                        <!--meta-->
+                                                        <h3 class="title">
+                                                            <a href="#" class="d-block">
+                                                                Gallery Title
+                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                </section>
                         <section class="card slider filter-item col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-aol-md-12 image position-relative">
-                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
-                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </a>
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
-                                    <span class="date">21-12-2020</span>
-                                </div>
-                                <!--meta-->
-                                <h3 class="title">
-                                    <a href="#" class="d-block">
-                                        Gallery Title
-                                    </a>
-                                </h3>
-                            </div>
-                        </section>
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-12 image position-relative">
+                                                            <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                                            <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-left"></i>
+                                                                </a>
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--image-->
+                                                    <div class="card-body p-0 pt-2">
+                                                        <div class="meta d-flex mb-2">
+                                                            <span class="date">21-12-2020</span>
+                                                        </div>
+                                                        <!--meta-->
+                                                        <h3 class="title">
+                                                            <a href="#" class="d-block">
+                                                                Gallery Title
+                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                </section>
                         <section class="card slider filter-item col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-aol-md-12 image position-relative">
-                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
-                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </a>
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
-                                    <span class="date">21-12-2020</span>
-                                </div>
-                                <!--meta-->
-                                <h3 class="title">
-                                    <a href="#" class="d-block">
-                                        Gallery Title
-                                    </a>
-                                </h3>
-                            </div>
-                        </section>
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-12 image position-relative">
+                                                            <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                                            <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-left"></i>
+                                                                </a>
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--image-->
+                                                    <div class="card-body p-0 pt-2">
+                                                        <div class="meta d-flex mb-2">
+                                                            <span class="date">21-12-2020</span>
+                                                        </div>
+                                                        <!--meta-->
+                                                        <h3 class="title">
+                                                            <a href="#" class="d-block">
+                                                                Gallery Title
+                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                </section>
                         <section class="card slider filter-item col-12 col-md-6">
-                            <div class="row no-gutters">
-                                <div class="col-aol-md-12 image position-relative">
-                                    <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
-                                    <div class="slider-actions card-img-overlay pl-0 pt-4">
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </a>
-                                        <a href="#" data-wpel-link="internal">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
-                                    <span class="date">21-12-2020</span>
-                                </div>
-                                <!--meta-->
-                                <h3 class="title">
-                                    <a href="#" class="d-block">
-                                        Gallery Title
-                                    </a>
-                                </h3>
-                            </div>
-                        </section>
+                                                    <div class="row no-gutters">
+                                                        <div class="col-md-12 image position-relative">
+                                                            <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
+                                                            <div class="slider-actions card-img-overlay pl-0 pt-4">
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-left"></i>
+                                                                </a>
+                                                                <a href="#" data-wpel-link="internal">
+                                                                    <i class="fas fa-chevron-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--image-->
+                                                    <div class="card-body p-0 pt-2">
+                                                        <div class="meta d-flex mb-2">
+                                                            <span class="date">21-12-2020</span>
+                                                        </div>
+                                                        <!--meta-->
+                                                        <h3 class="title">
+                                                            <a href="#" class="d-block">
+                                                                Gallery Title
+                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                </section>
                     </div>
                     <nav aria-label="Page navigation">
                         <ul class="pagination">
