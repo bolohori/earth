@@ -13,6 +13,11 @@
     padding-top: rem(35px) !important;
     padding-bottom: rem(35px) !important;
   }
+  .headline {
+    @include media-breakpoint-down(md) {
+      font-size: rem(24px) !important;
+    }
+  }
 }
 .featured {
   &.col-md-6 {
