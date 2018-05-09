@@ -1,6 +1,13 @@
 <?php
+  /* Insert page's title */
   $title = "Images";
-  include "./includes/head.php";
+
+  /* Insert page's menu section ID for custom navigation elements */
+  $navId = 'images-menu';
+
+  /* Logo image url*/
+  $logoUrl = "assets/images/logos/logo-white.png";
+  include "includes/head.php";
   include "includes/header.php";
 ?>
 <section id="image-otd">

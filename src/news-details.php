@@ -1,7 +1,14 @@
 <?php
-$title = "News details";
-include "./includes/head.php";
-include "includes/header.php";
+  /* Insert page's title */
+  $title = "News Details";
+
+  /* Insert page's menu section ID for custom navigation elements */
+  $navId = 'news-details-menu';
+
+  /* Logo image url*/
+  $logoUrl = "assets/images/logos/logo-white.png";
+  include "includes/head.php";
+  include "includes/header.php";
 ?>
 <section id="news-details" class="details-section">
     <div class="container">

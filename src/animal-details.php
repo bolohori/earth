@@ -1,8 +1,16 @@
 <?php
-$title = "Animal details";
-include "./includes/head.php";
-include "includes/header.php";
+  /* Insert page's title */
+  $title = "Animal details";
+
+  /* Insert page's menu section ID for custom navigation elements */
+  $navId = 'animal-details-menu';
+
+  /* Logo image url*/
+  $logoUrl = "assets/images/logos/logo-white.png";
+  include "includes/head.php";
+  include "includes/header.php";
 ?>
+
 <section id="animal-details" class="details-section">
     <div class="container">
         <div class="row">

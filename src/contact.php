@@ -1,5 +1,12 @@
 <?php
-  $title = "Contact Us";
+  /* Insert page's title */
+  $title = "Contact";
+
+  /* Insert page's menu section ID for custom navigation elements */
+  $navId = 'contact-menu';
+
+  /* Logo image url*/
+  $logoUrl = "assets/images/logos/logo-white.png";
   include "includes/head.php";
   include "includes/header.php";
 ?>

@@ -1,7 +1,14 @@
 <?php
-  $title = "Earth.com - Home Page";
-  include "./includes/head.php";
-  include "./includes/header.php";
+  /* Insert page's title */
+  $title = "News";
+
+  /* Insert page's menu section ID for custom navigation elements */
+  $navId = 'news-menu';
+
+  /* Logo image url*/
+  $logoUrl = "assets/images/logos/logo-white.png";
+  include "includes/head.php";
+  include "includes/header.php";
 ?>
 <section id="story-otd" class="news-section">
     <div class="container">

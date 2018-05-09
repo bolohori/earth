@@ -1,7 +1,14 @@
 <?php
+  /* Insert page's title */
   $title = "Earthpedia";
-  include "./includes/head.php";
-  include "./includes/header.php";
+
+  /* Insert page's menu section ID for custom navigation elements */
+  $navId = 'earthpedia-menu';
+
+  /* Logo image url*/
+  $logoUrl = "assets/images/logos/logo-white.png";
+  include "includes/head.php";
+  include "includes/header.php";
 ?>
 <!-- Header of page -->
 <section id="ep-header">

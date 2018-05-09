@@ -35,19 +35,12 @@
 				</li>
 			</ul>
 		</div>
-		<div class="actions">
-			<!-- Search bar -->
-			<form class="search">
-				<!--<input type="text" class="search-box" name="search-box" id="search-box" placeholder="Search this site...">-->
-				<label for="search-box" class="search-box-label">
-					<span class="search-icon">Search</span>
-				</label>
-				<span class="search-close">
-             <i class="search-close-icon">Close</i>
-             </span>
-			</form>
-			<!-- Subscribe button -->
-			<a href="#" class="btn btn-outline-primary btn-subscribe d-none d-md-block">SUBSCRIBE</a>
+		<div class="actions d-flex ml-auto">
+			<div class="navbar-search my-auto">
+				<i class="fas fa-search"></i>
+				<!--<input type="search" placeholder="Search">-->
+			</div>
+			<a href="#" class="btn btn-subscribe align-items-center d-md-inline-flex d-none">SUBSCRIBE</a>
 		</div>
 	</nav>
 </section>
