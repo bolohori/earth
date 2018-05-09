@@ -15,6 +15,11 @@
   }
 }
 .featured {
+  &.col-md-6 {
+    .meta {
+      margin-bottom: rem(10px);
+    }
+  }
   article {
     margin-bottom: 0;
   }

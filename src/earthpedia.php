@@ -183,7 +183,7 @@
         <div class="row">
             <!--Featured article-->
             <div class="col-md-12 col-lg-8">
-                <section class="animals">
+                <section class="animals mb-5">
                     <h3 class="category text-uppercase">Plants videos</h3>
                     <div class="row">
                         <article class="card featured col-xs-12 col-md-6">
