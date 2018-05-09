@@ -346,7 +346,6 @@
         </div>
     </div>
 </section><!--animals-->
-<hr class="divider invisible my-5">
 <?php
 include "includes/newsletter.php";
 include "includes/footer.php";
