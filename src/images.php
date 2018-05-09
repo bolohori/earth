@@ -10,14 +10,14 @@
                 <!--featured article-->
                 <article class="card featured">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/image-otd.jpg" alt="Card image">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/image-otd.jpg" alt="Card image">
                         <div class="card-img-overlay pl-0 pt-4">
                             <h4 class="category badge badge-dark text-uppercase rounded-0">Image of the day</h4>
                         </div>
                         <!--overlay-->
                     </div>
-                    <div class="card-body p-0 pt-2">
-                        <div class="meta d-flex mb-2">
+                    <div class="card-body p-0 pt-2 pt-lg-3">
+                        <div class="meta d-flex">
                             <span class="tag mr-5">Environment</span>
                             <span class="date">21-12-2020</span>
                         </div>
@@ -37,18 +37,13 @@
                 <!--end of featured article-->
             </div>
             <!--sidebar-->
-            <aside class="col-12 col-md-6 col-lg-4 article-list sidebar">
+            <aside class="col-12 col-md-6 col-lg-4 article-list sidebar d-none d-lg-block">
                 <div class="ad d-flex text-center mb-5">
                     <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
                 </div>
             </aside>
             <!--sidebar-->
             <!--ad space-->
-            <div class="col-12 col-md-6 d-lg-none">
-                <section class="ad">
-                    <img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />
-                </section>
-            </div>
             <!--end of ad space-->
         </div>
     </div>
@@ -58,19 +53,20 @@
         <div class="row">
             <!--Featured article-->
             <div class="col-md-12 col-lg-8">
-                <div class="row">
-                    <div class="col-auto">
+                <!--Uncomment for filter-->
+                <!--<div class="row">-->
+                    <!--<div class="col-auto">-->
                         <h3 class="category mr-auto text-uppercase">Image Galleries</h3>
-                    </div>
-                    <div class="col filter-form">
-                        <div class="input-group bg-white justify-content-end">
-                            <input id="searchFilter" class="form-control border-0" onkeyup="myFunction()" placeholder="Search for...">
-                            <div class="input-group-addon my-auto bg-white border-0">
-                                <i class="fas fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!--</div>-->
+                    <!--<div class="col filter-form">-->
+                        <!--<div class="input-group bg-white justify-content-end">-->
+                            <!--<input id="searchFilter" class="form-control border-0" onkeyup="myFunction()" placeholder="Search for...">-->
+                            <!--<div class="input-group-addon my-auto bg-white border-0">-->
+                                <!--<i class="fas fa-search"></i>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
                 <div class="row list">
                     <section class="card gallery filter-item col-12 col-md-6">
                         <div class="row no-gutters">
@@ -78,8 +74,8 @@
                                 <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div>
                                 <!--meta-->
@@ -98,8 +94,8 @@
                                 <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div>
                                 <!--meta-->
@@ -118,8 +114,8 @@
                                 <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div>
                                 <!--meta-->
@@ -138,8 +134,8 @@
                                 <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div>
                                 <!--meta-->
@@ -158,8 +154,8 @@
                                 <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div>
                                 <!--meta-->
@@ -178,8 +174,8 @@
                                 <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div>
                                 <!--meta-->
@@ -194,7 +190,7 @@
                     <!--gallery-->
 
                 </div>
-                <section id="from-the-web">
+                <section id="from-the-web" class="news-section" class="news-section">
                     <?php include "includes/from-the-web.php" ?>
                 </section>
             </div>
@@ -202,11 +198,11 @@
             <aside class="col-12 col-md-6 col-lg-4 article-list sidebar">
                 <h4 class="category">Top Videos</h4>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -219,11 +215,11 @@
                     <!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -236,11 +232,11 @@
                     <!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -253,11 +249,11 @@
                     <!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -270,11 +266,11 @@
                     <!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -294,7 +290,10 @@
     <!--container-->
 </section>
 <!--gallery-list-->
-<?php
-    include "includes/animal-friends.php";
-    include "includes/footer.php";
-?>
+<div class="d-none d-md-block">
+    <?php include "includes/animal-friends.php"; ?>
+</div>
+<div class="d-md-none">
+    <?php include "includes/newsletter-small.php"; ?>
+</div>
+<?php include "includes/footer.php"; ?>

@@ -3,6 +3,15 @@
   padding: 0 rem(20px);
 }
 .navbar {
+  .navbar-toggler {
+    border: none;
+    &:active {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
   .secondary-menu-toggler {
     color: $white;
     @include media-breakpoint-down(lg) {
@@ -11,11 +20,11 @@
   }
   .navbar-brand {
     max-width: rem(107px);
-    margin-left: rem(20px);
-    margin-right: rem(10px);
-    @include media-breakpoint-down(xs) {
-      // width: 30%;
+    @include media-breakpoint-up(md) {
+      margin-left: rem(20px);
     }
+    margin-right: rem(10px);
+
     img {
       vertical-align: inherit;
     }
@@ -59,35 +68,35 @@
   }
 }
 
-.search-box {
-  float: right;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  outline: 0;
-  padding-left: 0.75rem;
-  font-style: italic;
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  opacity: 0;
-  -webkit-transition: -webkit-transform ease 500ms;
-  transition: -webkit-transform ease 500ms;
-  transition: transform ease 500ms;
-  transition: transform ease 500ms, -webkit-transform ease 500ms;
-  &:focus {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-    + .search-box-label {
-      z-index: -1;
-      opacity: 0;
-    }
-    ~ .search-close {
-      z-index: 3;
-      opacity: 1;
-    }
-  }
-}
+//.search-box {
+//  float: right;
+//  width: 100%;
+//  height: 100%;
+//  border: 0;
+//  outline: 0;
+//  padding-left: 0.75rem;
+//  font-style: italic;
+//  -webkit-transform: translateY(-100%);
+//  transform: translateY(-100%);
+//  opacity: 0;
+//  -webkit-transition: -webkit-transform ease 500ms;
+//  transition: -webkit-transform ease 500ms;
+//  transition: transform ease 500ms;
+//  transition: transform ease 500ms, -webkit-transform ease 500ms;
+//  &:focus {
+//    -webkit-transform: translateY(0);
+//    transform: translateY(0);
+//    opacity: 1;
+//    + .search-box-label {
+//      z-index: -1;
+//      opacity: 0;
+//    }
+//    ~ .search-close {
+//      z-index: 3;
+//      opacity: 1;
+//    }
+//  }
+//}
 
 .search-box-label {
   position: absolute;

@@ -66,9 +66,10 @@ p {
 }
 .meta {
   .tag, .date {
-    font-size: rem(12px);
+    font-size: rem(11px);
     line-height: rem(16px);
-    color: $meta-grey;
+    color: $meta-grey-dark;
+    font-weight: 800;
   }
   .tag {
     text-transform: uppercase;
@@ -86,7 +87,7 @@ h3, h4 {
   &.badge {
     background-color: $red;
     color: $white;
-    padding: rem(8px) rem(1px) rem(8px) rem(8px);
+    padding: rem(7px) rem(10px) rem(7px) rem(10px);
     font-weight: normal;
   }
 }
@@ -108,38 +109,7 @@ h4.category {
     font-size: rem(24px) !important;
   }
 }
-//Featured article title
 
-.featured {
-  margin-bottom: rem(30px);
-
-  .title {
-    a {
-      font-family: $anton;
-      font-size: rem(36px);
-      text-decoration: none;
-      line-height: 1;
-      color: $d-blue !important;
-
-      @include  media-breakpoint-up(lg) {
-        font-size: rem(42px);
-      }
-    }
-  }
-  .text {
-    font-weight: 300;
-
-    font-size: rem(17px);
-
-    @include  media-breakpoint-up(xs) {
-      font-size: rem(16px);
-    }
-  }
-  .read-more {
-    font-weight: 300;
-    text-decoration: none;
-  }
-}
 
 h5.title {
   font-size: rem(16px);

@@ -1,3 +1,77 @@
+.sidebar,
+.featured,
+.filter-list {
+  @include media-breakpoint-down(md) {
+    padding-top: rem(35px);
+    padding-bottom: rem(35px);
+  }
+}
+.news-section {
+  padding-top: rem(55px);
+  padding-bottom: rem(55px);
+  @include media-breakpoint-down(md) {
+    padding-top: rem(35px) !important;
+    padding-bottom: rem(35px) !important;
+  }
+}
+.featured {
+  article {
+    margin-bottom: 0;
+  }
+  .meta {
+    margin-bottom: rem(10px);
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: rem(25px);
+    }
+  }
+  .title {
+    font-family: $anton;
+    font-size: rem(36px);
+    text-decoration: none;
+    line-height: 1;
+    color: $d-blue !important;
+
+    @include  media-breakpoint-up(lg) {
+      font-size: rem(42px);
+    }
+  }
+  .text {
+    font-weight: 300;
+
+    font-size: rem(17px);
+
+    @include  media-breakpoint-up(xs) {
+      font-size: rem(16px);
+    }
+  }
+  .read-more {
+    font-weight: 300;
+    text-decoration: none;
+  }
+}
+.featured-side {
+  .card-body {
+    padding-top: rem(10px);
+    .meta {
+      margin-bottom: rem(10px);
+    }
+    .text {
+      margin-bottom: rem(30px);
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top: rem(25px);
+      padding-bottom: rem(25px);
+      .meta {
+        margin-bottom: rem(20px);
+      }
+      .text {
+        margin-bottom: rem(30px);
+      }
+    }
+  }
+}
+
 .article-list {
   article {
     margin-bottom: rem(20px);
@@ -12,6 +86,14 @@
     img {
       max-width: rem(100px);
     }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .btn-link {
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
   }
   &.medium-al {
     article {
@@ -21,20 +103,22 @@
     }
   }
   &.expanding-al {
-
     .title {
-      a {
-        font-size: rem(17px);
-        @include media-breakpoint-up(md) {
-          font-size: rem(22px);
-        }
-        @include media-breakpoint-up(md) {
-          font-size: rem(24px);
-        }
+      font-size: rem(17px) !important;
+      @include media-breakpoint-up(md) {
+        font-size: rem(22px) !important;
+        font-weight: 800;
+        font-family: $mont;
+      }
+      @include media-breakpoint-up(md) {
+        font-size: rem(24px) !important;
       }
     }
-    img {
-      max-width: 100%;
+    .image {
+      width: 100%;
+      img {
+        max-width: 100%;
+      }
     }
   }
   &.link-al {
@@ -43,9 +127,7 @@
       border-bottom: 2px solid #dddddd;
       padding: rem(25px) 0;
       &:first-of-type {
-        >.row {
-          padding-top: 0;
-        }
+        padding-top: 0;
       }
     }
     .image {
@@ -56,30 +138,35 @@
     }
   }
 }
-//Explore plants and animals
 // Explore Plants and Animals
 
 #explore {
 
-  padding-bottom: rem(55px);
-  @include  media-breakpoint-up(md) {
-    padding-bottom: rem(35px);
-  }
   @include  media-breakpoint-up(lg) {
-    padding-top: rem(100px);
-    padding-bottom: rem(75px);
+    padding-top: rem(55px);
   }
 
   .text {
-    padding: rem(30px) rem(0) rem(40px) rem(30px);
-
+    padding-top: rem(45px);
+    padding-bottom: rem(40px);
+    @include media-breakpoint-up(md) {
+      padding-top:  rem(65px);
+      padding-bottom:  rem(85px);
+    }
+    @include media-breakpoint-up(lg) {
+      padding-top:  rem(75px);
+      padding-bottom:  rem(65px);
+    }
     h1 {
       color: $white;
       font-size: rem(64px);
       line-height: rem(61px);
       margin-bottom: rem(15px);
       @include media-breakpoint-up(md) {
-        margin-bottom: rem(100px);
+        margin-bottom: rem(25px);
+      }
+      @include media-breakpoint-up(lg) {
+        margin-bottom: rem(35px);
       }
     }
   }
@@ -95,8 +182,8 @@
       background-position: right 8px bottom;
     }
     @include  media-breakpoint-up(lg) {
-      padding-top: rem(85px);
-      margin-top: rem(-85px);
+      padding-top: rem(55px);
+      margin-top: rem(-55px);
     }
   }
   .plants {
@@ -105,6 +192,15 @@
       background-image: url("../assets/images/explore-plants.png");
       @include media-breakpoint-down(lg) {
         background-image: url("../assets/images/green-plant.png");
+      }
+    }
+    .text {
+      padding-left: rem(35px);
+      @include media-breakpoint-up(md) {
+        padding-left: rem(30px);
+      }
+      @include media-breakpoint-up(lg) {
+        padding-left: rem(135px);
       }
     }
   }
@@ -119,9 +215,23 @@
         background-position: left 20px bottom;
       }
     }
+    .text {
+      text-align: right;
+      @include media-breakpoint-up(md) {
+        padding-left: rem(30px);
+      }
+      @include media-breakpoint-up(lg) {
+        padding-left: rem(75px);
+      }
+    }
+    .btn-explore {
+      margin-left: auto;
+      @include media-breakpoint-up(md) {
+        margin-left: unset;
+      }
+    }
   }
 }
-
 //Plantsnap
 #plantsnap {
   padding-bottom: rem(35px);
@@ -139,7 +249,7 @@
   .bg {
     background: url("../assets/images/plantsnap/iPhone-bg-mobile.png") no-repeat right bottom rem(-25px);
     padding-bottom: rem(95px);
-    background-size: contain;
+    background-size: 50%;
     margin-bottom: rem(-25px);
     @include media-breakpoint-up(md) {
       background: url("../assets/images/plantsnap/iPhone-bg-tablet.png") no-repeat center right;
@@ -392,11 +502,17 @@
 }
 
 .filter-list {
-  margin-bottom: rem(70px);
+  //margin-bottom: rem(70px);
   .category {
     color: $yellow !important;
   }
-  .slider {
+  .card {
+    margin-bottom: rem(20px);
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  .slide {
     .title {
       font-size: rem(16px) !important;
       font-family: $mont !important;

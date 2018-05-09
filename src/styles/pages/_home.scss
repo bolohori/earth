@@ -95,16 +95,15 @@
   padding: 10px;
 }
 #environment {
-  margin-bottom: rem(35px);
 
-  @include  media-breakpoint-up(lg) {
-    padding-top: rem(70px);
-    margin-bottom: rem(40px);
-
-    >.row .card-body {
-      padding-top: 0 !important;
-    }
-  }
+  //@include  media-breakpoint-up(lg) {
+  //  padding-top: rem(70px);
+  //  margin-bottom: rem(40px);
+  //
+  //  >.row .card-body {
+  //    padding-top: 0 !important;
+  //  }
+  //}
   .category {
     margin-bottom: rem(20px);
   }

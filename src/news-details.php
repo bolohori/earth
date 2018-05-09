@@ -9,11 +9,11 @@ include "includes/header.php";
             <div class="col-12 col-md-12 col-lg-8">
                 <article class="card featured"><!--start of featured article-->
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/animal-detail.jpg" alt="Card image">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/animal-detail.jpg" alt="Card image">
                         <!--overlay-->
                     </div><!--article image container-->
-                    <div class="card-body p-0 pt-2">
-                        <div class="meta d-flex mb-2">
+                    <div class="card-body p-0 pt-2 pt-lg-3">
+                        <div class="meta d-flex">
                             <span class="tag mr-5">Environment</span>
                             <span class="date">21-12-2020</span>
                         </div>
@@ -48,17 +48,17 @@ include "includes/header.php";
                     <?php include "includes/comment-form.php" ?>
                 </div>
                 <hr class="divider invisible my-5">
-                <div class="from-the-web">
+                <div id="from-the-web" class="news-section" class="news-section">
                     <?php include "includes/from-the-web.php"; ?>
                 </div>
                 <div class="related-stories my-5">
                     <h3 class="category">Related stories</h3>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                                 <span class="date">21-12-2020</span>
                             </div>
@@ -67,7 +67,7 @@ include "includes/header.php";
                                 <a href="#">Coventry City Guide Including
                                     <br> Coventry hotels</a>
                             </h5>
-                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
+                            <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
                                 <span
                                         class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
                             </p>
@@ -76,11 +76,11 @@ include "includes/header.php";
                         <!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                                 <span class="date">21-12-2020</span>
                             </div>
@@ -89,7 +89,7 @@ include "includes/header.php";
                                 <a href="#">Coventry City Guide Including
                                     <br> Coventry hotels</a>
                             </h5>
-                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
+                            <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
                                 <span
                                         class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
                             </p>
@@ -98,11 +98,11 @@ include "includes/header.php";
                         <!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                                 <span class="date">21-12-2020</span>
                             </div>
@@ -111,7 +111,7 @@ include "includes/header.php";
                                 <a href="#">Coventry City Guide Including
                                     <br> Coventry hotels</a>
                             </h5>
-                            <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
+                            <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing
                                 <span
                                         class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span>
                             </p>
@@ -129,11 +129,11 @@ include "includes/header.php";
                 <h4 class="category">Related Videos</h4>
                 <section class="article-list">
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -146,11 +146,11 @@ include "includes/header.php";
                         <!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -163,11 +163,11 @@ include "includes/header.php";
                         <!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -180,11 +180,11 @@ include "includes/header.php";
                         <!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -197,11 +197,11 @@ include "includes/header.php";
                         <!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                         </div>
                         <!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>

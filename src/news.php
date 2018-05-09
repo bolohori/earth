@@ -3,24 +3,24 @@
   include "./includes/head.php";
   include "./includes/header.php";
 ?>
-<section id="story-otd">
+<section id="story-otd" class="news-section">
     <div class="container">
-        <div class="row m-0 mb-4">
-            <section class="col-md-12 col-lg-8 card pt-3">
-                <article class="featured side-article">
-                    <div class="row mb-5">
-                        <div class="col-12 col-md-6 position-relative pl-0">
-                            <img class="img-fluid d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
+        <div class="row mb-4">
+            <section class="col-12 col-lg-8 card pt-3">
+                <article class="featured featured-side">
+                    <div class="row">
+                        <div class="col-12 col-md-6 position-relative">
+                            <img class="img-fluid h-100 d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
-                            <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
+                            <img class="img-fluid h-100 d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
                             <div class="card-img-overlay pl-0 pt-4">
                                 <h4 class="category badge badge-dark text-uppercase rounded-0">Story of the Day</h4>
                             </div> <!--overlay-->
                         </div>
                         <div class="col-12 col-md-6 card">
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div> <!--meta-->
                                 <h2 class="title mb-2">
@@ -36,15 +36,15 @@
                 </article><!--featured-->
             </section><!--card-->
             <!--Sidebar-->
-            <section class="col-md-12 col-lg-4 article-list sidebar">
+            <section class="col-12 col-lg-4 article-list sidebar">
                 <h4 class="category">
                     Breaking News
                 </h4>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -55,10 +55,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -69,10 +69,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -83,10 +83,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -98,70 +98,70 @@
                 </article>
             </section><!--sidebar-->
         </div><!--row-->
-        <div class="row mb-5">
+        <div class="row">
             <section class="col-md-12 col-lg-8 article-list expanding-al">
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
-                        <div class="meta mb-2 d-flex flex-wrap justify-content-between">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                        <w-div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
-                        </div><!--meta-->
+                        </w-div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
             </section><!--article-list expanding-->
             <section class="col-md-12 col-lg-4 sidebar">
                 <div class="ad">
-                    <img class="img-fluid mx-auto d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                    <img class="img-fluid h-100 mx-auto d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
                 </div>
                 <?php include "includes/newsletter-small.php" ?>
             </section><!--sidebar-->
         </div><!--row-->
     </div>
 </section>
-<section id="environment">
+<section id="environment" class="news-section">
     <div class="container">
         <h3 class="category text-uppercase">Environment top stories</h3>
-        <div class="row mb-5">
+        <div class="row mb-md-4">
             <article class="col-12 col-md-6 col-lg-4">
                 <img src="./assets/images/placeholder%20images/news_v2@2x.jpg" alt="" class="img-fluid">
-                <div class="meta d-flex mb-2 pt-2">
+                <div class="meta d-flex pt-2">
                     <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
@@ -175,7 +175,7 @@
             </article>
             <article class="col-12 col-md-6 col-lg-4">
                 <img src="./assets/images/placeholder%20images/news_v2@2x.jpg" alt="" class="img-fluid">
-                <div class="meta d-flex mb-2 pt-2">
+                <div class="meta d-flex pt-2">
                     <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
@@ -189,7 +189,7 @@
             </article>
             <article class="col-12 col-md-6 col-lg-4">
                 <img src="./assets/images/placeholder%20images/news_v2@2x.jpg" alt="" class="img-fluid">
-                <div class="meta d-flex mb-2 pt-2">
+                <div class="meta d-flex pt-2">
                     <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
@@ -203,7 +203,7 @@
             </article>
             <article class="col-12 col-md-6 col-lg-4 d-none d-sm-block d-md-none">
                 <img src="./assets/images/placeholder%20images/news_v2@2x.jpg" alt="" class="img-fluid">
-                <div class="meta d-flex mb-2 pt-2">
+                <div class="meta d-flex pt-2">
                     <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
                 </div> <!--meta-->
@@ -216,50 +216,50 @@
                 </a>
             </article>
         </div>
-        <div class="row mb-5">
+        <div class="row">
             <section class="col-md-12 col-lg-8 article-list expanding-al">
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
@@ -270,10 +270,10 @@
                     Top environment stories
                 </h4>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -284,10 +284,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -298,10 +298,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -312,10 +312,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -333,17 +333,17 @@
         </div><!--row-->
     </div>
 </section>
-<section id="science">
+<section id="science" class="news-section">
     <div class="container">
-        <div class="row mb-5">
+        <div class="row">
             <div class="col-md-12 col-lg-8">
                 <h3 class="category text-uppercase">Science top stories</h3>
-                <div class="row mb-5">
+                <div class="row">
                     <div class="col-md-6">
                         <article class="card featured">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="tag mr-5">Environment</span>
                                     <span class="date">21-12-2020</span>
                                 </div> <!--meta-->
@@ -362,10 +362,10 @@
                     <div class="col-md-6">
                         <section class="article-list">
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -376,10 +376,10 @@
                                 </div><!--article-body-->
                             </article>
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -390,10 +390,10 @@
                                 </div><!--article-body-->
                             </article>
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -403,10 +403,10 @@
                                     </h5>
                                 </div><!--article-body-->
                             </article><article class="story row no-gutters">
-                            <div class="image mr-2 col-auto">
-                                <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                            <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                             </div><!--image-->
-                            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                            <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                 <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                     <span class="tag">Environment</span>
                                     <span class="date">21-12-2020</span>
@@ -417,10 +417,10 @@
                             </div><!--article-body-->
                         </article>
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -431,10 +431,10 @@
                                 </div><!--article-body-->
                             </article>
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -457,10 +457,10 @@
                     Animal stories
                 </h3>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -471,10 +471,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -485,10 +485,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -498,10 +498,10 @@
                         </h5>
                     </div><!--article-body-->
                 </article>                <article class="story row no-gutters">
-                <div class="image mr-2 col-auto">
-                    <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                 </div><!--image-->
-                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -512,10 +512,10 @@
                 </div><!--article-body-->
             </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -526,10 +526,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -542,76 +542,76 @@
             </section><!--sidebar-->
             <!--end of sidebar-->
             <!--ad space-->
-            <div class="col-12 col-md-6 d-lg-none">
-                <section class="ad">
-                    <img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />
-                </section>
-            </div>
-            <!--end of ad space-->
+            <!--<div class="col-12 col-md-6 d-lg-none">-->
+            <!--<section class="ad">-->
+            <!--<img src="http://www.placehold.it/640x480" alt="" class="img-fluid" />-->
+            <!--</section>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;end of ad space&ndash;&gt;-->
         </div>
     </div>
 </section>
-<section id="lifestyle">
+<section id="lifestyle" class="news-section">
     <div class="container">
         <h3 class="category">Lifestyle top stories</h3>
-        <div class="row mb-5">
+        <div class="row">
             <section class="col-md-12 col-lg-8 article-list expanding-al">
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
             </section><!--article-list expanding-->
             <section class="col-md-12 col-lg-4 sidebar">
                 <div class="ad mx-auto">
-                    <img class="img-fluid mx-auto d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
+                    <img class="img-fluid h-100 mx-auto d-none d-lg-block" src="./assets/images/placeholder%20images/sidebar-ad.png" alt="">
                 </div>
                 <div class="article-list link-al">
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                         </div><!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -622,10 +622,10 @@
                         </div><!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                         </div><!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -636,10 +636,10 @@
                         </div><!--article-body-->
                     </article>
                     <article class="story row no-gutters">
-                        <div class="image mr-2 col-auto">
-                            <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                         </div><!--image-->
-                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                 <span class="tag">Environment</span>
                                 <span class="date">21-12-2020</span>
@@ -654,22 +654,24 @@
         </div>
     </div>
 </section>
-<section id="voices">
+<section id="voices" class="news-section">
     <div class="container">
-        <h3 class="title category">Voices top stories</h3>
-        <div class="row m-0 mb-4">
+        <div class="row">
+            <h3 class="title category">Voices top stories</h3>
+        </div>
+        <div class="row mb-4">
             <section class="col-md-12 col-lg-8 card pt-3">
-                <article class="featured side-article">
-                    <div class="row mb-5">
+                <article class="featured featured-side">
+                    <div class="row m-0">
                         <div class="col-12 col-md-6 position-relative pl-0">
-                            <img class="img-fluid d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
+                            <img class="img-fluid h-100 d-block d-sm-none" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
-                            <img class="img-fluid d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
+                            <img class="img-fluid h-100 d-none d-sm-block" src="./assets/images/placeholder%20images/env-ts-featured.jpg"
                                  alt="Featured image">
                         </div>
                         <div class="col-12 col-md-6 card">
-                            <div class="card-body p-0 pt-2">
-                                <div class="meta d-flex mb-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
                                     <span class="date">21-12-2020</span>
                                 </div> <!--meta-->
                                 <h2 class="title mb-2">
@@ -687,10 +689,10 @@
             <!--Sidebar-->
             <section class="col-md-12 col-lg-4 article-list link-al sidebar">
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -701,10 +703,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -715,10 +717,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -729,10 +731,10 @@
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/placeholder%20images/sidebar-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                             <span class="tag">Environment</span>
                             <span class="date">21-12-2020</span>
@@ -744,50 +746,50 @@
                 </article>
             </section><!--sidebar-->
         </div><!--row-->
-        <div class="row mb-5">
+        <div class="row">
             <section class="col-md-12 col-lg-8 article-list expanding-al">
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>
                 <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                        <img class="img-fluid" src="./assets/images/big-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                        <img class="img-fluid h-100" src="./assets/images/big-thumb.jpg" alt="Card image">
                     </div><!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                         <div class="meta mb-2 d-flex flex-wrap justify-content-between">
                             <span class="date">21-12-2020</span>
                         </div><!--meta-->
                         <h5 class="title mb-3">
                             <a href="#">Coventry City Guide Including <br> Coventry hotels</a>
                         </h5>
-                        <p class="text mb-4 d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
+                        <p class="text d-none d-md-block">Computer users and programmers have become so accustomed to using Windows, even for the changing<span class="excerpt d-none d-md-block d-lg-none">Beatae debitis distinctio dolore dolorem excepturi expedita facilis id iure.</span></p>
                         <a href="#" class="btn-link read-more mt-auto pb-2">Read more...</a>
                     </div><!--article-body-->
                 </article>

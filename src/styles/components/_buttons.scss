@@ -59,6 +59,8 @@
   letter-spacing: rem(0.07px);
   line-height: 1;
   font-weight: bold;
+  width: fit-content;
+  width: -moz-fit-content;
   height: rem(35px);
   padding: rem(8px) rem(25px);
   @include media-breakpoint-up(md) {

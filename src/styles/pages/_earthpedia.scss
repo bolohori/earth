@@ -72,17 +72,14 @@
   }
 }
 #cotd {
-  position: relative;
-  z-index: 20;
-  padding-bottom: rem(40px);
-  padding-top: rem(20px);
-  @include media-breakpoint-up(lg) {
-    margin-top: rem(-35px);
-    padding-top: 0;
-    padding-bottom: 0;
+
+  .card-img-overlay {
+    left: 15px
   }
-  h4.badge {
-    background-color: $ep-green;
+  .category {
+    &.badge {
+      background-color: $ep-green;
+    }
   }
   .ad {
     img {
@@ -91,16 +88,11 @@
   }
 }
 #ep-news {
-  padding-bottom: rem(60px);
-  .plants {
-    @include media-breakpoint-down(md) {
-      margin-bottom: rem(20px);
-    }
+  @include media-breakpoint-up(lg) {
+    padding: rem(75px) 0;
   }
-  .animals {
-    @include media-breakpoint-down(md) {
-      margin-bottom: rem(25px);
-    }
+  section:first-of-type {
+    margin-bottom: rem(30px);
   }
 }
 #explore {
@@ -128,14 +120,12 @@
   }
   .featured {
     .title {
-      a {
-        font-size: rem(16px);
-        font-family: $mont !important;
-        font-weight: 900;
+      font-size: rem(16px);
+      font-family: $mont !important;
+      font-weight: 800;
 
-        @include media-breakpoint-down(lg) {
-          font-size: rem(17px);
-        }
+      @include media-breakpoint-down(lg) {
+        font-size: rem(17px);
       }
     }
   }

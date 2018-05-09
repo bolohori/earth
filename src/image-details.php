@@ -32,10 +32,10 @@ include "includes/header.php";
             </div>
           </div>
           <div class="position-relative">
-            <img class="img-fluid" src="./assets/images/placeholder%20images/animal-detail.jpg" alt="Card image">
+            <img class="img-fluid h-100" src="./assets/images/placeholder%20images/animal-detail.jpg" alt="Card image">
             <!--overlay-->
           </div><!--article image container-->
-          <div class="card-body p-0 pt-2">
+          <div class="card-body p-0 pt-2 pt-lg-3">
             <div class="social d-flex align-items-center w-100 pt-2">
               <h6 class="m-0 d-inline-block anton text-uppercase color-black mr-3">Spread<br>the word</h6>
               <?php include "includes/social-icons.php" ?>
@@ -56,7 +56,7 @@ include "includes/header.php";
                   <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                 </div>
                 <!--image-->
-                <div class="card-body p-0 pt-2">
+                <div class="card-body p-0 pt-2 pt-lg-3">
                   <h3 class="title">
                     <a href="#" class="d-block">
                       Gallery Title
@@ -72,7 +72,7 @@ include "includes/header.php";
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
                               <h3 class="title">
                                 <a href="#" class="d-block">
                                   Gallery Title
@@ -88,7 +88,7 @@ include "includes/header.php";
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
                               <h3 class="title">
                                 <a href="#" class="d-block">
                                   Gallery Title
@@ -104,7 +104,7 @@ include "includes/header.php";
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
                               <h3 class="title">
                                 <a href="#" class="d-block">
                                   Gallery Title
@@ -120,7 +120,7 @@ include "includes/header.php";
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
                               <h3 class="title">
                                 <a href="#" class="d-block">
                                   Gallery Title
@@ -136,7 +136,7 @@ include "includes/header.php";
                               <img src="./assets/images/placeholder%20images/organization_preview@3x.jpg" alt="image" />
                             </div>
                             <!--image-->
-                            <div class="card-body p-0 pt-2">
+                            <div class="card-body p-0 pt-2 pt-lg-3">
                               <h3 class="title">
                                 <a href="#" class="d-block">
                                   Gallery Title
@@ -149,7 +149,7 @@ include "includes/header.php";
             <!--gallery-->
           </div>
         </div>
-        <div class="from-the-web">
+        <div id="from-the-web" class="news-section" class="news-section">
           <?php include "includes/from-the-web.php" ?>
         </div>
       </div>
@@ -161,11 +161,11 @@ include "includes/header.php";
         <h4 class="category">Related Videos</h4>
         <section class="article-list">
           <article class="story row no-gutters">
-            <div class="image mr-2 col-auto">
-              <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+            <div class="image col-auto col-md-4 pr-2 pr-md-3">
+              <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
             </div>
             <!--image-->
-            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+            <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
               <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                 <span class="tag">Environment</span>
                 <span class="date">21-12-2020</span>
@@ -178,11 +178,11 @@ include "includes/header.php";
             <!--article-body-->
           </article>
           <article class="story row no-gutters">
-            <div class="image mr-2 col-auto">
-              <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+            <div class="image col-auto col-md-4 pr-2 pr-md-3">
+              <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
             </div>
             <!--image-->
-            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+            <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
               <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                 <span class="tag">Environment</span>
                 <span class="date">21-12-2020</span>
@@ -195,11 +195,11 @@ include "includes/header.php";
             <!--article-body-->
           </article>
           <article class="story row no-gutters">
-            <div class="image mr-2 col-auto">
-              <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+            <div class="image col-auto col-md-4 pr-2 pr-md-3">
+              <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
             </div>
             <!--image-->
-            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+            <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
               <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                 <span class="tag">Environment</span>
                 <span class="date">21-12-2020</span>
@@ -212,11 +212,11 @@ include "includes/header.php";
             <!--article-body-->
           </article>
           <article class="story row no-gutters">
-            <div class="image mr-2 col-auto">
-              <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+            <div class="image col-auto col-md-4 pr-2 pr-md-3">
+              <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
             </div>
             <!--image-->
-            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+            <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
               <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                 <span class="tag">Environment</span>
                 <span class="date">21-12-2020</span>
@@ -229,11 +229,11 @@ include "includes/header.php";
             <!--article-body-->
           </article>
           <article class="story row no-gutters">
-            <div class="image mr-2 col-auto">
-              <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+            <div class="image col-auto col-md-4 pr-2 pr-md-3">
+              <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
             </div>
             <!--image-->
-            <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+            <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
               <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                 <span class="tag">Environment</span>
                 <span class="date">21-12-2020</span>
@@ -250,11 +250,11 @@ include "includes/header.php";
         <h4 class="category">Related Stories</h4>
         <section class="article-list link-al">
                   <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                      <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                      <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -267,11 +267,11 @@ include "includes/header.php";
                     <!--article-body-->
                   </article>
                   <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                      <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                      <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -284,11 +284,11 @@ include "includes/header.php";
                     <!--article-body-->
                   </article>
                   <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                      <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                      <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -301,11 +301,11 @@ include "includes/header.php";
                     <!--article-body-->
                   </article>
                   <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                      <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                      <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -318,11 +318,11 @@ include "includes/header.php";
                     <!--article-body-->
                   </article>
                   <article class="story row no-gutters">
-                    <div class="image mr-2 col-auto">
-                      <img class="img-fluid" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                    <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                      <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>

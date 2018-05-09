@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="position-relative">
-                        <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
+                        <img class="img-fluid h-100" src="http://placehold.it/960x640" alt="Card image">
                         <div class="card-img-overlay pl-0 pt-4">
                             <h4 class="category badge badge-dark text-uppercase rounded-0">Story of the day</h4>
                         </div> <!--overlay-->
@@ -38,10 +38,10 @@
                     <li class="mb-3 col-md-12">
                         <div class="row">
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -56,10 +56,10 @@
                     <li class="mb-3 col-md-12">
                         <div class="row">
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -74,10 +74,10 @@
                     <li class="mb-3 col-md-12">
                         <div class="row">
                             <article class="story row no-gutters">
-                                <div class="image mr-2 col-auto">
-                                    <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                 </div><!--image-->
-                                <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                     <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                         <span class="tag">Environment</span>
                                         <span class="date">21-12-2020</span>
@@ -288,7 +288,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="position-relative">
-                            <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
+                            <img class="img-fluid h-100" src="http://placehold.it/960x640" alt="Card image">
                             <div class="card-img-overlay pl-0 pt-4">
                             </div> <!--overlay-->
                         </div>
@@ -309,10 +309,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -327,10 +327,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -345,10 +345,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -363,10 +363,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -381,10 +381,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -399,10 +399,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -432,10 +432,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -450,10 +450,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -468,10 +468,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -486,10 +486,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -504,10 +504,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -522,10 +522,10 @@
                             <li class="mb-3 col-md-12">
                                 <div class="row">
                                     <article class="story row no-gutters">
-                                        <div class="image mr-2 col-auto">
-                                            <img class="img-fluid" src="http://placehold.it/100x75" alt="Card image">
+                                        <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                            <img class="img-fluid h-100" src="http://placehold.it/100x75" alt="Card image">
                                         </div><!--image-->
-                                        <div class="body align-self-stretch d-flex flex-column flex col pr-2">
+                                        <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
                                             <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                                                 <span class="tag">Environment</span>
                                                 <span class="date">21-12-2020</span>
@@ -646,7 +646,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://placehold.it/960x640" alt="Card image">
+                                <img class="img-fluid h-100" src="http://placehold.it/960x640" alt="Card image">
                                 <div class="card-img-overlay pl-0 pt-4">
                                 </div> <!--overlay-->
                             </div>
