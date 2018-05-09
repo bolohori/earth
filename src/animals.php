@@ -10,9 +10,8 @@
   include "includes/head.php";
   include "includes/header.php";
 ?>
-
 <!-- Animals -->
-<section id="animal-otd">
+<section id="animal-otd" class="news-section">
     <div class="container">
         <div class="w-100 bg-white">
             <h1 class="headline accent-title text-uppercase m-0">Explore Animals</h1>
@@ -134,309 +133,272 @@
     </div>
 </section>
 <!-- Animals Listing -->
-<div class="container animal-listing">
-    <div class="row filter-container">
-        <div class="col-lg-8 filter-all">
-            <span class="filter-title active">All Species</span>
-            <span class="filter-title">Mamals</span>
-            <span class="filter-title">Reptiles</span>
-            <span class="filter-title">Amphibians</span>
-            <span class="filter-title">Fish</span>
-            <span class="filter-title">Invertebrates</span>
-        </div>
-        <div class="col-lg-4 searchbar-super-container">
-            <!-- Search bar -->
-            <div class="searchbar-container">
-                <input type="text" placeholder="Search for an animal">
-                <i class="fas fa-search"></i>
+<section id="animal-listing" class="filter-list mb-md-5">
+    <div class="container">
+        <div class="d-flex justify-content-between filter-container">
+            <div class="filter-buttons">
+                <span class="filter-title active">All Species</span>
+                <span class="filter-title">Mamals</span>
+                <span class="filter-title">Reptiles</span>
+                <span class="filter-title">Amphibians</span>
+                <span class="filter-title">Fish</span>
+                <span class="filter-title">Invertebrates</span>
+            </div>
+            <div class="filter-search">
+                <!-- Search bar -->
+                <div class="searchbar-container">
+                    <input type="text" placeholder="Search for an animal">
+                    <i class="fas fa-search"></i>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row animals-images">
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
+        <div class="row animal-grid">
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <img src="assets/images/top-story.jpg" alt="Image">
+                <p class="title">
+                    Connot Armstrong
+                </p>
+                <p>
+                    (Macronyx flavicolis)
+                </p>
+            </div>
         </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-        <div class="col-lg-3">
-            <img src="assets/images/top-story.jpg" alt="Image">
-            <p class="title">
-                Connot Armstrong
-            </p>
-            <p>
-                (Macronyx flavicolis)
-            </p>
-        </div>
-    </div>
-    <div class="row pagination-container">
-        <div class="col-lg-12">
+        <nav aria-label="row Page navigation">
             <ul class="pagination">
-                <li>
-                    <a href="#">1</a>
-                </li>
-                <li>
-                    <a href="#">2</a>
-                </li>
-                <li>
-                    <a href="#">3</a>
-                </li>
-                <li>
-                    <a href="#">4</a>
-                </li>
-                <li>
-                    <a href="#">5</a>
-                </li>
-                <li>
-                    <a href="#">...</a>
-                </li>
-                <li>
-                    <a href="#">120</a>
-                </li>
-                <li>
-                    <a href="#">next &gt;</a>
+                <!--<li class="page-item disabled">-->
+                <!--<a class="page-link" href="#" aria-label="Previous">-->
+                <!--<span aria-hidden="true">&laquo;</span>-->
+                <!--<span class="sr-only">Previous</span>-->
+                <!--</a>-->
+                <!--</li>-->
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">Next ></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </div>
+</section>
+<div class="d-none d-lg-block">
+    <?php include "includes/animal-friends.php" ?>
 </div>
-<!-- End of Animals Listing -->
-
-<!-- Explore Plants and Animals -->
-<div class="container-big friends-of-animals">
-</div>
-
 <!-- Animal Videos -->
-<div class="container animal-videos-container">
-    <h2 class="section-title">Animal Videos</h2>
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="animal-video-big">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
-                </div>
-                <p class="date">11-22-2018</p>
-                <p class="article-title">Coventry City Guide Including Coventry Hotels</p>
+<!--Plants and animals videos-->
+<section id="animals-videos" class="news-section">
+    <div class="container">
+        <h3 class="category text-uppercase">Plants videos</h3>
+        <div class="row">
+            <!--Featured article-->
+            <div class="col-md-12 col-lg-8">
+                <section class="animals mb-5">
+                    <div class="row mb-4">
+                        <article class="card featured col-xs-12 col-md-6">
+                            <div class="position-relative">
+                                <img class="img-fluid h-100" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
+                            </div>
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
+                                    <span class="date">21-12-2020</span>
+                                </div> <!--meta-->
+                                <h2 class="title mb-2">
+                                    <a href="#" class="d-block">
+                                        Stu Unger Rise And Fall Of A Poker Genius
+                                    </a>
+                                </h2>
+                            </div><!--card-body-->
+                        </article><!--featured-->
+                        <div class="col article-list medium-al m-0">
+                            <article class="story row no-gutters">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                        <span class="tag">Environment</span>
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title m-0">
+                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                    </h5>
+                                </div><!--article-body-->
+                            </article>
+                            <article class="story row no-gutters">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                        <span class="tag">Environment</span>
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title m-0">
+                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                    </h5>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <article class="card featured col-xs-12 col-md-6">
+                            <div class="position-relative">
+                                <img class="img-fluid h-100" src="./assets/images/placeholder%20images/featured-image-ribbon.jpg" alt="Card image">
+                            </div>
+                            <div class="card-body p-0 pt-2 pt-lg-3">
+                                <div class="meta d-flex">
+                                    <span class="date">21-12-2020</span>
+                                </div> <!--meta-->
+                                <h2 class="title mb-2">
+                                    <a href="#" class="d-block">
+                                        Stu Unger Rise And Fall Of A Poker Genius
+                                    </a>
+                                </h2>
+                            </div><!--card-body-->
+                        </article><!--featured-->
+                        <div class="col article-list medium-al m-0">
+                            <article class="story row no-gutters">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                        <span class="tag">Environment</span>
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title m-0">
+                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                    </h5>
+                                </div><!--article-body-->
+                            </article>
+                            <article class="story row no-gutters">
+                                <div class="image col-auto col-md-4 pr-2 pr-md-3">
+                                    <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
+                                </div><!--image-->
+                                <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                                    <div class="meta mb-1 d-flex flex-wrap justify-content-between">
+                                        <span class="tag">Environment</span>
+                                        <span class="date">21-12-2020</span>
+                                    </div><!--meta-->
+                                    <h5 class="title m-0">
+                                        <a href="#">Coventry City Guide Including Coventry hotels</a>
+                                    </h5>
+                                </div><!--article-body-->
+                            </article>
+                        </div>
+                    </div>
+                </section><!--animals-->
             </div>
-            <div class="animal-video-big">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
+            <!--Top stories sidebar-->
+            <section class="col-12 col-md-6 col-lg-4 d-none d-lg-block article-list sidebar">
+                <div class="ad d-flex text-center mb-5">
+                    <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
                 </div>
-                <p class="date">11-22-2018</p>
-                <p class="article-title">Coventry City Guide Including Coventry Hotels</p>
-            </div>
+            </section><!--sidebar-->
         </div>
-        <!-- Right sidebar with Animal Videos -->
-        <div class="col-lg-4">
-            <!-- Top Story Article -->
-            <article class="top-story">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                            <iframe width="170" height="122" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                                    allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row article-category-date">
-                            <div class="col-md-6 category">
-                                ENVIRONMENT
-                            </div>
-                            <div class="col-md-6 date">
-                                11-22-2018
-                            </div>
-                        </div>
-                        <div class="row article-title">
-                            <div class="col-12">
-                                Coventry City Guide Including Coventry Hotels
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- Top Story Article -->
-            <article class="top-story">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                            <iframe width="170" height="122" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                                    allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row article-category-date">
-                            <div class="col-md-6 category">
-                                ENVIRONMENT
-                            </div>
-                            <div class="col-md-6 date">
-                                11-22-2018
-                            </div>
-                        </div>
-                        <div class="row article-title">
-                            <div class="col-12">
-                                Coventry City Guide Including Coventry Hotels
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- Top Story Article -->
-            <article class="top-story">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                            <iframe width="170" height="122" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                                    allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row article-category-date">
-                            <div class="col-md-6 category">
-                                ENVIRONMENT
-                            </div>
-                            <div class="col-md-6 date">
-                                11-22-2018
-                            </div>
-                        </div>
-                        <div class="row article-title">
-                            <div class="col-12">
-                                Coventry City Guide Including Coventry Hotels
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!-- Top Story Article -->
-            <article class="top-story">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                            <iframe width="170" height="122" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                                    allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row article-category-date">
-                            <div class="col-md-6 category">
-                                ENVIRONMENT
-                            </div>
-                            <div class="col-md-6 date">
-                                11-22-2018
-                            </div>
-                        </div>
-                        <div class="row article-title">
-                            <div class="col-12">
-                                Coventry City Guide Including Coventry Hotels
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </div>
-        <!--Ad space-->
-        <section class="col-md-12 col-lg-4 sidebar">
-            <div class="ad d-flex text-center mb-5">
-                <img class="mr-auto w-auto d-block" src="./assets/images/placeholder%20images/ad-bet.jpg" alt="">
-            </div>
-        </section>
-        <!--sidebar-->
     </div>
-</div>
+</section>
 <!-- News Coming Your Way -->
 <?php include "includes/newsletter.php" ?>
 

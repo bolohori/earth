@@ -13,3 +13,24 @@
     }
   }
 }
+
+.animal-listing {
+  .filter-container {
+    background: $brickred;
+    padding: rem(35px);
+    margin-bottom: rem(35px);
+    .filter-buttons {
+      span {
+        color: $white;
+        font-weight: 700;
+        margin-right: rem(35px);
+        &:last-of-type {
+          margin-right: 0;
+        }
+        &.active {
+          color: $d-blue;
+        }
+      }
+    }
+  }
+}

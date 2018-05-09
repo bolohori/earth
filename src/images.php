@@ -10,7 +10,7 @@
   include "includes/head.php";
   include "includes/header.php";
 ?>
-<section id="image-otd">
+<section id="image-otd" class="news-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-8">

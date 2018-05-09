@@ -19,6 +19,11 @@
     .meta {
       margin-bottom: rem(10px);
     }
+    .title {
+      font-size: rem(16px);
+      font-family: $mont !important;
+      font-weight: 800;
+    }
   }
   article {
     margin-bottom: 0;

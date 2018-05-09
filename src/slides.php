@@ -10,7 +10,7 @@
   include "includes/head.php";
   include "includes/header.php";
 ?>
-<section id="slide-otd">
+<section id="slide-otd" class="news-section">
     <div class="container">
         <h2 class="title mb-2">
             <a href="#" class="d-block">
