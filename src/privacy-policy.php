@@ -21,21 +21,21 @@
                 <article class="card legal">
                     <p class="text">This privacy statement covers the site www.Earth.com.net. Because this Web site wants to demonstrate its commitment to our users’ privacy, it has agreed to disclose its information practices.</p>
                     <hr class="small-paragraph-divider m-0 invisible">
-                    <ul class="legal-list">
-                        <li class="mb-4">What personally identiﬁable information Earth.com, Inc. collects.</li>
-                        <li class="mb-4">What personally identiﬁable information third parties collect through the Web site.</li>
-                        <li class="mb-4">What organization collects the information.</li>
-                        <li class="mb-4">How Earth.com, Inc. uses the information.</li>
-                        <li class="mb-4">With whom Earth.com, Inc. may share user information.</li>
-                        <li class="mb-4">What choices are available to users regarding collection, use and distribution of the information.</li>
-                        <li class="mb-4">What types of security procedures are in place to protect the loss, misuse or alteration of information under Earth.com, Inc. control.</li>
-                        <li class="mb-4">How users can correct any inaccuracies in the information.</li>
+                    <ul class="legal-list list-unstyled">
+                        <li><p>What personally identiﬁable information Earth.com, Inc. collects.</p></li>
+                        <li><p>What personally identiﬁable information third parties collect through the Web site.</p></li>
+                        <li><p>What organization collects the information.</p></li>
+                        <li><p>">How Earth.com, Inc. uses the information.</p></li>
+                        <li><p>With whom Earth.com, Inc. may share user information.</p></li>
+                        <li><p>What choices are available to users regarding collection, use and distribution of the information.</p></li>
+                        <li><p>What types of security procedures are in place to protect the loss, misuse or alteration of information under Earth.com, Inc. control in the information.</p></li>
+                        <li><p>How users can correct any inaccuracies in the information.</p></li>
                     </ul>
                     <hr class="big-paragraph-divider m-0 invisible">
 
                     <h3 class="category">Infromation Collection and Use</h3>
 
-                    <h5 class="subcategory text-uppercase">Information collection</h5>
+                    <h5 class="subcategory title text-uppercase">Information collection</h5>
 
                     <h6 class="subtitle">Registration</h6>
                     <p class="text">Earth.com, Inc. is the sole owner of the information collected on Earth.com.com. Earth.com, Inc. collects information from our users at several different points on our Web site.</p>
@@ -45,7 +45,7 @@
                     <p class="text">We request information from the user on our order form. A user must provide contact information (such as name, email, and shipping address) and financial information (such as credit card number, expiration date). This information is used for billing purposes and to fill customer’s orders. If we have trouble processing an order, the information is used to contact the user.</p>
                     <hr class="big-paragraph-divider m-0 invisible">
 
-                    <h5 class="subcategory text-uppercase">Information use</h5>
+                    <h5 class="subcategory title text-uppercase">Information use</h5>
                     <h6 class="subtitle">Profile</h6>
                     <p class="text">We store information that we collect through cookies, log files, clear gifs, and/or third parties to create a profile of our users. A profile is stored information that we keep on individual users that details their viewing preferences. Consequently, collected information is tied to the users personally identifiable information to provide offers and improve the content of the site for the user. This profile is used to tailor a user’s visit to our Web site, and to direct pertinent marketing promotions to them. We do not share your profile with other third parties.</p>
                     <hr class="big-paragraph-divider m-0 invisible">
