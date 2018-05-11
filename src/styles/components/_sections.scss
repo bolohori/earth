@@ -374,6 +374,20 @@
 .ad {
   position: relative;
 }
+#nl-form {
+  input {
+    height: rem(50px);
+    margin-bottom: rem(15px);
+  }
+  .btn-nl {
+    @extend .btn-explore;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(215px);
+    background-color: transparent;
+  }
+}
 //Styling for single-post pages
 
 .details-section {
@@ -598,5 +612,53 @@
   }
   .big-paragraph-divider {
     margin-top: rem(40px) !important;
+  }
+}
+
+#newsletter-header {
+  @include media-breakpoint-up(md) {
+    padding-bottom: rem(25px);
+  }
+  .bg {
+    background: $nl-teal;
+    padding-top: rem(90px);
+    @include media-breakpoint-down(md) {
+      padding-top: rem(70px);
+    }
+  }
+  .btn-link {
+    color: $d-blue;
+    &:hover {
+      color: lighten($d-blue, 20%);
+    }
+  }
+  img {
+    margin-bottom: rem(-45px);
+  }
+  .content {
+    .text {
+      .headline {
+        margin-bottom: rem(20px);
+        @include media-breakpoint-up(md) {
+          margin-bottom: rem(25px);
+        }
+        @include media-breakpoint-up(lg) {
+          margin-bottom: rem(15px);
+        }
+      }
+      p {
+        color: $white;
+        margin-bottom: rem(25px);
+
+        @include media-breakpoint-up(md) {
+          margin-bottom: rem(30px);
+        }
+      }
+    }
+  }
+  .btn-nl {
+    @include media-breakpoint-up(lg) {
+      width: 100% !important;
+    }
   }
 }

@@ -18,18 +18,7 @@
                                 you each day</p>
                         </div>
                         <div class="col-12 col-md-4 offset-md-3 col-lg-3 offset-lg-2 d-flex align-items-center">
-                            <form id="nl-form">
-                                <label class="sr-only" for="nl-email">Email
-                                    address</label>
-                                <input type="email" class="form-control"
-                                       id="nl-email"
-                                       aria-describedby="emailHelp"
-                                       placeholder="Your email...">
-                                <button type="submit"
-                                        class="btn-nl btn btn-primary text-uppercase">
-                                    Subscribe
-                                </button>
-                            </form>
+                            <?php include "nl-form.php"; ?>
                         </div>
                     </div>
                 </div>

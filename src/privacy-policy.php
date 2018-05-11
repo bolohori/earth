@@ -1,9 +1,9 @@
 <?php
   /* Insert page's title */
-  $title = "Home";
+  $title = "Privacy Policy";
 
   /* Insert page's menu section ID for custom navigation elements */
-  $navId = 'home-menu';
+  $navId = 'legal-menu';
 
   /* Logo image url*/
   $logoUrl = "assets/images/logos/logo-white.png";
