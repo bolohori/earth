@@ -1,6 +1,7 @@
 .sidebar,
 .featured,
-.filter-list {
+.filter-list,
+.legal-section {
   @include media-breakpoint-down(md) {
     padding-top: rem(35px);
     padding-bottom: rem(35px);
@@ -546,5 +547,33 @@
   }
   .pagination {
     margin-top: rem(35px);
+  }
+}
+
+.legal-section {
+  padding-top: rem(55px);
+  padding-bottom: rem(75px);
+  p {
+    margin: 0;
+  }
+  .category {
+    margin-bottom: rem(45px) !important;
+    color: $d-blue !important;
+  }
+  .subcategory,
+  .subtitle {
+    font-weight: 800;
+  }
+  .subcategory {
+    margin-bottom: rem(15px);
+  }
+  .headline {
+    color: $d-blue !important;
+  }
+  .small-paragraph-divider{
+    margin-top: rem(30px) !important;
+  }
+  .big-paragraph-divider {
+    margin-top: rem(40px) !important;
   }
 }
