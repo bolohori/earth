@@ -262,7 +262,7 @@
                 </p>
             </div>
         </div>
-        <nav aria-label="row Page navigation">
+        <nav aria-label="row navigation">
             <ul class="pagination">
                 <!--<li class="page-item disabled">-->
                 <!--<a class="page-link" href="#" aria-label="Previous">-->
