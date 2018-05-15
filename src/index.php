@@ -139,15 +139,15 @@
                     <div class="header col-4 d-flex flex-column justify-content-between">
                         <h4 class="category m-0">
                             Video of the day
+                            <div class="slider-actions float-right">
+                                <a href="#" data-wpel-link="internal">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#" data-wpel-link="internal">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
                         </h4>
-                        <div class="slider-actions mb-auto ml-auto float-right">
-                            <a href="#" data-wpel-link="internal">
-                                <i class="fas fa-chevron-left"></i>
-                            </a>
-                            <a href="#" data-wpel-link="internal">
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </div>
                         <div class="meta">
                             <p class="date d-block m-0 pt-1 pb-2 font-weight-normal">11-20-2018</p>
                             <h6 class="title m-0 pb-3">
@@ -398,14 +398,9 @@
         <h3 class="category text-uppercase d-block">Week's top videos</h3>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 video">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
-                </div>
-                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
-                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
-                <!--allowfullscreen></iframe>-->
-                <!--</div>-->
+                <a href="#" class="w-100 d-block d-sm-none d-lg-block">
+                    <img src="http://via.placeholder.com/500x315" class="img-fluid" />
+                </a>
                 <div class="meta d-flex pt-2">
                     <span class="date">21-12-2020</span>
                 </div>
@@ -419,14 +414,9 @@
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-lg-block">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
-                </div>
-                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
-                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
-                <!--allowfullscreen></iframe>-->
-                <!--</div>-->
+                <a href="#" class="w-100 d-block d-lg-block">
+                    <img src="http://via.placeholder.com/500x315" class="img-fluid" />
+                </a>
                 <div class="meta d-flex pt-2">
                     <span class="date">21-12-2020</span>
                 </div>
@@ -440,14 +430,9 @@
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none d-lg-block">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ybh11kcDhfM" frameborder="0" allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
-                </div>
-                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
-                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
-                <!--allowfullscreen></iframe>-->
-                <!--</div>-->
+                <a href="#" class="w-100 d-block d-sm-none d-lg-block">
+                    <img src="http://via.placeholder.com/500x315" class="img-fluid" />
+                </a>
                 <div class="meta d-flex pt-2">
                     <span class="date">21-12-2020</span>
                 </div>
@@ -461,13 +446,9 @@
                 </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 video d-none d-sm-block d-md-none">
-                <div class="w-100 embed-responsive embed-responsive-16by9 d-block d-sm-none">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-                </div>
-                <!--<div class="w-100 embed-responsive embed-responsive-4by3 d-none d-sm-block">-->
-                <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"-->
-                <!--allowfullscreen></iframe>-->
-                <!--</div>-->
+                <a href="#" class="w-100 d-block d-sm-none">
+                    <img src="http://via.placeholder.com/500x315" class="img-fluid" />
+                </a>
                 <div class="meta d-flex pt-2">
                     <span class="tag mr-5">Science</span>
                     <span class="date">21-12-2020</span>
