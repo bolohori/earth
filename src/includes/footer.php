@@ -1,13 +1,14 @@
 <!-- Footer -->
 <div class="container footer">
+    <!--
     <div class="row">
         <div class="col-12 col-lg-3">
             <img class="footer-logo" src="assets/images/logos/footer-logo.png" alt="earth.com logo">
         </div>
     </div>
+    -->
     <div class="row">
-        <div
-                class="col-12 col-md-2 offset-md-1 order-md-2 col-lg-2 offset-lg-1">
+        <div class="col-12 col-md-2 offset-md-1 order-md-2 col-lg-2 offset-lg-1">
             <h6 class="footer-title d-none d-lg-block text-uppercase">Earth.com</h6>
             <ul class="footer-menu footer-categories">
                 <li>
@@ -70,10 +71,8 @@
                 </li>
             </ul>
         </div>
-        <div
-                class="col-md-5 offset-md-1 order-md-last col-lg-3 offset-lg-0 d-flex flex-column footer-social">
-            <h6 class="footer-title d-none d-lg-block text-uppercase">Get
-                in touch</h6>
+        <div class="col-md-5 offset-md-1 order-md-last col-lg-3 offset-lg-0 d-flex flex-column footer-social">
+            <h6 class="footer-title d-none d-lg-block text-uppercase">Get in touch</h6>
             <p class="footer-menu footer-contact order-lg-last">
                 <a href="contact.php">Contact Us</a>
             </p>
@@ -92,8 +91,12 @@
                 </li>
             </ul>
         </div>
-        <div
-                class="col-md-3 order-md-1 col-lg-2 offset-lg-0 d-flex flex-column justify-content-between">
+        <div class="col-md-3 order-md-1 col-lg-2 offset-lg-0 d-flex flex-column justify-content-between">
+            <div class="row">
+                <div class="col-12 col-lg-3 no-gutter">
+                    <img class="footer-logo" src="assets/images/logos/footer-logo.png" alt="earth.com logo">
+                </div>
+            </div>
             <ul class="footer-menu footer-legal">
                 <li>
                     <a href="#">Privacy Policy</a>

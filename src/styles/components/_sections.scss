@@ -186,6 +186,7 @@
       }
     }
   }
+  
   .bg {
     padding-top: rem(10px);
     margin-top: rem(-10px);
@@ -195,7 +196,7 @@
     @include  media-breakpoint-up(md) {
       padding-top: 0;
       margin-top: 0;
-      background-position: right 8px bottom;
+      
     }
     @include  media-breakpoint-up(lg) {
       padding-top: rem(55px);
@@ -223,12 +224,15 @@
   .animals {
     background: $brickred;
     .bg {
-      background-image: url("../assets/images/explore_animals_img@2x.png");
+      background-image: url("../assets/images/explore_animals_img_big@2x.png");
       @include media-breakpoint-down(lg) {
-        background-image: url("../assets/images/flamingos.png");
+        background-image: url("../assets/images/flamingos@2x.png");
       }
       @include media-breakpoint-down(sm) {
-        background-position: left 20px bottom;
+        background-position: left 0px bottom;
+      }
+      @include  media-breakpoint-up(md) {
+        background-position: right 0px bottom;
       }
     }
     .text {
@@ -494,12 +498,21 @@
     width: rem(20px);
     height: rem(20px);
     color: $white;
-    background: rgba(8,22,59,.15);
+    /*background: rgba(8,22,59,.15);*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     &:hover {
-      background: rgba(8,22,59,1);
+      /*background: rgba(8,22,59,1);*/
+    }
+    &.left-arrow {
+      background: url(../assets/images/left_nav_arrow.svg);
+       background-size: cover;
+    }
+
+    &.right-arrow {
+      background: url(../assets/images/right_nav_arrow.svg);
+       background-size: cover;
     }
   }
 }

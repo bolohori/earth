@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 h1,h2.nl-title,h2,h3,h4,.anton {
-  font-family: $anton !important;
+  /*font-family: $anton !important;*/
 }
 .headline {
   color: $white;
@@ -60,16 +60,31 @@ p, span, a {
   @include  media-breakpoint-up(xs) {
     font-size: rem(16px);
   }
+
 }
 p {
   line-height: rem(23px);
+}
+
+a {
+
+  &.title {
+    padding-top: rem(10px);
+    font-weight: 800;
+  }
+  color: black;
+  span {
+    font-weight: 300;
+    display: inline-block;
+    margin-top: rem(25px);
+  }
 }
 .meta {
   .tag, .date {
     font-size: rem(11px);
     line-height: rem(16px);
     color: $meta-grey-dark;
-    font-weight: 800;
+    font-weight: 300;
   }
   .tag {
     text-transform: uppercase;
@@ -116,4 +131,8 @@ h5.title {
   a {
     font-weight: 800;
   }
+}
+
+.line-height-11 {
+  line-height: rem(55px);
 }

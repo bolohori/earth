@@ -14,13 +14,13 @@
   }
 }
 
-.animal-listing {
+#animal-listing {
   .filter-container {
     background: $brickred;
     padding: rem(35px);
     margin-bottom: rem(35px);
     .filter-buttons {
-      span {
+      a {
         color: $white;
         font-weight: 700;
         margin-right: rem(35px);
@@ -31,6 +31,24 @@
           color: $d-blue;
         }
       }
+    }
+  }
+
+  input {
+    /*line-height: rem(34px);*/
+    background: $brickred;
+    color: $white;
+  }
+
+  input::placeholder {
+    color: $white;
+  }
+
+  .searchbar-container {
+    i {
+      font-size: rem(24px);
+      color: $white;
+      margin-top: rem(-10px);
     }
   }
 }

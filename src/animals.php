@@ -137,12 +137,12 @@
     <div class="container">
         <div class="d-flex justify-content-between filter-container">
             <div class="filter-buttons">
-                <span class="filter-title active">All Species</span>
-                <span class="filter-title">Mamals</span>
-                <span class="filter-title">Reptiles</span>
-                <span class="filter-title">Amphibians</span>
-                <span class="filter-title">Fish</span>
-                <span class="filter-title">Invertebrates</span>
+                <a href="#" class="filter-title active">All Species</a>
+                <a href="#" class="filter-title">Mamals</a>
+                <a href="#" class="filter-title">Reptiles</a>
+                <a href="#" class="filter-title">Amphibians</a>
+                <a href="#" class="filter-title">Fish</a>
+                <a href="#" class="filter-title">Invertebrates</a>
             </div>
             <div class="filter-search">
                 <!-- Search bar -->
@@ -163,13 +163,11 @@
                 </p>
             </div>
             <div class="col-lg-3">
-                <img src="assets/images/top-story.jpg" alt="Image">
-                <p class="title">
+                <img src="assets/images/top-story.jpg" alt="Image" class="mb-1">
+                <a href="#"class="title">
                     Connot Armstrong
-                </p>
-                <p>
-                    (Macronyx flavicolis)
-                </p>
+                    <span class="common-name">(Macronyx flavicolis)</span>
+                </a>
             </div>
             <div class="col-lg-3">
                 <img src="assets/images/top-story.jpg" alt="Image">

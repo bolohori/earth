@@ -6,7 +6,8 @@ const autoprefixer = require('autoprefixer');
 const normalize = require('postcss-normalize');
 
 const sassOptions = {
-  outputStyle: 'expanded'
+  outputStyle: 'expanded',
+  noCache: true
 };
 
 const postCSSPlugins = [

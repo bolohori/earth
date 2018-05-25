@@ -261,7 +261,7 @@
                       <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-12 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -278,7 +278,7 @@
                       <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-12 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -295,7 +295,7 @@
                       <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-12 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -312,7 +312,7 @@
                       <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-12 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>
@@ -329,7 +329,7 @@
                       <img class="img-fluid h-100" src="./assets/images/placeholder%20images/medium-thumb.jpg" alt="Card image">
                     </div>
                     <!--image-->
-                    <div class="body align-self-stretch d-flex flex-column col col-md-8 pr-2 ">
+                    <div class="body align-self-stretch d-flex flex-column col col-md-12 pr-2 ">
                       <div class="meta mb-1 d-flex flex-wrap justify-content-between">
                         <span class="tag">Environment</span>
                         <span class="date">21-12-2020</span>

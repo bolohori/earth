@@ -5,7 +5,7 @@
                 <div class="bg w-100">
                     <div class="row">
                         <div class="col-12 col-md-5 col-lg-3 offset-lg-2">
-                            <h2 class="nl-title m-0 text-uppercase">
+                            <h2 class="nl-title m-0 text-uppercase line-height-11">
                                 <span class="d-sm-inline d-md-none">Fresh</span>
                                 News
                                 coming <br> your way<span
